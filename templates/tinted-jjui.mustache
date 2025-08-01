@@ -16,8 +16,8 @@
 "title"                          = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
 "shortcut"                       = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
 "matched"                        = { fg = "#{{base0A-hex}}", underline = true }            # Classes, markup bold, search text background (base0A)
-"success"                        = { fg = "#{{base0B-hex}}" }                              # Strings, inherited class, markup code, diff inserted (base0B)
-"error"                          = { fg = "#{{base08-hex}}" }                              # Variables, XML tags, markup link text, markup lists, diff deleted (base08)
+"success"                        = { fg = "#{{base0B-hex}}", bold = true }                 # Strings, inherited class, markup code, diff inserted (base0B) - emphasize positive states
+"error"                          = { fg = "#{{base08-hex}}", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize error states
 "source_marker"                  = { bg = "#{{base0C-hex}}", fg = "#{{base00-hex}}" }      # Support, regular expressions, escape characters, markup quotes (base0C); high contrast with main background
 "target_marker"                  = { bg = "#{{base0B-hex}}", fg = "#{{base00-hex}}" }      # Strings, inherited class, markup code, diff inserted (base0B); high contrast with main background
 "revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
@@ -40,20 +40,20 @@
 "evolog"                         = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
 "evolog selected"                = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true } # Selection background (base02); default foreground (base05)
 "help"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"help title"                     = { fg = "#{{base0D-hex}}", bold = true, underline = true } # Functions, methods, attribute IDs, headings (base0D)
+"help title"                     = { fg = "#{{base0B-hex}}", bold = true, underline = true } # Strings, inherited class, markup code, diff inserted (base0B) - differentiate from other titles
 "help border"                    = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
 "menu"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"menu title"                     = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
+"menu title"                     = { fg = "#{{base00-hex}}", bg = "#{{base0E-hex}}", bold = true } # Keywords, storage, selector (base0E) background for visibility; high contrast text
 "menu shortcut"                  = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
 "menu matched"                   = { fg = "#{{base0A-hex}}", bold = true }                 # Classes, markup bold, search text background (base0A)
 "menu dimmed"                    = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
 "menu border"                    = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
 "menu selected"                  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
 "confirmation"                   = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"confirmation text"              = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
+"confirmation text"              = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D) - important dialog text
 "confirmation selected"          = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
 "confirmation dimmed"            = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"confirmation border"            = { fg = "#{{base08-hex}}" }                              # Variables, XML tags, markup link text, markup lists, diff deleted (base08)
+"confirmation border"            = { fg = "#{{base08-hex}}", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize warning borders
 "undo"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
 "undo confirmation dimmed"       = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
 "undo confirmation selected"     = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)

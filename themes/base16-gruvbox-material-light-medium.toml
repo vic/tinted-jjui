@@ -16,8 +16,8 @@
 "title"                          = { fg = "#45707a", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
 "shortcut"                       = { fg = "#945e80" }                              # Keywords, storage, selector, markup italic (base0E)
 "matched"                        = { fg = "#b47109", underline = true }            # Classes, markup bold, search text background (base0A)
-"success"                        = { fg = "#6c782e" }                              # Strings, inherited class, markup code, diff inserted (base0B)
-"error"                          = { fg = "#c14a4a" }                              # Variables, XML tags, markup link text, markup lists, diff deleted (base08)
+"success"                        = { fg = "#6c782e", bold = true }                 # Strings, inherited class, markup code, diff inserted (base0B) - emphasize positive states
+"error"                          = { fg = "#c14a4a", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize error states
 "source_marker"                  = { bg = "#4c7a5d", fg = "#fbf1c7" }      # Support, regular expressions, escape characters, markup quotes (base0C); high contrast with main background
 "target_marker"                  = { bg = "#6c782e", fg = "#fbf1c7" }      # Strings, inherited class, markup code, diff inserted (base0B); high contrast with main background
 "revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
@@ -40,20 +40,20 @@
 "evolog"                         = { fg = "#654735" }                              # Default foreground, caret, delimiters (base05)
 "evolog selected"                = { bg = "#d5c4a1", fg = "#654735", bold = true } # Selection background (base02); default foreground (base05)
 "help"                           = { bg = "#fbf1c7" }                              # Default background (base00)
-"help title"                     = { fg = "#45707a", bold = true, underline = true } # Functions, methods, attribute IDs, headings (base0D)
+"help title"                     = { fg = "#6c782e", bold = true, underline = true } # Strings, inherited class, markup code, diff inserted (base0B) - differentiate from other titles
 "help border"                    = { fg = "#f2e5bc" }                              # Lighter background (base01)
 "menu"                           = { bg = "#fbf1c7" }                              # Default background (base00)
-"menu title"                     = { fg = "#45707a", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
+"menu title"                     = { fg = "#fbf1c7", bg = "#945e80", bold = true } # Keywords, storage, selector (base0E) background for visibility; high contrast text
 "menu shortcut"                  = { fg = "#945e80" }                              # Keywords, storage, selector, markup italic (base0E)
 "menu matched"                   = { fg = "#b47109", bold = true }                 # Classes, markup bold, search text background (base0A)
 "menu dimmed"                    = { fg = "#bdae93" }                              # Comments, invisibles (base03)
 "menu border"                    = { fg = "#f2e5bc" }                              # Lighter background (base01)
 "menu selected"                  = { bg = "#d5c4a1", fg = "#654735" }      # Selection background (base02); default foreground (base05)
 "confirmation"                   = { bg = "#fbf1c7" }                              # Default background (base00)
-"confirmation text"              = { fg = "#654735" }                              # Default foreground, caret, delimiters (base05)
+"confirmation text"              = { fg = "#45707a", bold = true }                 # Functions, methods, attribute IDs, headings (base0D) - important dialog text
 "confirmation selected"          = { bg = "#d5c4a1", fg = "#654735" }      # Selection background (base02); default foreground (base05)
 "confirmation dimmed"            = { fg = "#bdae93" }                              # Comments, invisibles (base03)
-"confirmation border"            = { fg = "#c14a4a" }                              # Variables, XML tags, markup link text, markup lists, diff deleted (base08)
+"confirmation border"            = { fg = "#c14a4a", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize warning borders
 "undo"                           = { bg = "#fbf1c7" }                              # Default background (base00)
 "undo confirmation dimmed"       = { fg = "#bdae93" }                              # Comments, invisibles (base03)
 "undo confirmation selected"     = { bg = "#d5c4a1", fg = "#654735" }      # Selection background (base02); default foreground (base05)
