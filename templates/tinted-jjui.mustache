@@ -63,15 +63,8 @@
 "title"     = { fg = "#{{base0D-hex}}", bold = true }
 "shortcut"  = { fg = "#{{base0E-hex}}" }
 "matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", underline = true }
-
-{{#scheme-is-light-variant}}
-"selected"  = { bg = "#{{base01-hex}}", fg = "#{{base05-hex}}", bold = true }
 "border"    = { fg = "#{{base03-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
-"selected"  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
-"border"    = { fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
+"selected"  = { bg = "#{{base01-hex}}", fg = "#{{base05-hex}}", bold = true }
 
 {{! ========================================= }}
 {{! Operation-Specific Styles }}

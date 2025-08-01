@@ -10,9 +10,8 @@
 "title"     = { fg = "#1e4950", bold = true }
 "shortcut"  = { fg = "#68d3f1" }
 "matched"   = { fg = "#fdd29e", underline = true }
-
-"selected"  = { bg = "#424b52", fg = "#b79c7e" }
-"border"    = { fg = "#17384c" }
+"border"    = { fg = "#696660" }
+"selected"  = { bg = "#17384c", fg = "#b79c7e", bold = true }
 
 "source_marker" = { bg = "#2c3236", fg = "#08131a", bold = true }
 "target_marker" = { bg = "#16191b", fg = "#08131a", bold = true }
