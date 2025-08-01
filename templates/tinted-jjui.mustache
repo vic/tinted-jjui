@@ -5,6 +5,8 @@
 
 # Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md
 # jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes
+# jjui default light theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_light.toml
+# jjui default dark theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_dark.toml
 
 
 "text"                           = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }      # Default foreground, caret, delimiters (base05); default background (base00)
@@ -14,20 +16,28 @@
 "title"                          = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
 "shortcut"                       = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
 "matched"                        = { fg = "#{{base0A-hex}}", underline = true }            # Classes, markup bold, search text background (base0A)
-"source_marker"                  = { bg = "#{{base0C-hex}}", fg = "#{{base05-hex}}" }      # Support, regular expressions, escape characters, markup quotes (base0C)
-"target_marker"                  = { bg = "#{{base0B-hex}}", fg = "#{{base05-hex}}" }      # Strings, inherited class, markup code, diff inserted (base0B)
+"success"                        = { fg = "#{{base0B-hex}}" }                              # Strings, inherited class, markup code, diff inserted (base0B)
+"error"                          = { fg = "#{{base08-hex}}" }                              # Variables, XML tags, markup link text, markup lists, diff deleted (base08)
+"source_marker"                  = { bg = "#{{base0C-hex}}", fg = "#{{base00-hex}}" }      # Support, regular expressions, escape characters, markup quotes (base0C); high contrast with main background
+"target_marker"                  = { bg = "#{{base0B-hex}}", fg = "#{{base00-hex}}" }      # Strings, inherited class, markup code, diff inserted (base0B); high contrast with main background
 "revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
 "revisions rebase target_marker" = { bold = true }                                         # Target marker in rebase (bold)
 "status"                         = { bg = "#{{base01-hex}}" }                              # Lighter background (base01)
 "status title"                   = { fg = "#{{base00-hex}}", bg = "#{{base0D-hex}}", bold = true } # Functions, methods, attribute IDs, headings (base0D)
 "status shortcut"                = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
 "status dimmed"                  = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"revset text"                    = { bold = true }                                         # User input area, recommended bold
+"revset title"                   = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
+"revset text"                    = { fg = "#{{base05-hex}}", bold = true }                 # User input area with default foreground (base05), recommended bold
+"revset completion text"         = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
 "revset completion selected"     = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
-"revset completion matched"      = { bold = true }                                         # Matched part of completion (bold)
+"revset completion matched"      = { fg = "#{{base0A-hex}}", bold = true }                 # Classes, markup bold, search text background (base0A)
 "revset completion dimmed"       = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
+"revisions"                      = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
 "revisions selected"             = { bold = true }                                         # Highlighted line in revisions/oplog (bold)
+"revisions dimmed"               = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
+"revisions details selected"     = { bg = "#{{base02-hex}}" }                              # Selection background (base02)
 "oplog selected"                 = { bold = true }                                         # Highlighted line in oplog (bold)
+"evolog"                         = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
 "evolog selected"                = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true } # Selection background (base02); default foreground (base05)
 "help"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
 "help title"                     = { fg = "#{{base0D-hex}}", bold = true, underline = true } # Functions, methods, attribute IDs, headings (base0D)
@@ -35,6 +45,7 @@
 "menu"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
 "menu title"                     = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
 "menu shortcut"                  = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
+"menu matched"                   = { fg = "#{{base0A-hex}}", bold = true }                 # Classes, markup bold, search text background (base0A)
 "menu dimmed"                    = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
 "menu border"                    = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
 "menu selected"                  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
@@ -47,3 +58,4 @@
 "undo confirmation dimmed"       = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
 "undo confirmation selected"     = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
 "preview"                        = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
+"preview border"                 = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
