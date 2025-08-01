@@ -1,4 +1,4 @@
-# tinted-jjui -- jjui themes generated from [base16](https://nico-i.github.io/scheme-viewer/base16/) and [base24](https://nico-i.github.io/scheme-viewer/base24/) color schemes.
+# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://nico-i.github.io/scheme-viewer/base16/) and [base24](https://nico-i.github.io/scheme-viewer/base24/) color schemes.
 
 
 ## Usage
