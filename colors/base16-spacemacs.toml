@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Spacemacs
+# Scheme author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a3a3a3", bg = "#1f2022" }
+"dimmed" = { fg = "#585858" }
+"selected" = { bg = "#444155", fg = "#b1951d" }
+"border" = { fg = "#585858" }
+"title" = { fg = "#282828", bold = true }
+"shortcut" = { fg = "#a31db1" }
+"matched" = { fg = "#b1951d", underline = true }
+"source_marker" = { bg = "#444155", fg = "#a3a3a3" }
+"target_marker" = { bg = "#282828", fg = "#a3a3a3" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1f2022" }
+"status title" = { fg = "#1f2022", bg = "#282828", bold = true }
+"status shortcut" = { fg = "#a31db1" }
+"status dimmed" = { fg = "#585858" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#444155", fg = "#b1951d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#585858" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#444155", fg = "#b1951d", bold = true }
+"help" = { bg = "#1f2022" }
+"help title" = { fg = "#282828", bold = true, underline = true }
+"help border" = { fg = "#585858" }
+"menu" = { bg = "#1f2022" }
+"menu title" = { fg = "#282828", bold = true }
+"menu shortcut" = { fg = "#a31db1" }
+"menu dimmed" = { fg = "#585858" }
+"menu border" = { fg = "#585858" }
+"menu selected" = { bg = "#444155", fg = "#b1951d" }
+"confirmation" = { bg = "#1f2022" }
+"confirmation text" = { fg = "#a3a3a3" }
+"confirmation selected" = { bg = "#444155", fg = "#b1951d" }
+"confirmation dimmed" = { fg = "#585858" }
+"confirmation border" = { fg = "#282828" }
+"undo" = { bg = "#1f2022" }
+"undo confirmation dimmed" = { fg = "#585858" }
+"undo confirmation selected" = { bg = "#444155", fg = "#b1951d" }
+"preview" = { fg = "#a3a3a3" }

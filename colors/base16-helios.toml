@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Helios
+# Scheme author: Alex Meyer (https://github.com/reyemxela)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d5d5d5", bg = "#1d2021" }
+"dimmed" = { fg = "#6f7579" }
+"selected" = { bg = "#53585b", fg = "#f19d1a" }
+"border" = { fg = "#6f7579" }
+"title" = { fg = "#383c3e", bold = true }
+"shortcut" = { fg = "#be4264" }
+"matched" = { fg = "#f19d1a", underline = true }
+"source_marker" = { bg = "#53585b", fg = "#d5d5d5" }
+"target_marker" = { bg = "#383c3e", fg = "#d5d5d5" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1d2021" }
+"status title" = { fg = "#1d2021", bg = "#383c3e", bold = true }
+"status shortcut" = { fg = "#be4264" }
+"status dimmed" = { fg = "#6f7579" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#53585b", fg = "#f19d1a" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6f7579" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#53585b", fg = "#f19d1a", bold = true }
+"help" = { bg = "#1d2021" }
+"help title" = { fg = "#383c3e", bold = true, underline = true }
+"help border" = { fg = "#6f7579" }
+"menu" = { bg = "#1d2021" }
+"menu title" = { fg = "#383c3e", bold = true }
+"menu shortcut" = { fg = "#be4264" }
+"menu dimmed" = { fg = "#6f7579" }
+"menu border" = { fg = "#6f7579" }
+"menu selected" = { bg = "#53585b", fg = "#f19d1a" }
+"confirmation" = { bg = "#1d2021" }
+"confirmation text" = { fg = "#d5d5d5" }
+"confirmation selected" = { bg = "#53585b", fg = "#f19d1a" }
+"confirmation dimmed" = { fg = "#6f7579" }
+"confirmation border" = { fg = "#383c3e" }
+"undo" = { bg = "#1d2021" }
+"undo confirmation dimmed" = { fg = "#6f7579" }
+"undo confirmation selected" = { bg = "#53585b", fg = "#f19d1a" }
+"preview" = { fg = "#d5d5d5" }

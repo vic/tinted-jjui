@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Jabuti
+# Scheme author: https://github.com/notusknot
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0cbe3", bg = "#292a37" }
+"dimmed" = { fg = "#45475d" }
+"selected" = { bg = "#3c3e51", fg = "#e1c697" }
+"border" = { fg = "#45475d" }
+"title" = { fg = "#343545", bold = true }
+"shortcut" = { fg = "#be95ff" }
+"matched" = { fg = "#e1c697", underline = true }
+"source_marker" = { bg = "#3c3e51", fg = "#c0cbe3" }
+"target_marker" = { bg = "#343545", fg = "#c0cbe3" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#292a37" }
+"status title" = { fg = "#292a37", bg = "#343545", bold = true }
+"status shortcut" = { fg = "#be95ff" }
+"status dimmed" = { fg = "#45475d" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3c3e51", fg = "#e1c697" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#45475d" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3c3e51", fg = "#e1c697", bold = true }
+"help" = { bg = "#292a37" }
+"help title" = { fg = "#343545", bold = true, underline = true }
+"help border" = { fg = "#45475d" }
+"menu" = { bg = "#292a37" }
+"menu title" = { fg = "#343545", bold = true }
+"menu shortcut" = { fg = "#be95ff" }
+"menu dimmed" = { fg = "#45475d" }
+"menu border" = { fg = "#45475d" }
+"menu selected" = { bg = "#3c3e51", fg = "#e1c697" }
+"confirmation" = { bg = "#292a37" }
+"confirmation text" = { fg = "#c0cbe3" }
+"confirmation selected" = { bg = "#3c3e51", fg = "#e1c697" }
+"confirmation dimmed" = { fg = "#45475d" }
+"confirmation border" = { fg = "#343545" }
+"undo" = { bg = "#292a37" }
+"undo confirmation dimmed" = { fg = "#45475d" }
+"undo confirmation selected" = { bg = "#3c3e51", fg = "#e1c697" }
+"preview" = { fg = "#c0cbe3" }

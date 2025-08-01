@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Brogrammer
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c1c8d7", bg = "#131313" }
+"dimmed" = { fg = "#343d50" }
+"selected" = { bg = "#2a3141", fg = "#0f80d5" }
+"border" = { fg = "#343d50" }
+"title" = { fg = "#1f1f1f", bold = true }
+"shortcut" = { fg = "#4e59b7" }
+"matched" = { fg = "#0f80d5", underline = true }
+"source_marker" = { bg = "#2a3141", fg = "#c1c8d7" }
+"target_marker" = { bg = "#1f1f1f", fg = "#c1c8d7" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#131313" }
+"status title" = { fg = "#131313", bg = "#1f1f1f", bold = true }
+"status shortcut" = { fg = "#4e59b7" }
+"status dimmed" = { fg = "#343d50" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2a3141", fg = "#0f80d5" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#343d50" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2a3141", fg = "#0f80d5", bold = true }
+"help" = { bg = "#131313" }
+"help title" = { fg = "#1f1f1f", bold = true, underline = true }
+"help border" = { fg = "#343d50" }
+"menu" = { bg = "#131313" }
+"menu title" = { fg = "#1f1f1f", bold = true }
+"menu shortcut" = { fg = "#4e59b7" }
+"menu dimmed" = { fg = "#343d50" }
+"menu border" = { fg = "#343d50" }
+"menu selected" = { bg = "#2a3141", fg = "#0f80d5" }
+"confirmation" = { bg = "#131313" }
+"confirmation text" = { fg = "#c1c8d7" }
+"confirmation selected" = { bg = "#2a3141", fg = "#0f80d5" }
+"confirmation dimmed" = { fg = "#343d50" }
+"confirmation border" = { fg = "#1f1f1f" }
+"undo" = { bg = "#131313" }
+"undo confirmation dimmed" = { fg = "#343d50" }
+"undo confirmation selected" = { bg = "#2a3141", fg = "#0f80d5" }
+"preview" = { fg = "#c1c8d7" }

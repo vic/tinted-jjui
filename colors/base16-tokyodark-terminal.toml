@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Tokyodark Terminal
+# Scheme author: Tiagovla (https://github.com/tiagovla/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a0a8cd", bg = "#11121d" }
+"dimmed" = { fg = "#282c34" }
+"selected" = { bg = "#212234", fg = "#d7a65f" }
+"border" = { fg = "#282c34" }
+"title" = { fg = "#1a1b2a", bold = true }
+"shortcut" = { fg = "#a485dd" }
+"matched" = { fg = "#d7a65f", underline = true }
+"source_marker" = { bg = "#212234", fg = "#a0a8cd" }
+"target_marker" = { bg = "#1a1b2a", fg = "#a0a8cd" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#11121d" }
+"status title" = { fg = "#11121d", bg = "#1a1b2a", bold = true }
+"status shortcut" = { fg = "#a485dd" }
+"status dimmed" = { fg = "#282c34" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#212234", fg = "#d7a65f" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#282c34" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#212234", fg = "#d7a65f", bold = true }
+"help" = { bg = "#11121d" }
+"help title" = { fg = "#1a1b2a", bold = true, underline = true }
+"help border" = { fg = "#282c34" }
+"menu" = { bg = "#11121d" }
+"menu title" = { fg = "#1a1b2a", bold = true }
+"menu shortcut" = { fg = "#a485dd" }
+"menu dimmed" = { fg = "#282c34" }
+"menu border" = { fg = "#282c34" }
+"menu selected" = { bg = "#212234", fg = "#d7a65f" }
+"confirmation" = { bg = "#11121d" }
+"confirmation text" = { fg = "#a0a8cd" }
+"confirmation selected" = { bg = "#212234", fg = "#d7a65f" }
+"confirmation dimmed" = { fg = "#282c34" }
+"confirmation border" = { fg = "#1a1b2a" }
+"undo" = { bg = "#11121d" }
+"undo confirmation dimmed" = { fg = "#282c34" }
+"undo confirmation selected" = { bg = "#212234", fg = "#d7a65f" }
+"preview" = { fg = "#a0a8cd" }

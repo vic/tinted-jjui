@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: tarot
+# Scheme author: ed (https://codeberg.org/ed)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#aa556f", bg = "#0e091d" }
+"dimmed" = { fg = "#74316b" }
+"selected" = { bg = "#4b2054", fg = "#ff6565" }
+"border" = { fg = "#74316b" }
+"title" = { fg = "#2a153c", bold = true }
+"shortcut" = { fg = "#a45782" }
+"matched" = { fg = "#ff6565", underline = true }
+"source_marker" = { bg = "#4b2054", fg = "#aa556f" }
+"target_marker" = { bg = "#2a153c", fg = "#aa556f" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0e091d" }
+"status title" = { fg = "#0e091d", bg = "#2a153c", bold = true }
+"status shortcut" = { fg = "#a45782" }
+"status dimmed" = { fg = "#74316b" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4b2054", fg = "#ff6565" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#74316b" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4b2054", fg = "#ff6565", bold = true }
+"help" = { bg = "#0e091d" }
+"help title" = { fg = "#2a153c", bold = true, underline = true }
+"help border" = { fg = "#74316b" }
+"menu" = { bg = "#0e091d" }
+"menu title" = { fg = "#2a153c", bold = true }
+"menu shortcut" = { fg = "#a45782" }
+"menu dimmed" = { fg = "#74316b" }
+"menu border" = { fg = "#74316b" }
+"menu selected" = { bg = "#4b2054", fg = "#ff6565" }
+"confirmation" = { bg = "#0e091d" }
+"confirmation text" = { fg = "#aa556f" }
+"confirmation selected" = { bg = "#4b2054", fg = "#ff6565" }
+"confirmation dimmed" = { fg = "#74316b" }
+"confirmation border" = { fg = "#2a153c" }
+"undo" = { bg = "#0e091d" }
+"undo confirmation dimmed" = { fg = "#74316b" }
+"undo confirmation selected" = { bg = "#4b2054", fg = "#ff6565" }
+"preview" = { fg = "#aa556f" }

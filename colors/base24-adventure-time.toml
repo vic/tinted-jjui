@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Adventure Time
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cdc3bf", bg = "#1e1c44" }
+"dimmed" = { fg = "#7893bf" }
+"selected" = { bg = "#4e7bbf", fg = "#1896c6" }
+"border" = { fg = "#7893bf" }
+"title" = { fg = "#050404", bold = true }
+"shortcut" = { fg = "#665992" }
+"matched" = { fg = "#1896c6", underline = true }
+"source_marker" = { bg = "#4e7bbf", fg = "#cdc3bf" }
+"target_marker" = { bg = "#050404", fg = "#cdc3bf" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1e1c44" }
+"status title" = { fg = "#1e1c44", bg = "#050404", bold = true }
+"status shortcut" = { fg = "#665992" }
+"status dimmed" = { fg = "#7893bf" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4e7bbf", fg = "#1896c6" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7893bf" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4e7bbf", fg = "#1896c6", bold = true }
+"help" = { bg = "#1e1c44" }
+"help title" = { fg = "#050404", bold = true, underline = true }
+"help border" = { fg = "#7893bf" }
+"menu" = { bg = "#1e1c44" }
+"menu title" = { fg = "#050404", bold = true }
+"menu shortcut" = { fg = "#665992" }
+"menu dimmed" = { fg = "#7893bf" }
+"menu border" = { fg = "#7893bf" }
+"menu selected" = { bg = "#4e7bbf", fg = "#1896c6" }
+"confirmation" = { bg = "#1e1c44" }
+"confirmation text" = { fg = "#cdc3bf" }
+"confirmation selected" = { bg = "#4e7bbf", fg = "#1896c6" }
+"confirmation dimmed" = { fg = "#7893bf" }
+"confirmation border" = { fg = "#050404" }
+"undo" = { bg = "#1e1c44" }
+"undo confirmation dimmed" = { fg = "#7893bf" }
+"undo confirmation selected" = { bg = "#4e7bbf", fg = "#1896c6" }
+"preview" = { fg = "#cdc3bf" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: tender
+# Scheme author: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#eeeeee", bg = "#282828" }
+"dimmed" = { fg = "#4c4c4c" }
+"selected" = { bg = "#484848", fg = "#ffc24b" }
+"border" = { fg = "#4c4c4c" }
+"title" = { fg = "#383838", bold = true }
+"shortcut" = { fg = "#d3b987" }
+"matched" = { fg = "#ffc24b", underline = true }
+"source_marker" = { bg = "#484848", fg = "#eeeeee" }
+"target_marker" = { bg = "#383838", fg = "#eeeeee" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282828" }
+"status title" = { fg = "#282828", bg = "#383838", bold = true }
+"status shortcut" = { fg = "#d3b987" }
+"status dimmed" = { fg = "#4c4c4c" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#484848", fg = "#ffc24b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#4c4c4c" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#484848", fg = "#ffc24b", bold = true }
+"help" = { bg = "#282828" }
+"help title" = { fg = "#383838", bold = true, underline = true }
+"help border" = { fg = "#4c4c4c" }
+"menu" = { bg = "#282828" }
+"menu title" = { fg = "#383838", bold = true }
+"menu shortcut" = { fg = "#d3b987" }
+"menu dimmed" = { fg = "#4c4c4c" }
+"menu border" = { fg = "#4c4c4c" }
+"menu selected" = { bg = "#484848", fg = "#ffc24b" }
+"confirmation" = { bg = "#282828" }
+"confirmation text" = { fg = "#eeeeee" }
+"confirmation selected" = { bg = "#484848", fg = "#ffc24b" }
+"confirmation dimmed" = { fg = "#4c4c4c" }
+"confirmation border" = { fg = "#383838" }
+"undo" = { bg = "#282828" }
+"undo confirmation dimmed" = { fg = "#4c4c4c" }
+"undo confirmation selected" = { bg = "#484848", fg = "#ffc24b" }
+"preview" = { fg = "#eeeeee" }

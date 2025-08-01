@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Classic Light
+# Scheme author: Jason Heeris (http://heeris.id.au)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#303030", bg = "#f5f5f5" }
+"dimmed" = { fg = "#b0b0b0" }
+"selected" = { bg = "#d0d0d0", fg = "#f4bf75" }
+"border" = { fg = "#b0b0b0" }
+"title" = { fg = "#e0e0e0", bold = true }
+"shortcut" = { fg = "#aa759f" }
+"matched" = { fg = "#f4bf75", underline = true }
+"source_marker" = { bg = "#d0d0d0", fg = "#303030" }
+"target_marker" = { bg = "#e0e0e0", fg = "#303030" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f5f5f5" }
+"status title" = { fg = "#f5f5f5", bg = "#e0e0e0", bold = true }
+"status shortcut" = { fg = "#aa759f" }
+"status dimmed" = { fg = "#b0b0b0" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d0d0d0", fg = "#f4bf75" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b0b0b0" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d0d0d0", fg = "#f4bf75", bold = true }
+"help" = { bg = "#f5f5f5" }
+"help title" = { fg = "#e0e0e0", bold = true, underline = true }
+"help border" = { fg = "#b0b0b0" }
+"menu" = { bg = "#f5f5f5" }
+"menu title" = { fg = "#e0e0e0", bold = true }
+"menu shortcut" = { fg = "#aa759f" }
+"menu dimmed" = { fg = "#b0b0b0" }
+"menu border" = { fg = "#b0b0b0" }
+"menu selected" = { bg = "#d0d0d0", fg = "#f4bf75" }
+"confirmation" = { bg = "#f5f5f5" }
+"confirmation text" = { fg = "#303030" }
+"confirmation selected" = { bg = "#d0d0d0", fg = "#f4bf75" }
+"confirmation dimmed" = { fg = "#b0b0b0" }
+"confirmation border" = { fg = "#e0e0e0" }
+"undo" = { bg = "#f5f5f5" }
+"undo confirmation dimmed" = { fg = "#b0b0b0" }
+"undo confirmation selected" = { bg = "#d0d0d0", fg = "#f4bf75" }
+"preview" = { fg = "#303030" }

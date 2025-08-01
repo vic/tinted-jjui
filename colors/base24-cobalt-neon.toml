@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Cobalt Neon
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cc72a6", bg = "#142838" }
+"dimmed" = { fg = "#eeca92" }
+"selected" = { bg = "#fff688", fg = "#3c7dd2" }
+"border" = { fg = "#eeca92" }
+"title" = { fg = "#142630", bold = true }
+"shortcut" = { fg = "#781aa0" }
+"matched" = { fg = "#3c7dd2", underline = true }
+"source_marker" = { bg = "#fff688", fg = "#cc72a6" }
+"target_marker" = { bg = "#142630", fg = "#cc72a6" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#142838" }
+"status title" = { fg = "#142838", bg = "#142630", bold = true }
+"status shortcut" = { fg = "#781aa0" }
+"status dimmed" = { fg = "#eeca92" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#fff688", fg = "#3c7dd2" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#eeca92" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#fff688", fg = "#3c7dd2", bold = true }
+"help" = { bg = "#142838" }
+"help title" = { fg = "#142630", bold = true, underline = true }
+"help border" = { fg = "#eeca92" }
+"menu" = { bg = "#142838" }
+"menu title" = { fg = "#142630", bold = true }
+"menu shortcut" = { fg = "#781aa0" }
+"menu dimmed" = { fg = "#eeca92" }
+"menu border" = { fg = "#eeca92" }
+"menu selected" = { bg = "#fff688", fg = "#3c7dd2" }
+"confirmation" = { bg = "#142838" }
+"confirmation text" = { fg = "#cc72a6" }
+"confirmation selected" = { bg = "#fff688", fg = "#3c7dd2" }
+"confirmation dimmed" = { fg = "#eeca92" }
+"confirmation border" = { fg = "#142630" }
+"undo" = { bg = "#142838" }
+"undo confirmation dimmed" = { fg = "#eeca92" }
+"undo confirmation selected" = { bg = "#fff688", fg = "#3c7dd2" }
+"preview" = { fg = "#cc72a6" }

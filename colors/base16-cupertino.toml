@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Cupertino
+# Scheme author: Defman21
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#404040", bg = "#ffffff" }
+"dimmed" = { fg = "#808080" }
+"selected" = { bg = "#c0c0c0", fg = "#826b28" }
+"border" = { fg = "#808080" }
+"title" = { fg = "#c0c0c0", bold = true }
+"shortcut" = { fg = "#a90d91" }
+"matched" = { fg = "#826b28", underline = true }
+"source_marker" = { bg = "#c0c0c0", fg = "#404040" }
+"target_marker" = { bg = "#c0c0c0", fg = "#404040" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#ffffff" }
+"status title" = { fg = "#ffffff", bg = "#c0c0c0", bold = true }
+"status shortcut" = { fg = "#a90d91" }
+"status dimmed" = { fg = "#808080" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#c0c0c0", fg = "#826b28" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#808080" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#c0c0c0", fg = "#826b28", bold = true }
+"help" = { bg = "#ffffff" }
+"help title" = { fg = "#c0c0c0", bold = true, underline = true }
+"help border" = { fg = "#808080" }
+"menu" = { bg = "#ffffff" }
+"menu title" = { fg = "#c0c0c0", bold = true }
+"menu shortcut" = { fg = "#a90d91" }
+"menu dimmed" = { fg = "#808080" }
+"menu border" = { fg = "#808080" }
+"menu selected" = { bg = "#c0c0c0", fg = "#826b28" }
+"confirmation" = { bg = "#ffffff" }
+"confirmation text" = { fg = "#404040" }
+"confirmation selected" = { bg = "#c0c0c0", fg = "#826b28" }
+"confirmation dimmed" = { fg = "#808080" }
+"confirmation border" = { fg = "#c0c0c0" }
+"undo" = { bg = "#ffffff" }
+"undo confirmation dimmed" = { fg = "#808080" }
+"undo confirmation selected" = { bg = "#c0c0c0", fg = "#826b28" }
+"preview" = { fg = "#404040" }

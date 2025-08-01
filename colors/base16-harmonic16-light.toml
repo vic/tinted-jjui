@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Harmonic16 Light
+# Scheme author: Jannik Siebert (https://github.com/janniks)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#405c79", bg = "#f7f9fb" }
+"dimmed" = { fg = "#aabcce" }
+"selected" = { bg = "#cbd6e2", fg = "#8bbf56" }
+"border" = { fg = "#aabcce" }
+"title" = { fg = "#e5ebf1", bold = true }
+"shortcut" = { fg = "#bf568b" }
+"matched" = { fg = "#8bbf56", underline = true }
+"source_marker" = { bg = "#cbd6e2", fg = "#405c79" }
+"target_marker" = { bg = "#e5ebf1", fg = "#405c79" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f7f9fb" }
+"status title" = { fg = "#f7f9fb", bg = "#e5ebf1", bold = true }
+"status shortcut" = { fg = "#bf568b" }
+"status dimmed" = { fg = "#aabcce" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#cbd6e2", fg = "#8bbf56" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#aabcce" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#cbd6e2", fg = "#8bbf56", bold = true }
+"help" = { bg = "#f7f9fb" }
+"help title" = { fg = "#e5ebf1", bold = true, underline = true }
+"help border" = { fg = "#aabcce" }
+"menu" = { bg = "#f7f9fb" }
+"menu title" = { fg = "#e5ebf1", bold = true }
+"menu shortcut" = { fg = "#bf568b" }
+"menu dimmed" = { fg = "#aabcce" }
+"menu border" = { fg = "#aabcce" }
+"menu selected" = { bg = "#cbd6e2", fg = "#8bbf56" }
+"confirmation" = { bg = "#f7f9fb" }
+"confirmation text" = { fg = "#405c79" }
+"confirmation selected" = { bg = "#cbd6e2", fg = "#8bbf56" }
+"confirmation dimmed" = { fg = "#aabcce" }
+"confirmation border" = { fg = "#e5ebf1" }
+"undo" = { bg = "#f7f9fb" }
+"undo confirmation dimmed" = { fg = "#aabcce" }
+"undo confirmation selected" = { bg = "#cbd6e2", fg = "#8bbf56" }
+"preview" = { fg = "#405c79" }

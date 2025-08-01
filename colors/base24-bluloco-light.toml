@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Bluloco Light
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#38383a", bg = "#f7f7f7" }
+"dimmed" = { fg = "#a6a7ae" }
+"selected" = { bg = "#dddee8", fg = "#1085d9" }
+"border" = { fg = "#a6a7ae" }
+"title" = { fg = "#cbccd4", bold = true }
+"shortcut" = { fg = "#6d1bed" }
+"matched" = { fg = "#1085d9", underline = true }
+"source_marker" = { bg = "#dddee8", fg = "#38383a" }
+"target_marker" = { bg = "#cbccd4", fg = "#38383a" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f7f7f7" }
+"status title" = { fg = "#f7f7f7", bg = "#cbccd4", bold = true }
+"status shortcut" = { fg = "#6d1bed" }
+"status dimmed" = { fg = "#a6a7ae" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#dddee8", fg = "#1085d9" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#a6a7ae" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#dddee8", fg = "#1085d9", bold = true }
+"help" = { bg = "#f7f7f7" }
+"help title" = { fg = "#cbccd4", bold = true, underline = true }
+"help border" = { fg = "#a6a7ae" }
+"menu" = { bg = "#f7f7f7" }
+"menu title" = { fg = "#cbccd4", bold = true }
+"menu shortcut" = { fg = "#6d1bed" }
+"menu dimmed" = { fg = "#a6a7ae" }
+"menu border" = { fg = "#a6a7ae" }
+"menu selected" = { bg = "#dddee8", fg = "#1085d9" }
+"confirmation" = { bg = "#f7f7f7" }
+"confirmation text" = { fg = "#38383a" }
+"confirmation selected" = { bg = "#dddee8", fg = "#1085d9" }
+"confirmation dimmed" = { fg = "#a6a7ae" }
+"confirmation border" = { fg = "#cbccd4" }
+"undo" = { bg = "#f7f7f7" }
+"undo confirmation dimmed" = { fg = "#a6a7ae" }
+"undo confirmation selected" = { bg = "#dddee8", fg = "#1085d9" }
+"preview" = { fg = "#38383a" }

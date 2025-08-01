@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Pop
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d0d0d0", bg = "#000000" }
+"dimmed" = { fg = "#505050" }
+"selected" = { bg = "#303030", fg = "#f8ca12" }
+"border" = { fg = "#505050" }
+"title" = { fg = "#202020", bold = true }
+"shortcut" = { fg = "#b31e8d" }
+"matched" = { fg = "#f8ca12", underline = true }
+"source_marker" = { bg = "#303030", fg = "#d0d0d0" }
+"target_marker" = { bg = "#202020", fg = "#d0d0d0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#202020", bold = true }
+"status shortcut" = { fg = "#b31e8d" }
+"status dimmed" = { fg = "#505050" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#303030", fg = "#f8ca12" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#505050" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#303030", fg = "#f8ca12", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#202020", bold = true, underline = true }
+"help border" = { fg = "#505050" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#202020", bold = true }
+"menu shortcut" = { fg = "#b31e8d" }
+"menu dimmed" = { fg = "#505050" }
+"menu border" = { fg = "#505050" }
+"menu selected" = { bg = "#303030", fg = "#f8ca12" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#d0d0d0" }
+"confirmation selected" = { bg = "#303030", fg = "#f8ca12" }
+"confirmation dimmed" = { fg = "#505050" }
+"confirmation border" = { fg = "#202020" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#505050" }
+"undo confirmation selected" = { bg = "#303030", fg = "#f8ca12" }
+"preview" = { fg = "#d0d0d0" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Colors
+# Scheme author: mrmrs (http://clrs.cc)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#bbbbbb", bg = "#111111" }
+"dimmed" = { fg = "#777777" }
+"selected" = { bg = "#555555", fg = "#ffdc00" }
+"border" = { fg = "#777777" }
+"title" = { fg = "#333333", bold = true }
+"shortcut" = { fg = "#b10dc9" }
+"matched" = { fg = "#ffdc00", underline = true }
+"source_marker" = { bg = "#555555", fg = "#bbbbbb" }
+"target_marker" = { bg = "#333333", fg = "#bbbbbb" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#111111" }
+"status title" = { fg = "#111111", bg = "#333333", bold = true }
+"status shortcut" = { fg = "#b10dc9" }
+"status dimmed" = { fg = "#777777" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#555555", fg = "#ffdc00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#777777" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#555555", fg = "#ffdc00", bold = true }
+"help" = { bg = "#111111" }
+"help title" = { fg = "#333333", bold = true, underline = true }
+"help border" = { fg = "#777777" }
+"menu" = { bg = "#111111" }
+"menu title" = { fg = "#333333", bold = true }
+"menu shortcut" = { fg = "#b10dc9" }
+"menu dimmed" = { fg = "#777777" }
+"menu border" = { fg = "#777777" }
+"menu selected" = { bg = "#555555", fg = "#ffdc00" }
+"confirmation" = { bg = "#111111" }
+"confirmation text" = { fg = "#bbbbbb" }
+"confirmation selected" = { bg = "#555555", fg = "#ffdc00" }
+"confirmation dimmed" = { fg = "#777777" }
+"confirmation border" = { fg = "#333333" }
+"undo" = { bg = "#111111" }
+"undo confirmation dimmed" = { fg = "#777777" }
+"undo confirmation selected" = { bg = "#555555", fg = "#ffdc00" }
+"preview" = { fg = "#bbbbbb" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Pnevma
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#aeaead", bg = "#1c1c1c" }
+"dimmed" = { fg = "#6b6a67" }
+"selected" = { bg = "#4a4845", fg = "#a1bdce" }
+"border" = { fg = "#6b6a67" }
+"title" = { fg = "#2f2e2d", bold = true }
+"shortcut" = { fg = "#c79ec4" }
+"matched" = { fg = "#a1bdce", underline = true }
+"source_marker" = { bg = "#4a4845", fg = "#aeaead" }
+"target_marker" = { bg = "#2f2e2d", fg = "#aeaead" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1c1c1c" }
+"status title" = { fg = "#1c1c1c", bg = "#2f2e2d", bold = true }
+"status shortcut" = { fg = "#c79ec4" }
+"status dimmed" = { fg = "#6b6a67" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4a4845", fg = "#a1bdce" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6b6a67" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4a4845", fg = "#a1bdce", bold = true }
+"help" = { bg = "#1c1c1c" }
+"help title" = { fg = "#2f2e2d", bold = true, underline = true }
+"help border" = { fg = "#6b6a67" }
+"menu" = { bg = "#1c1c1c" }
+"menu title" = { fg = "#2f2e2d", bold = true }
+"menu shortcut" = { fg = "#c79ec4" }
+"menu dimmed" = { fg = "#6b6a67" }
+"menu border" = { fg = "#6b6a67" }
+"menu selected" = { bg = "#4a4845", fg = "#a1bdce" }
+"confirmation" = { bg = "#1c1c1c" }
+"confirmation text" = { fg = "#aeaead" }
+"confirmation selected" = { bg = "#4a4845", fg = "#a1bdce" }
+"confirmation dimmed" = { fg = "#6b6a67" }
+"confirmation border" = { fg = "#2f2e2d" }
+"undo" = { bg = "#1c1c1c" }
+"undo confirmation dimmed" = { fg = "#6b6a67" }
+"undo confirmation selected" = { bg = "#4a4845", fg = "#a1bdce" }
+"preview" = { fg = "#aeaead" }

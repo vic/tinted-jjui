@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Still Alive
+# Scheme author: Derrick McKee (derrick.mckee@gmail.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d80000", bg = "#f0f0f0" }
+"dimmed" = { fg = "#f01818" }
+"selected" = { bg = "#fff018", fg = "#426395" }
+"border" = { fg = "#f01818" }
+"title" = { fg = "#f0d848", bold = true }
+"shortcut" = { fg = "#900000" }
+"matched" = { fg = "#426395", underline = true }
+"source_marker" = { bg = "#fff018", fg = "#d80000" }
+"target_marker" = { bg = "#f0d848", fg = "#d80000" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f0f0f0" }
+"status title" = { fg = "#f0f0f0", bg = "#f0d848", bold = true }
+"status shortcut" = { fg = "#900000" }
+"status dimmed" = { fg = "#f01818" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#fff018", fg = "#426395" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#f01818" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#fff018", fg = "#426395", bold = true }
+"help" = { bg = "#f0f0f0" }
+"help title" = { fg = "#f0d848", bold = true, underline = true }
+"help border" = { fg = "#f01818" }
+"menu" = { bg = "#f0f0f0" }
+"menu title" = { fg = "#f0d848", bold = true }
+"menu shortcut" = { fg = "#900000" }
+"menu dimmed" = { fg = "#f01818" }
+"menu border" = { fg = "#f01818" }
+"menu selected" = { bg = "#fff018", fg = "#426395" }
+"confirmation" = { bg = "#f0f0f0" }
+"confirmation text" = { fg = "#d80000" }
+"confirmation selected" = { bg = "#fff018", fg = "#426395" }
+"confirmation dimmed" = { fg = "#f01818" }
+"confirmation border" = { fg = "#f0d848" }
+"undo" = { bg = "#f0f0f0" }
+"undo confirmation dimmed" = { fg = "#f01818" }
+"undo confirmation selected" = { bg = "#fff018", fg = "#426395" }
+"preview" = { fg = "#d80000" }

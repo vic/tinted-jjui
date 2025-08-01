@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Nocturnal Winter
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#dcdcdc", bg = "#0d0d17" }
+"dimmed" = { fg = "#9e9e9e" }
+"selected" = { bg = "#7f7f7f", fg = "#6095fe" }
+"border" = { fg = "#9e9e9e" }
+"title" = { fg = "#4c4c4c", bold = true }
+"shortcut" = { fg = "#fe2a6c" }
+"matched" = { fg = "#6095fe", underline = true }
+"source_marker" = { bg = "#7f7f7f", fg = "#dcdcdc" }
+"target_marker" = { bg = "#4c4c4c", fg = "#dcdcdc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0d0d17" }
+"status title" = { fg = "#0d0d17", bg = "#4c4c4c", bold = true }
+"status shortcut" = { fg = "#fe2a6c" }
+"status dimmed" = { fg = "#9e9e9e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#7f7f7f", fg = "#6095fe" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#9e9e9e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#7f7f7f", fg = "#6095fe", bold = true }
+"help" = { bg = "#0d0d17" }
+"help title" = { fg = "#4c4c4c", bold = true, underline = true }
+"help border" = { fg = "#9e9e9e" }
+"menu" = { bg = "#0d0d17" }
+"menu title" = { fg = "#4c4c4c", bold = true }
+"menu shortcut" = { fg = "#fe2a6c" }
+"menu dimmed" = { fg = "#9e9e9e" }
+"menu border" = { fg = "#9e9e9e" }
+"menu selected" = { bg = "#7f7f7f", fg = "#6095fe" }
+"confirmation" = { bg = "#0d0d17" }
+"confirmation text" = { fg = "#dcdcdc" }
+"confirmation selected" = { bg = "#7f7f7f", fg = "#6095fe" }
+"confirmation dimmed" = { fg = "#9e9e9e" }
+"confirmation border" = { fg = "#4c4c4c" }
+"undo" = { bg = "#0d0d17" }
+"undo confirmation dimmed" = { fg = "#9e9e9e" }
+"undo confirmation selected" = { bg = "#7f7f7f", fg = "#6095fe" }
+"preview" = { fg = "#dcdcdc" }

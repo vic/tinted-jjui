@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Oxocarbon Light
+# Scheme author: shaunsingh/IBM
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#393939", bg = "#f2f4f8" }
+"dimmed" = { fg = "#161616" }
+"selected" = { bg = "#525252", fg = "#ff6f00" }
+"border" = { fg = "#161616" }
+"title" = { fg = "#dde1e6", bold = true }
+"shortcut" = { fg = "#be95ff" }
+"matched" = { fg = "#ff6f00", underline = true }
+"source_marker" = { bg = "#525252", fg = "#393939" }
+"target_marker" = { bg = "#dde1e6", fg = "#393939" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f2f4f8" }
+"status title" = { fg = "#f2f4f8", bg = "#dde1e6", bold = true }
+"status shortcut" = { fg = "#be95ff" }
+"status dimmed" = { fg = "#161616" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#525252", fg = "#ff6f00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#161616" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#525252", fg = "#ff6f00", bold = true }
+"help" = { bg = "#f2f4f8" }
+"help title" = { fg = "#dde1e6", bold = true, underline = true }
+"help border" = { fg = "#161616" }
+"menu" = { bg = "#f2f4f8" }
+"menu title" = { fg = "#dde1e6", bold = true }
+"menu shortcut" = { fg = "#be95ff" }
+"menu dimmed" = { fg = "#161616" }
+"menu border" = { fg = "#161616" }
+"menu selected" = { bg = "#525252", fg = "#ff6f00" }
+"confirmation" = { bg = "#f2f4f8" }
+"confirmation text" = { fg = "#393939" }
+"confirmation selected" = { bg = "#525252", fg = "#ff6f00" }
+"confirmation dimmed" = { fg = "#161616" }
+"confirmation border" = { fg = "#dde1e6" }
+"undo" = { bg = "#f2f4f8" }
+"undo confirmation dimmed" = { fg = "#161616" }
+"undo confirmation selected" = { bg = "#525252", fg = "#ff6f00" }
+"preview" = { fg = "#393939" }

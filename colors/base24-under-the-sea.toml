@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Under The Sea
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#3d5053", bg = "#001015" }
+"dimmed" = { fg = "#394751" }
+"selected" = { bg = "#374350", fg = "#61d4b9" }
+"border" = { fg = "#394751" }
+"title" = { fg = "#022026", bold = true }
+"shortcut" = { fg = "#00599c" }
+"matched" = { fg = "#61d4b9", underline = true }
+"source_marker" = { bg = "#374350", fg = "#3d5053" }
+"target_marker" = { bg = "#022026", fg = "#3d5053" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#001015" }
+"status title" = { fg = "#001015", bg = "#022026", bold = true }
+"status shortcut" = { fg = "#00599c" }
+"status dimmed" = { fg = "#394751" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#374350", fg = "#61d4b9" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#394751" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#374350", fg = "#61d4b9", bold = true }
+"help" = { bg = "#001015" }
+"help title" = { fg = "#022026", bold = true, underline = true }
+"help border" = { fg = "#394751" }
+"menu" = { bg = "#001015" }
+"menu title" = { fg = "#022026", bold = true }
+"menu shortcut" = { fg = "#00599c" }
+"menu dimmed" = { fg = "#394751" }
+"menu border" = { fg = "#394751" }
+"menu selected" = { bg = "#374350", fg = "#61d4b9" }
+"confirmation" = { bg = "#001015" }
+"confirmation text" = { fg = "#3d5053" }
+"confirmation selected" = { bg = "#374350", fg = "#61d4b9" }
+"confirmation dimmed" = { fg = "#394751" }
+"confirmation border" = { fg = "#022026" }
+"undo" = { bg = "#001015" }
+"undo confirmation dimmed" = { fg = "#394751" }
+"undo confirmation selected" = { bg = "#374350", fg = "#61d4b9" }
+"preview" = { fg = "#3d5053" }

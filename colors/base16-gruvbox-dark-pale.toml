@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gruvbox dark, pale
+# Scheme author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#dab997", bg = "#262626" }
+"dimmed" = { fg = "#8a8a8a" }
+"selected" = { bg = "#4e4e4e", fg = "#ffaf00" }
+"border" = { fg = "#8a8a8a" }
+"title" = { fg = "#3a3a3a", bold = true }
+"shortcut" = { fg = "#d485ad" }
+"matched" = { fg = "#ffaf00", underline = true }
+"source_marker" = { bg = "#4e4e4e", fg = "#dab997" }
+"target_marker" = { bg = "#3a3a3a", fg = "#dab997" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#262626" }
+"status title" = { fg = "#262626", bg = "#3a3a3a", bold = true }
+"status shortcut" = { fg = "#d485ad" }
+"status dimmed" = { fg = "#8a8a8a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4e4e4e", fg = "#ffaf00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#8a8a8a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4e4e4e", fg = "#ffaf00", bold = true }
+"help" = { bg = "#262626" }
+"help title" = { fg = "#3a3a3a", bold = true, underline = true }
+"help border" = { fg = "#8a8a8a" }
+"menu" = { bg = "#262626" }
+"menu title" = { fg = "#3a3a3a", bold = true }
+"menu shortcut" = { fg = "#d485ad" }
+"menu dimmed" = { fg = "#8a8a8a" }
+"menu border" = { fg = "#8a8a8a" }
+"menu selected" = { bg = "#4e4e4e", fg = "#ffaf00" }
+"confirmation" = { bg = "#262626" }
+"confirmation text" = { fg = "#dab997" }
+"confirmation selected" = { bg = "#4e4e4e", fg = "#ffaf00" }
+"confirmation dimmed" = { fg = "#8a8a8a" }
+"confirmation border" = { fg = "#3a3a3a" }
+"undo" = { bg = "#262626" }
+"undo confirmation dimmed" = { fg = "#8a8a8a" }
+"undo confirmation selected" = { bg = "#4e4e4e", fg = "#ffaf00" }
+"preview" = { fg = "#dab997" }

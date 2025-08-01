@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: DanQing Light
+# Scheme author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#5a605d", bg = "#fcfefd" }
+"dimmed" = { fg = "#cad8d2" }
+"selected" = { bg = "#e0f0ef", fg = "#f0c239" }
+"border" = { fg = "#cad8d2" }
+"title" = { fg = "#ecf6f2", bold = true }
+"shortcut" = { fg = "#cca4e3" }
+"matched" = { fg = "#f0c239", underline = true }
+"source_marker" = { bg = "#e0f0ef", fg = "#5a605d" }
+"target_marker" = { bg = "#ecf6f2", fg = "#5a605d" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fcfefd" }
+"status title" = { fg = "#fcfefd", bg = "#ecf6f2", bold = true }
+"status shortcut" = { fg = "#cca4e3" }
+"status dimmed" = { fg = "#cad8d2" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#e0f0ef", fg = "#f0c239" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#cad8d2" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#e0f0ef", fg = "#f0c239", bold = true }
+"help" = { bg = "#fcfefd" }
+"help title" = { fg = "#ecf6f2", bold = true, underline = true }
+"help border" = { fg = "#cad8d2" }
+"menu" = { bg = "#fcfefd" }
+"menu title" = { fg = "#ecf6f2", bold = true }
+"menu shortcut" = { fg = "#cca4e3" }
+"menu dimmed" = { fg = "#cad8d2" }
+"menu border" = { fg = "#cad8d2" }
+"menu selected" = { bg = "#e0f0ef", fg = "#f0c239" }
+"confirmation" = { bg = "#fcfefd" }
+"confirmation text" = { fg = "#5a605d" }
+"confirmation selected" = { bg = "#e0f0ef", fg = "#f0c239" }
+"confirmation dimmed" = { fg = "#cad8d2" }
+"confirmation border" = { fg = "#ecf6f2" }
+"undo" = { bg = "#fcfefd" }
+"undo confirmation dimmed" = { fg = "#cad8d2" }
+"undo confirmation selected" = { bg = "#e0f0ef", fg = "#f0c239" }
+"preview" = { fg = "#5a605d" }

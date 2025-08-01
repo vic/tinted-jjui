@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Dracula
+# Scheme author: Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#f8f8f2", bg = "#282a36" }
+"dimmed" = { fg = "#6272a4" }
+"selected" = { bg = "#44475a", fg = "#f1fa8c" }
+"border" = { fg = "#6272a4" }
+"title" = { fg = "#363447", bold = true }
+"shortcut" = { fg = "#ff79c6" }
+"matched" = { fg = "#f1fa8c", underline = true }
+"source_marker" = { bg = "#44475a", fg = "#f8f8f2" }
+"target_marker" = { bg = "#363447", fg = "#f8f8f2" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282a36" }
+"status title" = { fg = "#282a36", bg = "#363447", bold = true }
+"status shortcut" = { fg = "#ff79c6" }
+"status dimmed" = { fg = "#6272a4" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#44475a", fg = "#f1fa8c" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6272a4" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#44475a", fg = "#f1fa8c", bold = true }
+"help" = { bg = "#282a36" }
+"help title" = { fg = "#363447", bold = true, underline = true }
+"help border" = { fg = "#6272a4" }
+"menu" = { bg = "#282a36" }
+"menu title" = { fg = "#363447", bold = true }
+"menu shortcut" = { fg = "#ff79c6" }
+"menu dimmed" = { fg = "#6272a4" }
+"menu border" = { fg = "#6272a4" }
+"menu selected" = { bg = "#44475a", fg = "#f1fa8c" }
+"confirmation" = { bg = "#282a36" }
+"confirmation text" = { fg = "#f8f8f2" }
+"confirmation selected" = { bg = "#44475a", fg = "#f1fa8c" }
+"confirmation dimmed" = { fg = "#6272a4" }
+"confirmation border" = { fg = "#363447" }
+"undo" = { bg = "#282a36" }
+"undo confirmation dimmed" = { fg = "#6272a4" }
+"undo confirmation selected" = { bg = "#44475a", fg = "#f1fa8c" }
+"preview" = { fg = "#f8f8f2" }

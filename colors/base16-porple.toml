@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Porple
+# Scheme author: Niek den Breeje (https://github.com/AuditeMarlow)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d8d8d8", bg = "#292c36" }
+"dimmed" = { fg = "#65568a" }
+"selected" = { bg = "#474160", fg = "#efa16b" }
+"border" = { fg = "#65568a" }
+"title" = { fg = "#333344", bold = true }
+"shortcut" = { fg = "#b74989" }
+"matched" = { fg = "#efa16b", underline = true }
+"source_marker" = { bg = "#474160", fg = "#d8d8d8" }
+"target_marker" = { bg = "#333344", fg = "#d8d8d8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#292c36" }
+"status title" = { fg = "#292c36", bg = "#333344", bold = true }
+"status shortcut" = { fg = "#b74989" }
+"status dimmed" = { fg = "#65568a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#474160", fg = "#efa16b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#65568a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#474160", fg = "#efa16b", bold = true }
+"help" = { bg = "#292c36" }
+"help title" = { fg = "#333344", bold = true, underline = true }
+"help border" = { fg = "#65568a" }
+"menu" = { bg = "#292c36" }
+"menu title" = { fg = "#333344", bold = true }
+"menu shortcut" = { fg = "#b74989" }
+"menu dimmed" = { fg = "#65568a" }
+"menu border" = { fg = "#65568a" }
+"menu selected" = { bg = "#474160", fg = "#efa16b" }
+"confirmation" = { bg = "#292c36" }
+"confirmation text" = { fg = "#d8d8d8" }
+"confirmation selected" = { bg = "#474160", fg = "#efa16b" }
+"confirmation dimmed" = { fg = "#65568a" }
+"confirmation border" = { fg = "#333344" }
+"undo" = { bg = "#292c36" }
+"undo confirmation dimmed" = { fg = "#65568a" }
+"undo confirmation selected" = { bg = "#474160", fg = "#efa16b" }
+"preview" = { fg = "#d8d8d8" }

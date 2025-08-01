@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: iA Dark
+# Scheme author: iA Inc. (modified by aramisgithub)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cccccc", bg = "#1a1a1a" }
+"dimmed" = { fg = "#767676" }
+"selected" = { bg = "#1d414d", fg = "#b99353" }
+"border" = { fg = "#767676" }
+"title" = { fg = "#222222", bold = true }
+"shortcut" = { fg = "#b98eb2" }
+"matched" = { fg = "#b99353", underline = true }
+"source_marker" = { bg = "#1d414d", fg = "#cccccc" }
+"target_marker" = { bg = "#222222", fg = "#cccccc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1a1a1a" }
+"status title" = { fg = "#1a1a1a", bg = "#222222", bold = true }
+"status shortcut" = { fg = "#b98eb2" }
+"status dimmed" = { fg = "#767676" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#1d414d", fg = "#b99353" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#767676" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#1d414d", fg = "#b99353", bold = true }
+"help" = { bg = "#1a1a1a" }
+"help title" = { fg = "#222222", bold = true, underline = true }
+"help border" = { fg = "#767676" }
+"menu" = { bg = "#1a1a1a" }
+"menu title" = { fg = "#222222", bold = true }
+"menu shortcut" = { fg = "#b98eb2" }
+"menu dimmed" = { fg = "#767676" }
+"menu border" = { fg = "#767676" }
+"menu selected" = { bg = "#1d414d", fg = "#b99353" }
+"confirmation" = { bg = "#1a1a1a" }
+"confirmation text" = { fg = "#cccccc" }
+"confirmation selected" = { bg = "#1d414d", fg = "#b99353" }
+"confirmation dimmed" = { fg = "#767676" }
+"confirmation border" = { fg = "#222222" }
+"undo" = { bg = "#1a1a1a" }
+"undo confirmation dimmed" = { fg = "#767676" }
+"undo confirmation selected" = { bg = "#1d414d", fg = "#b99353" }
+"preview" = { fg = "#cccccc" }

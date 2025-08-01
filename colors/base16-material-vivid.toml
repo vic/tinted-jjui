@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Material Vivid
+# Scheme author: joshyrobot
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#80868b", bg = "#202124" }
+"dimmed" = { fg = "#44464d" }
+"selected" = { bg = "#323639", fg = "#ffeb3b" }
+"border" = { fg = "#44464d" }
+"title" = { fg = "#27292c", bold = true }
+"shortcut" = { fg = "#673ab7" }
+"matched" = { fg = "#ffeb3b", underline = true }
+"source_marker" = { bg = "#323639", fg = "#80868b" }
+"target_marker" = { bg = "#27292c", fg = "#80868b" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#202124" }
+"status title" = { fg = "#202124", bg = "#27292c", bold = true }
+"status shortcut" = { fg = "#673ab7" }
+"status dimmed" = { fg = "#44464d" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#323639", fg = "#ffeb3b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#44464d" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#323639", fg = "#ffeb3b", bold = true }
+"help" = { bg = "#202124" }
+"help title" = { fg = "#27292c", bold = true, underline = true }
+"help border" = { fg = "#44464d" }
+"menu" = { bg = "#202124" }
+"menu title" = { fg = "#27292c", bold = true }
+"menu shortcut" = { fg = "#673ab7" }
+"menu dimmed" = { fg = "#44464d" }
+"menu border" = { fg = "#44464d" }
+"menu selected" = { bg = "#323639", fg = "#ffeb3b" }
+"confirmation" = { bg = "#202124" }
+"confirmation text" = { fg = "#80868b" }
+"confirmation selected" = { bg = "#323639", fg = "#ffeb3b" }
+"confirmation dimmed" = { fg = "#44464d" }
+"confirmation border" = { fg = "#27292c" }
+"undo" = { bg = "#202124" }
+"undo confirmation dimmed" = { fg = "#44464d" }
+"undo confirmation selected" = { bg = "#323639", fg = "#ffeb3b" }
+"preview" = { fg = "#80868b" }

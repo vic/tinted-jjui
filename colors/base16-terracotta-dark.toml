@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Terracotta Dark
+# Scheme author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b8a59d", bg = "#241d1a" }
+"dimmed" = { fg = "#594740" }
+"selected" = { bg = "#473933", fg = "#ffc37a" }
+"border" = { fg = "#594740" }
+"title" = { fg = "#362b27", bold = true }
+"shortcut" = { fg = "#d8a2b0" }
+"matched" = { fg = "#ffc37a", underline = true }
+"source_marker" = { bg = "#473933", fg = "#b8a59d" }
+"target_marker" = { bg = "#362b27", fg = "#b8a59d" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#241d1a" }
+"status title" = { fg = "#241d1a", bg = "#362b27", bold = true }
+"status shortcut" = { fg = "#d8a2b0" }
+"status dimmed" = { fg = "#594740" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#473933", fg = "#ffc37a" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#594740" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#473933", fg = "#ffc37a", bold = true }
+"help" = { bg = "#241d1a" }
+"help title" = { fg = "#362b27", bold = true, underline = true }
+"help border" = { fg = "#594740" }
+"menu" = { bg = "#241d1a" }
+"menu title" = { fg = "#362b27", bold = true }
+"menu shortcut" = { fg = "#d8a2b0" }
+"menu dimmed" = { fg = "#594740" }
+"menu border" = { fg = "#594740" }
+"menu selected" = { bg = "#473933", fg = "#ffc37a" }
+"confirmation" = { bg = "#241d1a" }
+"confirmation text" = { fg = "#b8a59d" }
+"confirmation selected" = { bg = "#473933", fg = "#ffc37a" }
+"confirmation dimmed" = { fg = "#594740" }
+"confirmation border" = { fg = "#362b27" }
+"undo" = { bg = "#241d1a" }
+"undo confirmation dimmed" = { fg = "#594740" }
+"undo confirmation selected" = { bg = "#473933", fg = "#ffc37a" }
+"preview" = { fg = "#b8a59d" }

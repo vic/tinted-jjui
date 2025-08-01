@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Windows NT
+# Scheme author: Fergus Collins (https://github.com/ferguscollins)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0c0c0", bg = "#000000" }
+"dimmed" = { fg = "#808080" }
+"selected" = { bg = "#555555", fg = "#ffff00" }
+"border" = { fg = "#808080" }
+"title" = { fg = "#2a2a2a", bold = true }
+"shortcut" = { fg = "#ff00ff" }
+"matched" = { fg = "#ffff00", underline = true }
+"source_marker" = { bg = "#555555", fg = "#c0c0c0" }
+"target_marker" = { bg = "#2a2a2a", fg = "#c0c0c0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#2a2a2a", bold = true }
+"status shortcut" = { fg = "#ff00ff" }
+"status dimmed" = { fg = "#808080" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#555555", fg = "#ffff00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#808080" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#555555", fg = "#ffff00", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#2a2a2a", bold = true, underline = true }
+"help border" = { fg = "#808080" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#2a2a2a", bold = true }
+"menu shortcut" = { fg = "#ff00ff" }
+"menu dimmed" = { fg = "#808080" }
+"menu border" = { fg = "#808080" }
+"menu selected" = { bg = "#555555", fg = "#ffff00" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#c0c0c0" }
+"confirmation selected" = { bg = "#555555", fg = "#ffff00" }
+"confirmation dimmed" = { fg = "#808080" }
+"confirmation border" = { fg = "#2a2a2a" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#808080" }
+"undo confirmation selected" = { bg = "#555555", fg = "#ffff00" }
+"preview" = { fg = "#c0c0c0" }

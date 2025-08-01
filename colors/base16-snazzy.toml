@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Snazzy
+# Scheme author: Chawye Hsu (https://github.com/chawyehsu), based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#e2e4e5", bg = "#282a36" }
+"dimmed" = { fg = "#78787e" }
+"selected" = { bg = "#43454f", fg = "#f3f99d" }
+"border" = { fg = "#78787e" }
+"title" = { fg = "#34353e", bold = true }
+"shortcut" = { fg = "#ff6ac1" }
+"matched" = { fg = "#f3f99d", underline = true }
+"source_marker" = { bg = "#43454f", fg = "#e2e4e5" }
+"target_marker" = { bg = "#34353e", fg = "#e2e4e5" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282a36" }
+"status title" = { fg = "#282a36", bg = "#34353e", bold = true }
+"status shortcut" = { fg = "#ff6ac1" }
+"status dimmed" = { fg = "#78787e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#43454f", fg = "#f3f99d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#78787e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#43454f", fg = "#f3f99d", bold = true }
+"help" = { bg = "#282a36" }
+"help title" = { fg = "#34353e", bold = true, underline = true }
+"help border" = { fg = "#78787e" }
+"menu" = { bg = "#282a36" }
+"menu title" = { fg = "#34353e", bold = true }
+"menu shortcut" = { fg = "#ff6ac1" }
+"menu dimmed" = { fg = "#78787e" }
+"menu border" = { fg = "#78787e" }
+"menu selected" = { bg = "#43454f", fg = "#f3f99d" }
+"confirmation" = { bg = "#282a36" }
+"confirmation text" = { fg = "#e2e4e5" }
+"confirmation selected" = { bg = "#43454f", fg = "#f3f99d" }
+"confirmation dimmed" = { fg = "#78787e" }
+"confirmation border" = { fg = "#34353e" }
+"undo" = { bg = "#282a36" }
+"undo confirmation dimmed" = { fg = "#78787e" }
+"undo confirmation selected" = { bg = "#43454f", fg = "#f3f99d" }
+"preview" = { fg = "#e2e4e5" }

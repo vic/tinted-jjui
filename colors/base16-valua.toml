@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Valua
+# Scheme author: Nonetrix (https://github.com/nonetrix)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#98c1a3", bg = "#131f1f" }
+"dimmed" = { fg = "#3e5c53" }
+"selected" = { bg = "#273d3c", fg = "#dfe754" }
+"border" = { fg = "#3e5c53" }
+"title" = { fg = "#213132", bold = true }
+"shortcut" = { fg = "#a874e0" }
+"matched" = { fg = "#dfe754", underline = true }
+"source_marker" = { bg = "#273d3c", fg = "#98c1a3" }
+"target_marker" = { bg = "#213132", fg = "#98c1a3" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#131f1f" }
+"status title" = { fg = "#131f1f", bg = "#213132", bold = true }
+"status shortcut" = { fg = "#a874e0" }
+"status dimmed" = { fg = "#3e5c53" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#273d3c", fg = "#dfe754" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#3e5c53" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#273d3c", fg = "#dfe754", bold = true }
+"help" = { bg = "#131f1f" }
+"help title" = { fg = "#213132", bold = true, underline = true }
+"help border" = { fg = "#3e5c53" }
+"menu" = { bg = "#131f1f" }
+"menu title" = { fg = "#213132", bold = true }
+"menu shortcut" = { fg = "#a874e0" }
+"menu dimmed" = { fg = "#3e5c53" }
+"menu border" = { fg = "#3e5c53" }
+"menu selected" = { bg = "#273d3c", fg = "#dfe754" }
+"confirmation" = { bg = "#131f1f" }
+"confirmation text" = { fg = "#98c1a3" }
+"confirmation selected" = { bg = "#273d3c", fg = "#dfe754" }
+"confirmation dimmed" = { fg = "#3e5c53" }
+"confirmation border" = { fg = "#213132" }
+"undo" = { bg = "#131f1f" }
+"undo confirmation dimmed" = { fg = "#3e5c53" }
+"undo confirmation selected" = { bg = "#273d3c", fg = "#dfe754" }
+"preview" = { fg = "#98c1a3" }

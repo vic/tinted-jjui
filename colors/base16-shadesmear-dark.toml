@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: ShadeSmear Dark
+# Scheme author: Kyle Giammarco (http://kyle.giammar.co)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#dbdbdb", bg = "#232323" }
+"dimmed" = { fg = "#c0c0c0" }
+"selected" = { bg = "#4e4e4e", fg = "#307878" }
+"border" = { fg = "#c0c0c0" }
+"title" = { fg = "#1c1c1c", bold = true }
+"shortcut" = { fg = "#d7ab54" }
+"matched" = { fg = "#307878", underline = true }
+"source_marker" = { bg = "#4e4e4e", fg = "#dbdbdb" }
+"target_marker" = { bg = "#1c1c1c", fg = "#dbdbdb" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#232323" }
+"status title" = { fg = "#232323", bg = "#1c1c1c", bold = true }
+"status shortcut" = { fg = "#d7ab54" }
+"status dimmed" = { fg = "#c0c0c0" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4e4e4e", fg = "#307878" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#c0c0c0" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4e4e4e", fg = "#307878", bold = true }
+"help" = { bg = "#232323" }
+"help title" = { fg = "#1c1c1c", bold = true, underline = true }
+"help border" = { fg = "#c0c0c0" }
+"menu" = { bg = "#232323" }
+"menu title" = { fg = "#1c1c1c", bold = true }
+"menu shortcut" = { fg = "#d7ab54" }
+"menu dimmed" = { fg = "#c0c0c0" }
+"menu border" = { fg = "#c0c0c0" }
+"menu selected" = { bg = "#4e4e4e", fg = "#307878" }
+"confirmation" = { bg = "#232323" }
+"confirmation text" = { fg = "#dbdbdb" }
+"confirmation selected" = { bg = "#4e4e4e", fg = "#307878" }
+"confirmation dimmed" = { fg = "#c0c0c0" }
+"confirmation border" = { fg = "#1c1c1c" }
+"undo" = { bg = "#232323" }
+"undo confirmation dimmed" = { fg = "#c0c0c0" }
+"undo confirmation selected" = { bg = "#4e4e4e", fg = "#307878" }
+"preview" = { fg = "#dbdbdb" }

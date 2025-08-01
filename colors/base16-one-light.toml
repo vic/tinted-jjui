@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: One Light
+# Scheme author: Daniel Pfeifer (http://github.com/purpleKarrot)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#383a42", bg = "#fafafa" }
+"dimmed" = { fg = "#a0a1a7" }
+"selected" = { bg = "#e5e5e6", fg = "#c18401" }
+"border" = { fg = "#a0a1a7" }
+"title" = { fg = "#f0f0f1", bold = true }
+"shortcut" = { fg = "#a626a4" }
+"matched" = { fg = "#c18401", underline = true }
+"source_marker" = { bg = "#e5e5e6", fg = "#383a42" }
+"target_marker" = { bg = "#f0f0f1", fg = "#383a42" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fafafa" }
+"status title" = { fg = "#fafafa", bg = "#f0f0f1", bold = true }
+"status shortcut" = { fg = "#a626a4" }
+"status dimmed" = { fg = "#a0a1a7" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#e5e5e6", fg = "#c18401" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#a0a1a7" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#e5e5e6", fg = "#c18401", bold = true }
+"help" = { bg = "#fafafa" }
+"help title" = { fg = "#f0f0f1", bold = true, underline = true }
+"help border" = { fg = "#a0a1a7" }
+"menu" = { bg = "#fafafa" }
+"menu title" = { fg = "#f0f0f1", bold = true }
+"menu shortcut" = { fg = "#a626a4" }
+"menu dimmed" = { fg = "#a0a1a7" }
+"menu border" = { fg = "#a0a1a7" }
+"menu selected" = { bg = "#e5e5e6", fg = "#c18401" }
+"confirmation" = { bg = "#fafafa" }
+"confirmation text" = { fg = "#383a42" }
+"confirmation selected" = { bg = "#e5e5e6", fg = "#c18401" }
+"confirmation dimmed" = { fg = "#a0a1a7" }
+"confirmation border" = { fg = "#f0f0f1" }
+"undo" = { bg = "#fafafa" }
+"undo confirmation dimmed" = { fg = "#a0a1a7" }
+"undo confirmation selected" = { bg = "#e5e5e6", fg = "#c18401" }
+"preview" = { fg = "#383a42" }

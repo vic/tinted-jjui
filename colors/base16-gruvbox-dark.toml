@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gruvbox dark
+# Scheme author: Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ebdbb2", bg = "#282828" }
+"dimmed" = { fg = "#665c54" }
+"selected" = { bg = "#504945", fg = "#d79921" }
+"border" = { fg = "#665c54" }
+"title" = { fg = "#3c3836", bold = true }
+"shortcut" = { fg = "#b16286" }
+"matched" = { fg = "#d79921", underline = true }
+"source_marker" = { bg = "#504945", fg = "#ebdbb2" }
+"target_marker" = { bg = "#3c3836", fg = "#ebdbb2" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282828" }
+"status title" = { fg = "#282828", bg = "#3c3836", bold = true }
+"status shortcut" = { fg = "#b16286" }
+"status dimmed" = { fg = "#665c54" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#504945", fg = "#d79921" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#665c54" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#504945", fg = "#d79921", bold = true }
+"help" = { bg = "#282828" }
+"help title" = { fg = "#3c3836", bold = true, underline = true }
+"help border" = { fg = "#665c54" }
+"menu" = { bg = "#282828" }
+"menu title" = { fg = "#3c3836", bold = true }
+"menu shortcut" = { fg = "#b16286" }
+"menu dimmed" = { fg = "#665c54" }
+"menu border" = { fg = "#665c54" }
+"menu selected" = { bg = "#504945", fg = "#d79921" }
+"confirmation" = { bg = "#282828" }
+"confirmation text" = { fg = "#ebdbb2" }
+"confirmation selected" = { bg = "#504945", fg = "#d79921" }
+"confirmation dimmed" = { fg = "#665c54" }
+"confirmation border" = { fg = "#3c3836" }
+"undo" = { bg = "#282828" }
+"undo confirmation dimmed" = { fg = "#665c54" }
+"undo confirmation selected" = { bg = "#504945", fg = "#d79921" }
+"preview" = { fg = "#ebdbb2" }

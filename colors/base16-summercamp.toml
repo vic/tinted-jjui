@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: summercamp
+# Scheme author: zoe firi (zoefiri.github.io)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#736e55", bg = "#1c1810" }
+"dimmed" = { fg = "#504b38" }
+"selected" = { bg = "#3a3527", fg = "#f2ff27" }
+"border" = { fg = "#504b38" }
+"title" = { fg = "#2a261c", bold = true }
+"shortcut" = { fg = "#ff8080" }
+"matched" = { fg = "#f2ff27", underline = true }
+"source_marker" = { bg = "#3a3527", fg = "#736e55" }
+"target_marker" = { bg = "#2a261c", fg = "#736e55" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1c1810" }
+"status title" = { fg = "#1c1810", bg = "#2a261c", bold = true }
+"status shortcut" = { fg = "#ff8080" }
+"status dimmed" = { fg = "#504b38" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3a3527", fg = "#f2ff27" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#504b38" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3a3527", fg = "#f2ff27", bold = true }
+"help" = { bg = "#1c1810" }
+"help title" = { fg = "#2a261c", bold = true, underline = true }
+"help border" = { fg = "#504b38" }
+"menu" = { bg = "#1c1810" }
+"menu title" = { fg = "#2a261c", bold = true }
+"menu shortcut" = { fg = "#ff8080" }
+"menu dimmed" = { fg = "#504b38" }
+"menu border" = { fg = "#504b38" }
+"menu selected" = { bg = "#3a3527", fg = "#f2ff27" }
+"confirmation" = { bg = "#1c1810" }
+"confirmation text" = { fg = "#736e55" }
+"confirmation selected" = { bg = "#3a3527", fg = "#f2ff27" }
+"confirmation dimmed" = { fg = "#504b38" }
+"confirmation border" = { fg = "#2a261c" }
+"undo" = { bg = "#1c1810" }
+"undo confirmation dimmed" = { fg = "#504b38" }
+"undo confirmation selected" = { bg = "#3a3527", fg = "#f2ff27" }
+"preview" = { fg = "#736e55" }

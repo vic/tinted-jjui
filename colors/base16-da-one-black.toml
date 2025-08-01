@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Da One Black
+# Scheme author: NNB (https://github.com/NNBnh)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ffffff", bg = "#000000" }
+"dimmed" = { fg = "#888888" }
+"selected" = { bg = "#585858", fg = "#ff9470" }
+"border" = { fg = "#888888" }
+"title" = { fg = "#282828", bold = true }
+"shortcut" = { fg = "#e799ff" }
+"matched" = { fg = "#ff9470", underline = true }
+"source_marker" = { bg = "#585858", fg = "#ffffff" }
+"target_marker" = { bg = "#282828", fg = "#ffffff" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#282828", bold = true }
+"status shortcut" = { fg = "#e799ff" }
+"status dimmed" = { fg = "#888888" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#585858", fg = "#ff9470" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#888888" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#585858", fg = "#ff9470", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#282828", bold = true, underline = true }
+"help border" = { fg = "#888888" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#282828", bold = true }
+"menu shortcut" = { fg = "#e799ff" }
+"menu dimmed" = { fg = "#888888" }
+"menu border" = { fg = "#888888" }
+"menu selected" = { bg = "#585858", fg = "#ff9470" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#ffffff" }
+"confirmation selected" = { bg = "#585858", fg = "#ff9470" }
+"confirmation dimmed" = { fg = "#888888" }
+"confirmation border" = { fg = "#282828" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#888888" }
+"undo confirmation selected" = { bg = "#585858", fg = "#ff9470" }
+"preview" = { fg = "#ffffff" }

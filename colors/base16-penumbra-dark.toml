@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Penumbra Dark
+# Scheme author: Zachary Weiss (https://github.com/zacharyweiss)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#bebebe", bg = "#24272b" }
+"dimmed" = { fg = "#636363" }
+"selected" = { bg = "#3e4044", fg = "#8d9741" }
+"border" = { fg = "#636363" }
+"title" = { fg = "#303338", bold = true }
+"shortcut" = { fg = "#9481cc" }
+"matched" = { fg = "#8d9741", underline = true }
+"source_marker" = { bg = "#3e4044", fg = "#bebebe" }
+"target_marker" = { bg = "#303338", fg = "#bebebe" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#24272b" }
+"status title" = { fg = "#24272b", bg = "#303338", bold = true }
+"status shortcut" = { fg = "#9481cc" }
+"status dimmed" = { fg = "#636363" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3e4044", fg = "#8d9741" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#636363" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3e4044", fg = "#8d9741", bold = true }
+"help" = { bg = "#24272b" }
+"help title" = { fg = "#303338", bold = true, underline = true }
+"help border" = { fg = "#636363" }
+"menu" = { bg = "#24272b" }
+"menu title" = { fg = "#303338", bold = true }
+"menu shortcut" = { fg = "#9481cc" }
+"menu dimmed" = { fg = "#636363" }
+"menu border" = { fg = "#636363" }
+"menu selected" = { bg = "#3e4044", fg = "#8d9741" }
+"confirmation" = { bg = "#24272b" }
+"confirmation text" = { fg = "#bebebe" }
+"confirmation selected" = { bg = "#3e4044", fg = "#8d9741" }
+"confirmation dimmed" = { fg = "#636363" }
+"confirmation border" = { fg = "#303338" }
+"undo" = { bg = "#24272b" }
+"undo confirmation dimmed" = { fg = "#636363" }
+"undo confirmation selected" = { bg = "#3e4044", fg = "#8d9741" }
+"preview" = { fg = "#bebebe" }

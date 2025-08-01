@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Grayscale Dark
+# Scheme author: Alexandre Gavioli (https://github.com/Alexx2/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b9b9b9", bg = "#101010" }
+"dimmed" = { fg = "#525252" }
+"selected" = { bg = "#464646", fg = "#a0a0a0" }
+"border" = { fg = "#525252" }
+"title" = { fg = "#252525", bold = true }
+"shortcut" = { fg = "#747474" }
+"matched" = { fg = "#a0a0a0", underline = true }
+"source_marker" = { bg = "#464646", fg = "#b9b9b9" }
+"target_marker" = { bg = "#252525", fg = "#b9b9b9" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#101010" }
+"status title" = { fg = "#101010", bg = "#252525", bold = true }
+"status shortcut" = { fg = "#747474" }
+"status dimmed" = { fg = "#525252" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#464646", fg = "#a0a0a0" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#525252" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#464646", fg = "#a0a0a0", bold = true }
+"help" = { bg = "#101010" }
+"help title" = { fg = "#252525", bold = true, underline = true }
+"help border" = { fg = "#525252" }
+"menu" = { bg = "#101010" }
+"menu title" = { fg = "#252525", bold = true }
+"menu shortcut" = { fg = "#747474" }
+"menu dimmed" = { fg = "#525252" }
+"menu border" = { fg = "#525252" }
+"menu selected" = { bg = "#464646", fg = "#a0a0a0" }
+"confirmation" = { bg = "#101010" }
+"confirmation text" = { fg = "#b9b9b9" }
+"confirmation selected" = { bg = "#464646", fg = "#a0a0a0" }
+"confirmation dimmed" = { fg = "#525252" }
+"confirmation border" = { fg = "#252525" }
+"undo" = { bg = "#101010" }
+"undo confirmation dimmed" = { fg = "#525252" }
+"undo confirmation selected" = { bg = "#464646", fg = "#a0a0a0" }
+"preview" = { fg = "#b9b9b9" }

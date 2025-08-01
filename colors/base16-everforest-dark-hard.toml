@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Everforest Dark Hard
+# Scheme author: Sainnhe Park (https://github.com/sainnhe)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d3c6aa", bg = "#272e33" }
+"dimmed" = { fg = "#859289" }
+"selected" = { bg = "#414b50", fg = "#dbbc7f" }
+"border" = { fg = "#859289" }
+"title" = { fg = "#2e383c", bold = true }
+"shortcut" = { fg = "#d699b6" }
+"matched" = { fg = "#dbbc7f", underline = true }
+"source_marker" = { bg = "#414b50", fg = "#d3c6aa" }
+"target_marker" = { bg = "#2e383c", fg = "#d3c6aa" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#272e33" }
+"status title" = { fg = "#272e33", bg = "#2e383c", bold = true }
+"status shortcut" = { fg = "#d699b6" }
+"status dimmed" = { fg = "#859289" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#414b50", fg = "#dbbc7f" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#859289" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#414b50", fg = "#dbbc7f", bold = true }
+"help" = { bg = "#272e33" }
+"help title" = { fg = "#2e383c", bold = true, underline = true }
+"help border" = { fg = "#859289" }
+"menu" = { bg = "#272e33" }
+"menu title" = { fg = "#2e383c", bold = true }
+"menu shortcut" = { fg = "#d699b6" }
+"menu dimmed" = { fg = "#859289" }
+"menu border" = { fg = "#859289" }
+"menu selected" = { bg = "#414b50", fg = "#dbbc7f" }
+"confirmation" = { bg = "#272e33" }
+"confirmation text" = { fg = "#d3c6aa" }
+"confirmation selected" = { bg = "#414b50", fg = "#dbbc7f" }
+"confirmation dimmed" = { fg = "#859289" }
+"confirmation border" = { fg = "#2e383c" }
+"undo" = { bg = "#272e33" }
+"undo confirmation dimmed" = { fg = "#859289" }
+"undo confirmation selected" = { bg = "#414b50", fg = "#dbbc7f" }
+"preview" = { fg = "#d3c6aa" }

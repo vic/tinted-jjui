@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: selenized-dark
+# Scheme author: Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#adbcbc", bg = "#103c48" }
+"dimmed" = { fg = "#72898f" }
+"selected" = { bg = "#2d5b69", fg = "#dbb32d" }
+"border" = { fg = "#72898f" }
+"title" = { fg = "#184956", bold = true }
+"shortcut" = { fg = "#af88eb" }
+"matched" = { fg = "#dbb32d", underline = true }
+"source_marker" = { bg = "#2d5b69", fg = "#adbcbc" }
+"target_marker" = { bg = "#184956", fg = "#adbcbc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#103c48" }
+"status title" = { fg = "#103c48", bg = "#184956", bold = true }
+"status shortcut" = { fg = "#af88eb" }
+"status dimmed" = { fg = "#72898f" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2d5b69", fg = "#dbb32d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#72898f" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2d5b69", fg = "#dbb32d", bold = true }
+"help" = { bg = "#103c48" }
+"help title" = { fg = "#184956", bold = true, underline = true }
+"help border" = { fg = "#72898f" }
+"menu" = { bg = "#103c48" }
+"menu title" = { fg = "#184956", bold = true }
+"menu shortcut" = { fg = "#af88eb" }
+"menu dimmed" = { fg = "#72898f" }
+"menu border" = { fg = "#72898f" }
+"menu selected" = { bg = "#2d5b69", fg = "#dbb32d" }
+"confirmation" = { bg = "#103c48" }
+"confirmation text" = { fg = "#adbcbc" }
+"confirmation selected" = { bg = "#2d5b69", fg = "#dbb32d" }
+"confirmation dimmed" = { fg = "#72898f" }
+"confirmation border" = { fg = "#184956" }
+"undo" = { bg = "#103c48" }
+"undo confirmation dimmed" = { fg = "#72898f" }
+"undo confirmation selected" = { bg = "#2d5b69", fg = "#dbb32d" }
+"preview" = { fg = "#adbcbc" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: OceanicNext
+# Scheme author: https://github.com/voronianski/oceanic-next-color-scheme
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0c5ce", bg = "#1b2b34" }
+"dimmed" = { fg = "#65737e" }
+"selected" = { bg = "#4f5b66", fg = "#fac863" }
+"border" = { fg = "#65737e" }
+"title" = { fg = "#343d46", bold = true }
+"shortcut" = { fg = "#c594c5" }
+"matched" = { fg = "#fac863", underline = true }
+"source_marker" = { bg = "#4f5b66", fg = "#c0c5ce" }
+"target_marker" = { bg = "#343d46", fg = "#c0c5ce" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1b2b34" }
+"status title" = { fg = "#1b2b34", bg = "#343d46", bold = true }
+"status shortcut" = { fg = "#c594c5" }
+"status dimmed" = { fg = "#65737e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4f5b66", fg = "#fac863" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#65737e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4f5b66", fg = "#fac863", bold = true }
+"help" = { bg = "#1b2b34" }
+"help title" = { fg = "#343d46", bold = true, underline = true }
+"help border" = { fg = "#65737e" }
+"menu" = { bg = "#1b2b34" }
+"menu title" = { fg = "#343d46", bold = true }
+"menu shortcut" = { fg = "#c594c5" }
+"menu dimmed" = { fg = "#65737e" }
+"menu border" = { fg = "#65737e" }
+"menu selected" = { bg = "#4f5b66", fg = "#fac863" }
+"confirmation" = { bg = "#1b2b34" }
+"confirmation text" = { fg = "#c0c5ce" }
+"confirmation selected" = { bg = "#4f5b66", fg = "#fac863" }
+"confirmation dimmed" = { fg = "#65737e" }
+"confirmation border" = { fg = "#343d46" }
+"undo" = { bg = "#1b2b34" }
+"undo confirmation dimmed" = { fg = "#65737e" }
+"undo confirmation selected" = { bg = "#4f5b66", fg = "#fac863" }
+"preview" = { fg = "#c0c5ce" }

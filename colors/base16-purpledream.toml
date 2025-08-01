@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Purpledream
+# Scheme author: malet
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ddd0dd", bg = "#100510" }
+"dimmed" = { fg = "#605060" }
+"selected" = { bg = "#403040", fg = "#f000a0" }
+"border" = { fg = "#605060" }
+"title" = { fg = "#302030", bold = true }
+"shortcut" = { fg = "#b000d0" }
+"matched" = { fg = "#f000a0", underline = true }
+"source_marker" = { bg = "#403040", fg = "#ddd0dd" }
+"target_marker" = { bg = "#302030", fg = "#ddd0dd" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#100510" }
+"status title" = { fg = "#100510", bg = "#302030", bold = true }
+"status shortcut" = { fg = "#b000d0" }
+"status dimmed" = { fg = "#605060" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#403040", fg = "#f000a0" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#605060" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#403040", fg = "#f000a0", bold = true }
+"help" = { bg = "#100510" }
+"help title" = { fg = "#302030", bold = true, underline = true }
+"help border" = { fg = "#605060" }
+"menu" = { bg = "#100510" }
+"menu title" = { fg = "#302030", bold = true }
+"menu shortcut" = { fg = "#b000d0" }
+"menu dimmed" = { fg = "#605060" }
+"menu border" = { fg = "#605060" }
+"menu selected" = { bg = "#403040", fg = "#f000a0" }
+"confirmation" = { bg = "#100510" }
+"confirmation text" = { fg = "#ddd0dd" }
+"confirmation selected" = { bg = "#403040", fg = "#f000a0" }
+"confirmation dimmed" = { fg = "#605060" }
+"confirmation border" = { fg = "#302030" }
+"undo" = { bg = "#100510" }
+"undo confirmation dimmed" = { fg = "#605060" }
+"undo confirmation selected" = { bg = "#403040", fg = "#f000a0" }
+"preview" = { fg = "#ddd0dd" }

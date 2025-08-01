@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gruvbox light, medium
+# Scheme author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#504945", bg = "#fbf1c7" }
+"dimmed" = { fg = "#bdae93" }
+"selected" = { bg = "#d5c4a1", fg = "#b57614" }
+"border" = { fg = "#bdae93" }
+"title" = { fg = "#ebdbb2", bold = true }
+"shortcut" = { fg = "#8f3f71" }
+"matched" = { fg = "#b57614", underline = true }
+"source_marker" = { bg = "#d5c4a1", fg = "#504945" }
+"target_marker" = { bg = "#ebdbb2", fg = "#504945" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fbf1c7" }
+"status title" = { fg = "#fbf1c7", bg = "#ebdbb2", bold = true }
+"status shortcut" = { fg = "#8f3f71" }
+"status dimmed" = { fg = "#bdae93" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d5c4a1", fg = "#b57614" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#bdae93" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d5c4a1", fg = "#b57614", bold = true }
+"help" = { bg = "#fbf1c7" }
+"help title" = { fg = "#ebdbb2", bold = true, underline = true }
+"help border" = { fg = "#bdae93" }
+"menu" = { bg = "#fbf1c7" }
+"menu title" = { fg = "#ebdbb2", bold = true }
+"menu shortcut" = { fg = "#8f3f71" }
+"menu dimmed" = { fg = "#bdae93" }
+"menu border" = { fg = "#bdae93" }
+"menu selected" = { bg = "#d5c4a1", fg = "#b57614" }
+"confirmation" = { bg = "#fbf1c7" }
+"confirmation text" = { fg = "#504945" }
+"confirmation selected" = { bg = "#d5c4a1", fg = "#b57614" }
+"confirmation dimmed" = { fg = "#bdae93" }
+"confirmation border" = { fg = "#ebdbb2" }
+"undo" = { bg = "#fbf1c7" }
+"undo confirmation dimmed" = { fg = "#bdae93" }
+"undo confirmation selected" = { bg = "#d5c4a1", fg = "#b57614" }
+"preview" = { fg = "#504945" }

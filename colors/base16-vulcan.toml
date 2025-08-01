@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: vulcan
+# Scheme author: Andrey Varfolomeev
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#5b778c", bg = "#041523" }
+"dimmed" = { fg = "#7a5759" }
+"selected" = { bg = "#003552", fg = "#adb4b9" }
+"border" = { fg = "#7a5759" }
+"title" = { fg = "#122339", bold = true }
+"shortcut" = { fg = "#9198a3" }
+"matched" = { fg = "#adb4b9", underline = true }
+"source_marker" = { bg = "#003552", fg = "#5b778c" }
+"target_marker" = { bg = "#122339", fg = "#5b778c" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#041523" }
+"status title" = { fg = "#041523", bg = "#122339", bold = true }
+"status shortcut" = { fg = "#9198a3" }
+"status dimmed" = { fg = "#7a5759" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#003552", fg = "#adb4b9" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7a5759" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#003552", fg = "#adb4b9", bold = true }
+"help" = { bg = "#041523" }
+"help title" = { fg = "#122339", bold = true, underline = true }
+"help border" = { fg = "#7a5759" }
+"menu" = { bg = "#041523" }
+"menu title" = { fg = "#122339", bold = true }
+"menu shortcut" = { fg = "#9198a3" }
+"menu dimmed" = { fg = "#7a5759" }
+"menu border" = { fg = "#7a5759" }
+"menu selected" = { bg = "#003552", fg = "#adb4b9" }
+"confirmation" = { bg = "#041523" }
+"confirmation text" = { fg = "#5b778c" }
+"confirmation selected" = { bg = "#003552", fg = "#adb4b9" }
+"confirmation dimmed" = { fg = "#7a5759" }
+"confirmation border" = { fg = "#122339" }
+"undo" = { bg = "#041523" }
+"undo confirmation dimmed" = { fg = "#7a5759" }
+"undo confirmation selected" = { bg = "#003552", fg = "#adb4b9" }
+"preview" = { fg = "#5b778c" }

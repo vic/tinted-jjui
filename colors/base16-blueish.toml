@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Blueish
+# Scheme author: Ben Mayoras
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c8e1f8", bg = "#182430" }
+"dimmed" = { fg = "#616d78" }
+"selected" = { bg = "#46290a", fg = "#82aaff" }
+"border" = { fg = "#616d78" }
+"title" = { fg = "#243c54", bold = true }
+"shortcut" = { fg = "#ff84dd" }
+"matched" = { fg = "#82aaff", underline = true }
+"source_marker" = { bg = "#46290a", fg = "#c8e1f8" }
+"target_marker" = { bg = "#243c54", fg = "#c8e1f8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#182430" }
+"status title" = { fg = "#182430", bg = "#243c54", bold = true }
+"status shortcut" = { fg = "#ff84dd" }
+"status dimmed" = { fg = "#616d78" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#46290a", fg = "#82aaff" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#616d78" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#46290a", fg = "#82aaff", bold = true }
+"help" = { bg = "#182430" }
+"help title" = { fg = "#243c54", bold = true, underline = true }
+"help border" = { fg = "#616d78" }
+"menu" = { bg = "#182430" }
+"menu title" = { fg = "#243c54", bold = true }
+"menu shortcut" = { fg = "#ff84dd" }
+"menu dimmed" = { fg = "#616d78" }
+"menu border" = { fg = "#616d78" }
+"menu selected" = { bg = "#46290a", fg = "#82aaff" }
+"confirmation" = { bg = "#182430" }
+"confirmation text" = { fg = "#c8e1f8" }
+"confirmation selected" = { bg = "#46290a", fg = "#82aaff" }
+"confirmation dimmed" = { fg = "#616d78" }
+"confirmation border" = { fg = "#243c54" }
+"undo" = { bg = "#182430" }
+"undo confirmation dimmed" = { fg = "#616d78" }
+"undo confirmation selected" = { bg = "#46290a", fg = "#82aaff" }
+"preview" = { fg = "#c8e1f8" }

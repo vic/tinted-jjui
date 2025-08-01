@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gruber
+# Scheme author: Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#f4f4ff", bg = "#181818" }
+"dimmed" = { fg = "#52494e" }
+"selected" = { bg = "#484848", fg = "#ffdd33" }
+"border" = { fg = "#52494e" }
+"title" = { fg = "#453d41", bold = true }
+"shortcut" = { fg = "#9e95c7" }
+"matched" = { fg = "#ffdd33", underline = true }
+"source_marker" = { bg = "#484848", fg = "#f4f4ff" }
+"target_marker" = { bg = "#453d41", fg = "#f4f4ff" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#181818" }
+"status title" = { fg = "#181818", bg = "#453d41", bold = true }
+"status shortcut" = { fg = "#9e95c7" }
+"status dimmed" = { fg = "#52494e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#484848", fg = "#ffdd33" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#52494e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#484848", fg = "#ffdd33", bold = true }
+"help" = { bg = "#181818" }
+"help title" = { fg = "#453d41", bold = true, underline = true }
+"help border" = { fg = "#52494e" }
+"menu" = { bg = "#181818" }
+"menu title" = { fg = "#453d41", bold = true }
+"menu shortcut" = { fg = "#9e95c7" }
+"menu dimmed" = { fg = "#52494e" }
+"menu border" = { fg = "#52494e" }
+"menu selected" = { bg = "#484848", fg = "#ffdd33" }
+"confirmation" = { bg = "#181818" }
+"confirmation text" = { fg = "#f4f4ff" }
+"confirmation selected" = { bg = "#484848", fg = "#ffdd33" }
+"confirmation dimmed" = { fg = "#52494e" }
+"confirmation border" = { fg = "#453d41" }
+"undo" = { bg = "#181818" }
+"undo confirmation dimmed" = { fg = "#52494e" }
+"undo confirmation selected" = { bg = "#484848", fg = "#ffdd33" }
+"preview" = { fg = "#f4f4ff" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gotham
+# Scheme author: Andrea Leopardi (arranged by Brett Jones)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#599cab", bg = "#0c1014" }
+"dimmed" = { fg = "#0a3749" }
+"selected" = { bg = "#091f2e", fg = "#edb443" }
+"border" = { fg = "#0a3749" }
+"title" = { fg = "#11151c", bold = true }
+"shortcut" = { fg = "#888ca6" }
+"matched" = { fg = "#edb443", underline = true }
+"source_marker" = { bg = "#091f2e", fg = "#599cab" }
+"target_marker" = { bg = "#11151c", fg = "#599cab" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0c1014" }
+"status title" = { fg = "#0c1014", bg = "#11151c", bold = true }
+"status shortcut" = { fg = "#888ca6" }
+"status dimmed" = { fg = "#0a3749" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#091f2e", fg = "#edb443" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#0a3749" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#091f2e", fg = "#edb443", bold = true }
+"help" = { bg = "#0c1014" }
+"help title" = { fg = "#11151c", bold = true, underline = true }
+"help border" = { fg = "#0a3749" }
+"menu" = { bg = "#0c1014" }
+"menu title" = { fg = "#11151c", bold = true }
+"menu shortcut" = { fg = "#888ca6" }
+"menu dimmed" = { fg = "#0a3749" }
+"menu border" = { fg = "#0a3749" }
+"menu selected" = { bg = "#091f2e", fg = "#edb443" }
+"confirmation" = { bg = "#0c1014" }
+"confirmation text" = { fg = "#599cab" }
+"confirmation selected" = { bg = "#091f2e", fg = "#edb443" }
+"confirmation dimmed" = { fg = "#0a3749" }
+"confirmation border" = { fg = "#11151c" }
+"undo" = { bg = "#0c1014" }
+"undo confirmation dimmed" = { fg = "#0a3749" }
+"undo confirmation selected" = { bg = "#091f2e", fg = "#edb443" }
+"preview" = { fg = "#599cab" }

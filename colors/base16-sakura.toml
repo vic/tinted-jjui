@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Sakura
+# Scheme author: Misterio77 (http://github.com/Misterio77)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#564448", bg = "#feedf3" }
+"dimmed" = { fg = "#755f64" }
+"selected" = { bg = "#e0ccd1", fg = "#c29461" }
+"border" = { fg = "#755f64" }
+"title" = { fg = "#f8e2e7", bold = true }
+"shortcut" = { fg = "#5e2180" }
+"matched" = { fg = "#c29461", underline = true }
+"source_marker" = { bg = "#e0ccd1", fg = "#564448" }
+"target_marker" = { bg = "#f8e2e7", fg = "#564448" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#feedf3" }
+"status title" = { fg = "#feedf3", bg = "#f8e2e7", bold = true }
+"status shortcut" = { fg = "#5e2180" }
+"status dimmed" = { fg = "#755f64" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#e0ccd1", fg = "#c29461" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#755f64" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#e0ccd1", fg = "#c29461", bold = true }
+"help" = { bg = "#feedf3" }
+"help title" = { fg = "#f8e2e7", bold = true, underline = true }
+"help border" = { fg = "#755f64" }
+"menu" = { bg = "#feedf3" }
+"menu title" = { fg = "#f8e2e7", bold = true }
+"menu shortcut" = { fg = "#5e2180" }
+"menu dimmed" = { fg = "#755f64" }
+"menu border" = { fg = "#755f64" }
+"menu selected" = { bg = "#e0ccd1", fg = "#c29461" }
+"confirmation" = { bg = "#feedf3" }
+"confirmation text" = { fg = "#564448" }
+"confirmation selected" = { bg = "#e0ccd1", fg = "#c29461" }
+"confirmation dimmed" = { fg = "#755f64" }
+"confirmation border" = { fg = "#f8e2e7" }
+"undo" = { bg = "#feedf3" }
+"undo confirmation dimmed" = { fg = "#755f64" }
+"undo confirmation selected" = { bg = "#e0ccd1", fg = "#c29461" }
+"preview" = { fg = "#564448" }

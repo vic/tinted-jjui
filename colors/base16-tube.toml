@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: London Tube
+# Scheme author: Jan T. Sott
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d9d8d8", bg = "#231f20" }
+"dimmed" = { fg = "#737171" }
+"selected" = { bg = "#5a5758", fg = "#ffd204" }
+"border" = { fg = "#737171" }
+"title" = { fg = "#1c3f95", bold = true }
+"shortcut" = { fg = "#98005d" }
+"matched" = { fg = "#ffd204", underline = true }
+"source_marker" = { bg = "#5a5758", fg = "#d9d8d8" }
+"target_marker" = { bg = "#1c3f95", fg = "#d9d8d8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#231f20" }
+"status title" = { fg = "#231f20", bg = "#1c3f95", bold = true }
+"status shortcut" = { fg = "#98005d" }
+"status dimmed" = { fg = "#737171" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#5a5758", fg = "#ffd204" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#737171" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#5a5758", fg = "#ffd204", bold = true }
+"help" = { bg = "#231f20" }
+"help title" = { fg = "#1c3f95", bold = true, underline = true }
+"help border" = { fg = "#737171" }
+"menu" = { bg = "#231f20" }
+"menu title" = { fg = "#1c3f95", bold = true }
+"menu shortcut" = { fg = "#98005d" }
+"menu dimmed" = { fg = "#737171" }
+"menu border" = { fg = "#737171" }
+"menu selected" = { bg = "#5a5758", fg = "#ffd204" }
+"confirmation" = { bg = "#231f20" }
+"confirmation text" = { fg = "#d9d8d8" }
+"confirmation selected" = { bg = "#5a5758", fg = "#ffd204" }
+"confirmation dimmed" = { fg = "#737171" }
+"confirmation border" = { fg = "#1c3f95" }
+"undo" = { bg = "#231f20" }
+"undo confirmation dimmed" = { fg = "#737171" }
+"undo confirmation selected" = { bg = "#5a5758", fg = "#ffd204" }
+"preview" = { fg = "#d9d8d8" }

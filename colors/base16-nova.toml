@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Nova
+# Scheme author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c5d4dd", bg = "#3c4c55" }
+"dimmed" = { fg = "#899ba6" }
+"selected" = { bg = "#6a7d89", fg = "#a8ce93" }
+"border" = { fg = "#899ba6" }
+"title" = { fg = "#556873", bold = true }
+"shortcut" = { fg = "#9a93e1" }
+"matched" = { fg = "#a8ce93", underline = true }
+"source_marker" = { bg = "#6a7d89", fg = "#c5d4dd" }
+"target_marker" = { bg = "#556873", fg = "#c5d4dd" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#3c4c55" }
+"status title" = { fg = "#3c4c55", bg = "#556873", bold = true }
+"status shortcut" = { fg = "#9a93e1" }
+"status dimmed" = { fg = "#899ba6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#6a7d89", fg = "#a8ce93" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#899ba6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#6a7d89", fg = "#a8ce93", bold = true }
+"help" = { bg = "#3c4c55" }
+"help title" = { fg = "#556873", bold = true, underline = true }
+"help border" = { fg = "#899ba6" }
+"menu" = { bg = "#3c4c55" }
+"menu title" = { fg = "#556873", bold = true }
+"menu shortcut" = { fg = "#9a93e1" }
+"menu dimmed" = { fg = "#899ba6" }
+"menu border" = { fg = "#899ba6" }
+"menu selected" = { bg = "#6a7d89", fg = "#a8ce93" }
+"confirmation" = { bg = "#3c4c55" }
+"confirmation text" = { fg = "#c5d4dd" }
+"confirmation selected" = { bg = "#6a7d89", fg = "#a8ce93" }
+"confirmation dimmed" = { fg = "#899ba6" }
+"confirmation border" = { fg = "#556873" }
+"undo" = { bg = "#3c4c55" }
+"undo confirmation dimmed" = { fg = "#899ba6" }
+"undo confirmation selected" = { bg = "#6a7d89", fg = "#a8ce93" }
+"preview" = { fg = "#c5d4dd" }

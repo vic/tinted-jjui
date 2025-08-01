@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: pandora
+# Scheme author: Cassandra Fox
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#f15c99", bg = "#131213" }
+"dimmed" = { fg = "#ffbee3" }
+"selected" = { bg = "#472234", fg = "#ffcc00" }
+"border" = { fg = "#ffbee3" }
+"title" = { fg = "#2f1823", bold = true }
+"shortcut" = { fg = "#a24030" }
+"matched" = { fg = "#ffcc00", underline = true }
+"source_marker" = { bg = "#472234", fg = "#f15c99" }
+"target_marker" = { bg = "#2f1823", fg = "#f15c99" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#131213" }
+"status title" = { fg = "#131213", bg = "#2f1823", bold = true }
+"status shortcut" = { fg = "#a24030" }
+"status dimmed" = { fg = "#ffbee3" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#472234", fg = "#ffcc00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#ffbee3" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#472234", fg = "#ffcc00", bold = true }
+"help" = { bg = "#131213" }
+"help title" = { fg = "#2f1823", bold = true, underline = true }
+"help border" = { fg = "#ffbee3" }
+"menu" = { bg = "#131213" }
+"menu title" = { fg = "#2f1823", bold = true }
+"menu shortcut" = { fg = "#a24030" }
+"menu dimmed" = { fg = "#ffbee3" }
+"menu border" = { fg = "#ffbee3" }
+"menu selected" = { bg = "#472234", fg = "#ffcc00" }
+"confirmation" = { bg = "#131213" }
+"confirmation text" = { fg = "#f15c99" }
+"confirmation selected" = { bg = "#472234", fg = "#ffcc00" }
+"confirmation dimmed" = { fg = "#ffbee3" }
+"confirmation border" = { fg = "#2f1823" }
+"undo" = { bg = "#131213" }
+"undo confirmation dimmed" = { fg = "#ffbee3" }
+"undo confirmation selected" = { bg = "#472234", fg = "#ffcc00" }
+"preview" = { fg = "#f15c99" }

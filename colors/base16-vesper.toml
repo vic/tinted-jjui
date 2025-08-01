@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Vesper
+# Scheme author: FormalSnake (https://github.com/formalsnake)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b7b7b7", bg = "#101010" }
+"dimmed" = { fg = "#333333" }
+"selected" = { bg = "#222222", fg = "#ffc799" }
+"border" = { fg = "#333333" }
+"title" = { fg = "#232323", bold = true }
+"shortcut" = { fg = "#d69094" }
+"matched" = { fg = "#ffc799", underline = true }
+"source_marker" = { bg = "#222222", fg = "#b7b7b7" }
+"target_marker" = { bg = "#232323", fg = "#b7b7b7" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#101010" }
+"status title" = { fg = "#101010", bg = "#232323", bold = true }
+"status shortcut" = { fg = "#d69094" }
+"status dimmed" = { fg = "#333333" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#222222", fg = "#ffc799" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#333333" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#222222", fg = "#ffc799", bold = true }
+"help" = { bg = "#101010" }
+"help title" = { fg = "#232323", bold = true, underline = true }
+"help border" = { fg = "#333333" }
+"menu" = { bg = "#101010" }
+"menu title" = { fg = "#232323", bold = true }
+"menu shortcut" = { fg = "#d69094" }
+"menu dimmed" = { fg = "#333333" }
+"menu border" = { fg = "#333333" }
+"menu selected" = { bg = "#222222", fg = "#ffc799" }
+"confirmation" = { bg = "#101010" }
+"confirmation text" = { fg = "#b7b7b7" }
+"confirmation selected" = { bg = "#222222", fg = "#ffc799" }
+"confirmation dimmed" = { fg = "#333333" }
+"confirmation border" = { fg = "#232323" }
+"undo" = { bg = "#101010" }
+"undo confirmation dimmed" = { fg = "#333333" }
+"undo confirmation selected" = { bg = "#222222", fg = "#ffc799" }
+"preview" = { fg = "#b7b7b7" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Materia
+# Scheme author: Defman21
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cdd3de", bg = "#263238" }
+"dimmed" = { fg = "#707880" }
+"selected" = { bg = "#37474f", fg = "#ffcc00" }
+"border" = { fg = "#707880" }
+"title" = { fg = "#2c393f", bold = true }
+"shortcut" = { fg = "#82aaff" }
+"matched" = { fg = "#ffcc00", underline = true }
+"source_marker" = { bg = "#37474f", fg = "#cdd3de" }
+"target_marker" = { bg = "#2c393f", fg = "#cdd3de" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#263238" }
+"status title" = { fg = "#263238", bg = "#2c393f", bold = true }
+"status shortcut" = { fg = "#82aaff" }
+"status dimmed" = { fg = "#707880" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#37474f", fg = "#ffcc00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#707880" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#37474f", fg = "#ffcc00", bold = true }
+"help" = { bg = "#263238" }
+"help title" = { fg = "#2c393f", bold = true, underline = true }
+"help border" = { fg = "#707880" }
+"menu" = { bg = "#263238" }
+"menu title" = { fg = "#2c393f", bold = true }
+"menu shortcut" = { fg = "#82aaff" }
+"menu dimmed" = { fg = "#707880" }
+"menu border" = { fg = "#707880" }
+"menu selected" = { bg = "#37474f", fg = "#ffcc00" }
+"confirmation" = { bg = "#263238" }
+"confirmation text" = { fg = "#cdd3de" }
+"confirmation selected" = { bg = "#37474f", fg = "#ffcc00" }
+"confirmation dimmed" = { fg = "#707880" }
+"confirmation border" = { fg = "#2c393f" }
+"undo" = { bg = "#263238" }
+"undo confirmation dimmed" = { fg = "#707880" }
+"undo confirmation selected" = { bg = "#37474f", fg = "#ffcc00" }
+"preview" = { fg = "#cdd3de" }

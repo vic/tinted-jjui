@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gruvbox Material Dark, Hard
+# Scheme author: Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ddc7a1", bg = "#202020" }
+"dimmed" = { fg = "#5a524c" }
+"selected" = { bg = "#504945", fg = "#d8a657" }
+"border" = { fg = "#5a524c" }
+"title" = { fg = "#2a2827", bold = true }
+"shortcut" = { fg = "#d3869b" }
+"matched" = { fg = "#d8a657", underline = true }
+"source_marker" = { bg = "#504945", fg = "#ddc7a1" }
+"target_marker" = { bg = "#2a2827", fg = "#ddc7a1" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#202020" }
+"status title" = { fg = "#202020", bg = "#2a2827", bold = true }
+"status shortcut" = { fg = "#d3869b" }
+"status dimmed" = { fg = "#5a524c" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#504945", fg = "#d8a657" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5a524c" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#504945", fg = "#d8a657", bold = true }
+"help" = { bg = "#202020" }
+"help title" = { fg = "#2a2827", bold = true, underline = true }
+"help border" = { fg = "#5a524c" }
+"menu" = { bg = "#202020" }
+"menu title" = { fg = "#2a2827", bold = true }
+"menu shortcut" = { fg = "#d3869b" }
+"menu dimmed" = { fg = "#5a524c" }
+"menu border" = { fg = "#5a524c" }
+"menu selected" = { bg = "#504945", fg = "#d8a657" }
+"confirmation" = { bg = "#202020" }
+"confirmation text" = { fg = "#ddc7a1" }
+"confirmation selected" = { bg = "#504945", fg = "#d8a657" }
+"confirmation dimmed" = { fg = "#5a524c" }
+"confirmation border" = { fg = "#2a2827" }
+"undo" = { bg = "#202020" }
+"undo confirmation dimmed" = { fg = "#5a524c" }
+"undo confirmation selected" = { bg = "#504945", fg = "#d8a657" }
+"preview" = { fg = "#ddc7a1" }

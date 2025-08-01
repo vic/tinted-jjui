@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Zenbones
+# Scheme author: mcchrish
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b279a7", bg = "#191919" }
+"dimmed" = { fg = "#b77e64" }
+"selected" = { bg = "#819b69", fg = "#8bae68" }
+"border" = { fg = "#b77e64" }
+"title" = { fg = "#de6e7c", bold = true }
+"shortcut" = { fg = "#65b8c1" }
+"matched" = { fg = "#8bae68", underline = true }
+"source_marker" = { bg = "#819b69", fg = "#b279a7" }
+"target_marker" = { bg = "#de6e7c", fg = "#b279a7" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191919" }
+"status title" = { fg = "#191919", bg = "#de6e7c", bold = true }
+"status shortcut" = { fg = "#65b8c1" }
+"status dimmed" = { fg = "#b77e64" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#819b69", fg = "#8bae68" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b77e64" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#819b69", fg = "#8bae68", bold = true }
+"help" = { bg = "#191919" }
+"help title" = { fg = "#de6e7c", bold = true, underline = true }
+"help border" = { fg = "#b77e64" }
+"menu" = { bg = "#191919" }
+"menu title" = { fg = "#de6e7c", bold = true }
+"menu shortcut" = { fg = "#65b8c1" }
+"menu dimmed" = { fg = "#b77e64" }
+"menu border" = { fg = "#b77e64" }
+"menu selected" = { bg = "#819b69", fg = "#8bae68" }
+"confirmation" = { bg = "#191919" }
+"confirmation text" = { fg = "#b279a7" }
+"confirmation selected" = { bg = "#819b69", fg = "#8bae68" }
+"confirmation dimmed" = { fg = "#b77e64" }
+"confirmation border" = { fg = "#de6e7c" }
+"undo" = { bg = "#191919" }
+"undo confirmation dimmed" = { fg = "#b77e64" }
+"undo confirmation selected" = { bg = "#819b69", fg = "#8bae68" }
+"preview" = { fg = "#b279a7" }

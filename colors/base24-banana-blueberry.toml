@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Banana Blueberry
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c6c9cd", bg = "#191322" }
+"dimmed" = { fg = "#727985" }
+"selected" = { bg = "#485161", fg = "#91fff3" }
+"border" = { fg = "#727985" }
+"title" = { fg = "#16141e", bold = true }
+"shortcut" = { fg = "#dc3969" }
+"matched" = { fg = "#91fff3", underline = true }
+"source_marker" = { bg = "#485161", fg = "#c6c9cd" }
+"target_marker" = { bg = "#16141e", fg = "#c6c9cd" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191322" }
+"status title" = { fg = "#191322", bg = "#16141e", bold = true }
+"status shortcut" = { fg = "#dc3969" }
+"status dimmed" = { fg = "#727985" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#485161", fg = "#91fff3" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#727985" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#485161", fg = "#91fff3", bold = true }
+"help" = { bg = "#191322" }
+"help title" = { fg = "#16141e", bold = true, underline = true }
+"help border" = { fg = "#727985" }
+"menu" = { bg = "#191322" }
+"menu title" = { fg = "#16141e", bold = true }
+"menu shortcut" = { fg = "#dc3969" }
+"menu dimmed" = { fg = "#727985" }
+"menu border" = { fg = "#727985" }
+"menu selected" = { bg = "#485161", fg = "#91fff3" }
+"confirmation" = { bg = "#191322" }
+"confirmation text" = { fg = "#c6c9cd" }
+"confirmation selected" = { bg = "#485161", fg = "#91fff3" }
+"confirmation dimmed" = { fg = "#727985" }
+"confirmation border" = { fg = "#16141e" }
+"undo" = { bg = "#191322" }
+"undo confirmation dimmed" = { fg = "#727985" }
+"undo confirmation selected" = { bg = "#485161", fg = "#91fff3" }
+"preview" = { fg = "#c6c9cd" }

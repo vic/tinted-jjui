@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: dirtysea
+# Scheme author: Kahlil (Kal) Hodgson
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#000000", bg = "#e0e0e0" }
+"dimmed" = { fg = "#707070" }
+"selected" = { bg = "#d0d0d0", fg = "#755b00" }
+"border" = { fg = "#707070" }
+"title" = { fg = "#d0dad0", bold = true }
+"shortcut" = { fg = "#000090" }
+"matched" = { fg = "#755b00", underline = true }
+"source_marker" = { bg = "#d0d0d0", fg = "#000000" }
+"target_marker" = { bg = "#d0dad0", fg = "#000000" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#e0e0e0" }
+"status title" = { fg = "#e0e0e0", bg = "#d0dad0", bold = true }
+"status shortcut" = { fg = "#000090" }
+"status dimmed" = { fg = "#707070" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d0d0d0", fg = "#755b00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#707070" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d0d0d0", fg = "#755b00", bold = true }
+"help" = { bg = "#e0e0e0" }
+"help title" = { fg = "#d0dad0", bold = true, underline = true }
+"help border" = { fg = "#707070" }
+"menu" = { bg = "#e0e0e0" }
+"menu title" = { fg = "#d0dad0", bold = true }
+"menu shortcut" = { fg = "#000090" }
+"menu dimmed" = { fg = "#707070" }
+"menu border" = { fg = "#707070" }
+"menu selected" = { bg = "#d0d0d0", fg = "#755b00" }
+"confirmation" = { bg = "#e0e0e0" }
+"confirmation text" = { fg = "#000000" }
+"confirmation selected" = { bg = "#d0d0d0", fg = "#755b00" }
+"confirmation dimmed" = { fg = "#707070" }
+"confirmation border" = { fg = "#d0dad0" }
+"undo" = { bg = "#e0e0e0" }
+"undo confirmation dimmed" = { fg = "#707070" }
+"undo confirmation selected" = { bg = "#d0d0d0", fg = "#755b00" }
+"preview" = { fg = "#000000" }

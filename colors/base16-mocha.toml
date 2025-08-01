@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Mocha
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d0c8c6", bg = "#3b3228" }
+"dimmed" = { fg = "#7e705a" }
+"selected" = { bg = "#645240", fg = "#f4bc87" }
+"border" = { fg = "#7e705a" }
+"title" = { fg = "#534636", bold = true }
+"shortcut" = { fg = "#a89bb9" }
+"matched" = { fg = "#f4bc87", underline = true }
+"source_marker" = { bg = "#645240", fg = "#d0c8c6" }
+"target_marker" = { bg = "#534636", fg = "#d0c8c6" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#3b3228" }
+"status title" = { fg = "#3b3228", bg = "#534636", bold = true }
+"status shortcut" = { fg = "#a89bb9" }
+"status dimmed" = { fg = "#7e705a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#645240", fg = "#f4bc87" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7e705a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#645240", fg = "#f4bc87", bold = true }
+"help" = { bg = "#3b3228" }
+"help title" = { fg = "#534636", bold = true, underline = true }
+"help border" = { fg = "#7e705a" }
+"menu" = { bg = "#3b3228" }
+"menu title" = { fg = "#534636", bold = true }
+"menu shortcut" = { fg = "#a89bb9" }
+"menu dimmed" = { fg = "#7e705a" }
+"menu border" = { fg = "#7e705a" }
+"menu selected" = { bg = "#645240", fg = "#f4bc87" }
+"confirmation" = { bg = "#3b3228" }
+"confirmation text" = { fg = "#d0c8c6" }
+"confirmation selected" = { bg = "#645240", fg = "#f4bc87" }
+"confirmation dimmed" = { fg = "#7e705a" }
+"confirmation border" = { fg = "#534636" }
+"undo" = { bg = "#3b3228" }
+"undo confirmation dimmed" = { fg = "#7e705a" }
+"undo confirmation selected" = { bg = "#645240", fg = "#f4bc87" }
+"preview" = { fg = "#d0c8c6" }

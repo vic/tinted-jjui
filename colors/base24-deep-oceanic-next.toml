@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Deep Oceanic Next
+# Scheme author: spearkkk (https://github.com/spearkkk)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d4e1e8", bg = "#001c1f" }
+"dimmed" = { fg = "#004852" }
+"selected" = { bg = "#003640", fg = "#f3b863" }
+"border" = { fg = "#004852" }
+"title" = { fg = "#002931", bold = true }
+"shortcut" = { fg = "#8b66d6" }
+"matched" = { fg = "#f3b863", underline = true }
+"source_marker" = { bg = "#003640", fg = "#d4e1e8" }
+"target_marker" = { bg = "#002931", fg = "#d4e1e8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#001c1f" }
+"status title" = { fg = "#001c1f", bg = "#002931", bold = true }
+"status shortcut" = { fg = "#8b66d6" }
+"status dimmed" = { fg = "#004852" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#003640", fg = "#f3b863" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#004852" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#003640", fg = "#f3b863", bold = true }
+"help" = { bg = "#001c1f" }
+"help title" = { fg = "#002931", bold = true, underline = true }
+"help border" = { fg = "#004852" }
+"menu" = { bg = "#001c1f" }
+"menu title" = { fg = "#002931", bold = true }
+"menu shortcut" = { fg = "#8b66d6" }
+"menu dimmed" = { fg = "#004852" }
+"menu border" = { fg = "#004852" }
+"menu selected" = { bg = "#003640", fg = "#f3b863" }
+"confirmation" = { bg = "#001c1f" }
+"confirmation text" = { fg = "#d4e1e8" }
+"confirmation selected" = { bg = "#003640", fg = "#f3b863" }
+"confirmation dimmed" = { fg = "#004852" }
+"confirmation border" = { fg = "#002931" }
+"undo" = { bg = "#001c1f" }
+"undo confirmation dimmed" = { fg = "#004852" }
+"undo confirmation selected" = { bg = "#003640", fg = "#f3b863" }
+"preview" = { fg = "#d4e1e8" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Paraiso
+# Scheme author: Jan T. Sott
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a39e9b", bg = "#2f1e2e" }
+"dimmed" = { fg = "#776e71" }
+"selected" = { bg = "#4f424c", fg = "#fec418" }
+"border" = { fg = "#776e71" }
+"title" = { fg = "#41323f", bold = true }
+"shortcut" = { fg = "#815ba4" }
+"matched" = { fg = "#fec418", underline = true }
+"source_marker" = { bg = "#4f424c", fg = "#a39e9b" }
+"target_marker" = { bg = "#41323f", fg = "#a39e9b" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#2f1e2e" }
+"status title" = { fg = "#2f1e2e", bg = "#41323f", bold = true }
+"status shortcut" = { fg = "#815ba4" }
+"status dimmed" = { fg = "#776e71" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4f424c", fg = "#fec418" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#776e71" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4f424c", fg = "#fec418", bold = true }
+"help" = { bg = "#2f1e2e" }
+"help title" = { fg = "#41323f", bold = true, underline = true }
+"help border" = { fg = "#776e71" }
+"menu" = { bg = "#2f1e2e" }
+"menu title" = { fg = "#41323f", bold = true }
+"menu shortcut" = { fg = "#815ba4" }
+"menu dimmed" = { fg = "#776e71" }
+"menu border" = { fg = "#776e71" }
+"menu selected" = { bg = "#4f424c", fg = "#fec418" }
+"confirmation" = { bg = "#2f1e2e" }
+"confirmation text" = { fg = "#a39e9b" }
+"confirmation selected" = { bg = "#4f424c", fg = "#fec418" }
+"confirmation dimmed" = { fg = "#776e71" }
+"confirmation border" = { fg = "#41323f" }
+"undo" = { bg = "#2f1e2e" }
+"undo confirmation dimmed" = { fg = "#776e71" }
+"undo confirmation selected" = { bg = "#4f424c", fg = "#fec418" }
+"preview" = { fg = "#a39e9b" }

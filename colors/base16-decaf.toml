@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Decaf
+# Scheme author: Alex Mirrington (https://github.com/alexmirrington)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cccccc", bg = "#2d2d2d" }
+"dimmed" = { fg = "#777777" }
+"selected" = { bg = "#515151", fg = "#ffd67c" }
+"border" = { fg = "#777777" }
+"title" = { fg = "#393939", bold = true }
+"shortcut" = { fg = "#efb3f7" }
+"matched" = { fg = "#ffd67c", underline = true }
+"source_marker" = { bg = "#515151", fg = "#cccccc" }
+"target_marker" = { bg = "#393939", fg = "#cccccc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#2d2d2d" }
+"status title" = { fg = "#2d2d2d", bg = "#393939", bold = true }
+"status shortcut" = { fg = "#efb3f7" }
+"status dimmed" = { fg = "#777777" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#515151", fg = "#ffd67c" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#777777" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#515151", fg = "#ffd67c", bold = true }
+"help" = { bg = "#2d2d2d" }
+"help title" = { fg = "#393939", bold = true, underline = true }
+"help border" = { fg = "#777777" }
+"menu" = { bg = "#2d2d2d" }
+"menu title" = { fg = "#393939", bold = true }
+"menu shortcut" = { fg = "#efb3f7" }
+"menu dimmed" = { fg = "#777777" }
+"menu border" = { fg = "#777777" }
+"menu selected" = { bg = "#515151", fg = "#ffd67c" }
+"confirmation" = { bg = "#2d2d2d" }
+"confirmation text" = { fg = "#cccccc" }
+"confirmation selected" = { bg = "#515151", fg = "#ffd67c" }
+"confirmation dimmed" = { fg = "#777777" }
+"confirmation border" = { fg = "#393939" }
+"undo" = { bg = "#2d2d2d" }
+"undo confirmation dimmed" = { fg = "#777777" }
+"undo confirmation selected" = { bg = "#515151", fg = "#ffd67c" }
+"preview" = { fg = "#cccccc" }

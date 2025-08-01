@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: UwUnicorn
+# Scheme author: Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#eed5d9", bg = "#241b26" }
+"dimmed" = { fg = "#6c3cb2" }
+"selected" = { bg = "#46354a", fg = "#a84a73" }
+"border" = { fg = "#6c3cb2" }
+"title" = { fg = "#2f2a3f", bold = true }
+"shortcut" = { fg = "#78a38f" }
+"matched" = { fg = "#a84a73", underline = true }
+"source_marker" = { bg = "#46354a", fg = "#eed5d9" }
+"target_marker" = { bg = "#2f2a3f", fg = "#eed5d9" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#241b26" }
+"status title" = { fg = "#241b26", bg = "#2f2a3f", bold = true }
+"status shortcut" = { fg = "#78a38f" }
+"status dimmed" = { fg = "#6c3cb2" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#46354a", fg = "#a84a73" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6c3cb2" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#46354a", fg = "#a84a73", bold = true }
+"help" = { bg = "#241b26" }
+"help title" = { fg = "#2f2a3f", bold = true, underline = true }
+"help border" = { fg = "#6c3cb2" }
+"menu" = { bg = "#241b26" }
+"menu title" = { fg = "#2f2a3f", bold = true }
+"menu shortcut" = { fg = "#78a38f" }
+"menu dimmed" = { fg = "#6c3cb2" }
+"menu border" = { fg = "#6c3cb2" }
+"menu selected" = { bg = "#46354a", fg = "#a84a73" }
+"confirmation" = { bg = "#241b26" }
+"confirmation text" = { fg = "#eed5d9" }
+"confirmation selected" = { bg = "#46354a", fg = "#a84a73" }
+"confirmation dimmed" = { fg = "#6c3cb2" }
+"confirmation border" = { fg = "#2f2a3f" }
+"undo" = { bg = "#241b26" }
+"undo confirmation dimmed" = { fg = "#6c3cb2" }
+"undo confirmation selected" = { bg = "#46354a", fg = "#a84a73" }
+"preview" = { fg = "#eed5d9" }

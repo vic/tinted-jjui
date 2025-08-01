@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Atelier Dune Light
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#6e6b5e", bg = "#fefbec" }
+"dimmed" = { fg = "#999580" }
+"selected" = { bg = "#a6a28c", fg = "#ae9513" }
+"border" = { fg = "#999580" }
+"title" = { fg = "#e8e4cf", bold = true }
+"shortcut" = { fg = "#b854d4" }
+"matched" = { fg = "#ae9513", underline = true }
+"source_marker" = { bg = "#a6a28c", fg = "#6e6b5e" }
+"target_marker" = { bg = "#e8e4cf", fg = "#6e6b5e" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fefbec" }
+"status title" = { fg = "#fefbec", bg = "#e8e4cf", bold = true }
+"status shortcut" = { fg = "#b854d4" }
+"status dimmed" = { fg = "#999580" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#a6a28c", fg = "#ae9513" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#999580" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#a6a28c", fg = "#ae9513", bold = true }
+"help" = { bg = "#fefbec" }
+"help title" = { fg = "#e8e4cf", bold = true, underline = true }
+"help border" = { fg = "#999580" }
+"menu" = { bg = "#fefbec" }
+"menu title" = { fg = "#e8e4cf", bold = true }
+"menu shortcut" = { fg = "#b854d4" }
+"menu dimmed" = { fg = "#999580" }
+"menu border" = { fg = "#999580" }
+"menu selected" = { bg = "#a6a28c", fg = "#ae9513" }
+"confirmation" = { bg = "#fefbec" }
+"confirmation text" = { fg = "#6e6b5e" }
+"confirmation selected" = { bg = "#a6a28c", fg = "#ae9513" }
+"confirmation dimmed" = { fg = "#999580" }
+"confirmation border" = { fg = "#e8e4cf" }
+"undo" = { bg = "#fefbec" }
+"undo confirmation dimmed" = { fg = "#999580" }
+"undo confirmation selected" = { bg = "#a6a28c", fg = "#ae9513" }
+"preview" = { fg = "#6e6b5e" }

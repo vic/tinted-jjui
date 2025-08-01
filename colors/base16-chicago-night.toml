@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Chicago Night
+# Scheme author: Wendell, Ryan &lt;ryanjwendell@gmail.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a7b8af", bg = "#1e2a24" }
+"dimmed" = { fg = "#5f7368" }
+"selected" = { bg = "#364c40", fg = "#f9e300" }
+"border" = { fg = "#5f7368" }
+"title" = { fg = "#2a3b32", bold = true }
+"shortcut" = { fg = "#e27ea6" }
+"matched" = { fg = "#f9e300", underline = true }
+"source_marker" = { bg = "#364c40", fg = "#a7b8af" }
+"target_marker" = { bg = "#2a3b32", fg = "#a7b8af" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1e2a24" }
+"status title" = { fg = "#1e2a24", bg = "#2a3b32", bold = true }
+"status shortcut" = { fg = "#e27ea6" }
+"status dimmed" = { fg = "#5f7368" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#364c40", fg = "#f9e300" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5f7368" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#364c40", fg = "#f9e300", bold = true }
+"help" = { bg = "#1e2a24" }
+"help title" = { fg = "#2a3b32", bold = true, underline = true }
+"help border" = { fg = "#5f7368" }
+"menu" = { bg = "#1e2a24" }
+"menu title" = { fg = "#2a3b32", bold = true }
+"menu shortcut" = { fg = "#e27ea6" }
+"menu dimmed" = { fg = "#5f7368" }
+"menu border" = { fg = "#5f7368" }
+"menu selected" = { bg = "#364c40", fg = "#f9e300" }
+"confirmation" = { bg = "#1e2a24" }
+"confirmation text" = { fg = "#a7b8af" }
+"confirmation selected" = { bg = "#364c40", fg = "#f9e300" }
+"confirmation dimmed" = { fg = "#5f7368" }
+"confirmation border" = { fg = "#2a3b32" }
+"undo" = { bg = "#1e2a24" }
+"undo confirmation dimmed" = { fg = "#5f7368" }
+"undo confirmation selected" = { bg = "#364c40", fg = "#f9e300" }
+"preview" = { fg = "#a7b8af" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Atelier Savanna
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#87928a", bg = "#171c19" }
+"dimmed" = { fg = "#5f6d64" }
+"selected" = { bg = "#526057", fg = "#a07e3b" }
+"border" = { fg = "#5f6d64" }
+"title" = { fg = "#232a25", bold = true }
+"shortcut" = { fg = "#55859b" }
+"matched" = { fg = "#a07e3b", underline = true }
+"source_marker" = { bg = "#526057", fg = "#87928a" }
+"target_marker" = { bg = "#232a25", fg = "#87928a" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#171c19" }
+"status title" = { fg = "#171c19", bg = "#232a25", bold = true }
+"status shortcut" = { fg = "#55859b" }
+"status dimmed" = { fg = "#5f6d64" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#526057", fg = "#a07e3b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5f6d64" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#526057", fg = "#a07e3b", bold = true }
+"help" = { bg = "#171c19" }
+"help title" = { fg = "#232a25", bold = true, underline = true }
+"help border" = { fg = "#5f6d64" }
+"menu" = { bg = "#171c19" }
+"menu title" = { fg = "#232a25", bold = true }
+"menu shortcut" = { fg = "#55859b" }
+"menu dimmed" = { fg = "#5f6d64" }
+"menu border" = { fg = "#5f6d64" }
+"menu selected" = { bg = "#526057", fg = "#a07e3b" }
+"confirmation" = { bg = "#171c19" }
+"confirmation text" = { fg = "#87928a" }
+"confirmation selected" = { bg = "#526057", fg = "#a07e3b" }
+"confirmation dimmed" = { fg = "#5f6d64" }
+"confirmation border" = { fg = "#232a25" }
+"undo" = { bg = "#171c19" }
+"undo confirmation dimmed" = { fg = "#5f6d64" }
+"undo confirmation selected" = { bg = "#526057", fg = "#a07e3b" }
+"preview" = { fg = "#87928a" }

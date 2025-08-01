@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Windows 95 Light
+# Scheme author: Fergus Collins (https://github.com/ferguscollins)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#545454", bg = "#fcfcfc" }
+"dimmed" = { fg = "#a8a8a8" }
+"selected" = { bg = "#c4c4c4", fg = "#a85400" }
+"border" = { fg = "#a8a8a8" }
+"title" = { fg = "#e0e0e0", bold = true }
+"shortcut" = { fg = "#a800a8" }
+"matched" = { fg = "#a85400", underline = true }
+"source_marker" = { bg = "#c4c4c4", fg = "#545454" }
+"target_marker" = { bg = "#e0e0e0", fg = "#545454" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fcfcfc" }
+"status title" = { fg = "#fcfcfc", bg = "#e0e0e0", bold = true }
+"status shortcut" = { fg = "#a800a8" }
+"status dimmed" = { fg = "#a8a8a8" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#c4c4c4", fg = "#a85400" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#a8a8a8" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#c4c4c4", fg = "#a85400", bold = true }
+"help" = { bg = "#fcfcfc" }
+"help title" = { fg = "#e0e0e0", bold = true, underline = true }
+"help border" = { fg = "#a8a8a8" }
+"menu" = { bg = "#fcfcfc" }
+"menu title" = { fg = "#e0e0e0", bold = true }
+"menu shortcut" = { fg = "#a800a8" }
+"menu dimmed" = { fg = "#a8a8a8" }
+"menu border" = { fg = "#a8a8a8" }
+"menu selected" = { bg = "#c4c4c4", fg = "#a85400" }
+"confirmation" = { bg = "#fcfcfc" }
+"confirmation text" = { fg = "#545454" }
+"confirmation selected" = { bg = "#c4c4c4", fg = "#a85400" }
+"confirmation dimmed" = { fg = "#a8a8a8" }
+"confirmation border" = { fg = "#e0e0e0" }
+"undo" = { bg = "#fcfcfc" }
+"undo confirmation dimmed" = { fg = "#a8a8a8" }
+"undo confirmation selected" = { bg = "#c4c4c4", fg = "#a85400" }
+"preview" = { fg = "#545454" }

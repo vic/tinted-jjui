@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Equilibrium Gray Dark
+# Scheme author: Carlo Abelli
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ababab", bg = "#111111" }
+"dimmed" = { fg = "#777777" }
+"selected" = { bg = "#262626", fg = "#bb8801" }
+"border" = { fg = "#777777" }
+"title" = { fg = "#1b1b1b", bold = true }
+"shortcut" = { fg = "#6a7fd2" }
+"matched" = { fg = "#bb8801", underline = true }
+"source_marker" = { bg = "#262626", fg = "#ababab" }
+"target_marker" = { bg = "#1b1b1b", fg = "#ababab" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#111111" }
+"status title" = { fg = "#111111", bg = "#1b1b1b", bold = true }
+"status shortcut" = { fg = "#6a7fd2" }
+"status dimmed" = { fg = "#777777" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#262626", fg = "#bb8801" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#777777" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#262626", fg = "#bb8801", bold = true }
+"help" = { bg = "#111111" }
+"help title" = { fg = "#1b1b1b", bold = true, underline = true }
+"help border" = { fg = "#777777" }
+"menu" = { bg = "#111111" }
+"menu title" = { fg = "#1b1b1b", bold = true }
+"menu shortcut" = { fg = "#6a7fd2" }
+"menu dimmed" = { fg = "#777777" }
+"menu border" = { fg = "#777777" }
+"menu selected" = { bg = "#262626", fg = "#bb8801" }
+"confirmation" = { bg = "#111111" }
+"confirmation text" = { fg = "#ababab" }
+"confirmation selected" = { bg = "#262626", fg = "#bb8801" }
+"confirmation dimmed" = { fg = "#777777" }
+"confirmation border" = { fg = "#1b1b1b" }
+"undo" = { bg = "#111111" }
+"undo confirmation dimmed" = { fg = "#777777" }
+"undo confirmation selected" = { bg = "#262626", fg = "#bb8801" }
+"preview" = { fg = "#ababab" }

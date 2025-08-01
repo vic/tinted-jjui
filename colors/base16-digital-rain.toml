@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Digital Rain
+# Scheme author: Nathan Byrd (https://github.com/cognitivegears)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#00ff00", bg = "#000000" }
+"dimmed" = { fg = "#7c8d7c" }
+"selected" = { bg = "#4a8d7e", fg = "#a67a50" }
+"border" = { fg = "#7c8d7c" }
+"title" = { fg = "#4a806c", bold = true }
+"shortcut" = { fg = "#9472b4" }
+"matched" = { fg = "#a67a50", underline = true }
+"source_marker" = { bg = "#4a8d7e", fg = "#00ff00" }
+"target_marker" = { bg = "#4a806c", fg = "#00ff00" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#4a806c", bold = true }
+"status shortcut" = { fg = "#9472b4" }
+"status dimmed" = { fg = "#7c8d7c" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4a8d7e", fg = "#a67a50" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7c8d7c" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4a8d7e", fg = "#a67a50", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#4a806c", bold = true, underline = true }
+"help border" = { fg = "#7c8d7c" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#4a806c", bold = true }
+"menu shortcut" = { fg = "#9472b4" }
+"menu dimmed" = { fg = "#7c8d7c" }
+"menu border" = { fg = "#7c8d7c" }
+"menu selected" = { bg = "#4a8d7e", fg = "#a67a50" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#00ff00" }
+"confirmation selected" = { bg = "#4a8d7e", fg = "#a67a50" }
+"confirmation dimmed" = { fg = "#7c8d7c" }
+"confirmation border" = { fg = "#4a806c" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#7c8d7c" }
+"undo confirmation selected" = { bg = "#4a8d7e", fg = "#a67a50" }
+"preview" = { fg = "#00ff00" }

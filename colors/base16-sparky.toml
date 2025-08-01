@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Sparky
+# Scheme author: Leila Sother (https://github.com/mixcoac)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#f4f5f0", bg = "#072b31" }
+"dimmed" = { fg = "#003b49" }
+"selected" = { bg = "#003c46", fg = "#fbdd40" }
+"border" = { fg = "#003b49" }
+"title" = { fg = "#00313c", bold = true }
+"shortcut" = { fg = "#d59ed7" }
+"matched" = { fg = "#fbdd40", underline = true }
+"source_marker" = { bg = "#003c46", fg = "#f4f5f0" }
+"target_marker" = { bg = "#00313c", fg = "#f4f5f0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#072b31" }
+"status title" = { fg = "#072b31", bg = "#00313c", bold = true }
+"status shortcut" = { fg = "#d59ed7" }
+"status dimmed" = { fg = "#003b49" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#003c46", fg = "#fbdd40" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#003b49" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#003c46", fg = "#fbdd40", bold = true }
+"help" = { bg = "#072b31" }
+"help title" = { fg = "#00313c", bold = true, underline = true }
+"help border" = { fg = "#003b49" }
+"menu" = { bg = "#072b31" }
+"menu title" = { fg = "#00313c", bold = true }
+"menu shortcut" = { fg = "#d59ed7" }
+"menu dimmed" = { fg = "#003b49" }
+"menu border" = { fg = "#003b49" }
+"menu selected" = { bg = "#003c46", fg = "#fbdd40" }
+"confirmation" = { bg = "#072b31" }
+"confirmation text" = { fg = "#f4f5f0" }
+"confirmation selected" = { bg = "#003c46", fg = "#fbdd40" }
+"confirmation dimmed" = { fg = "#003b49" }
+"confirmation border" = { fg = "#00313c" }
+"undo" = { bg = "#072b31" }
+"undo confirmation dimmed" = { fg = "#003b49" }
+"undo confirmation selected" = { bg = "#003c46", fg = "#fbdd40" }
+"preview" = { fg = "#f4f5f0" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Google Light
+# Scheme author: Seth Wright (http://sethawright.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#373b41", bg = "#ffffff" }
+"dimmed" = { fg = "#b4b7b4" }
+"selected" = { bg = "#c5c8c6", fg = "#fba922" }
+"border" = { fg = "#b4b7b4" }
+"title" = { fg = "#e0e0e0", bold = true }
+"shortcut" = { fg = "#a36ac7" }
+"matched" = { fg = "#fba922", underline = true }
+"source_marker" = { bg = "#c5c8c6", fg = "#373b41" }
+"target_marker" = { bg = "#e0e0e0", fg = "#373b41" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#ffffff" }
+"status title" = { fg = "#ffffff", bg = "#e0e0e0", bold = true }
+"status shortcut" = { fg = "#a36ac7" }
+"status dimmed" = { fg = "#b4b7b4" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#c5c8c6", fg = "#fba922" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b4b7b4" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#c5c8c6", fg = "#fba922", bold = true }
+"help" = { bg = "#ffffff" }
+"help title" = { fg = "#e0e0e0", bold = true, underline = true }
+"help border" = { fg = "#b4b7b4" }
+"menu" = { bg = "#ffffff" }
+"menu title" = { fg = "#e0e0e0", bold = true }
+"menu shortcut" = { fg = "#a36ac7" }
+"menu dimmed" = { fg = "#b4b7b4" }
+"menu border" = { fg = "#b4b7b4" }
+"menu selected" = { bg = "#c5c8c6", fg = "#fba922" }
+"confirmation" = { bg = "#ffffff" }
+"confirmation text" = { fg = "#373b41" }
+"confirmation selected" = { bg = "#c5c8c6", fg = "#fba922" }
+"confirmation dimmed" = { fg = "#b4b7b4" }
+"confirmation border" = { fg = "#e0e0e0" }
+"undo" = { bg = "#ffffff" }
+"undo confirmation dimmed" = { fg = "#b4b7b4" }
+"undo confirmation selected" = { bg = "#c5c8c6", fg = "#fba922" }
+"preview" = { fg = "#373b41" }

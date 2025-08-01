@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Edge Light
+# Scheme author: cjayross (https://github.com/cjayross)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#5e646f", bg = "#fafafa" }
+"dimmed" = { fg = "#5e646f" }
+"selected" = { bg = "#d69822", fg = "#d69822" }
+"border" = { fg = "#5e646f" }
+"title" = { fg = "#7c9f4b", bold = true }
+"shortcut" = { fg = "#b870ce" }
+"matched" = { fg = "#d69822", underline = true }
+"source_marker" = { bg = "#d69822", fg = "#5e646f" }
+"target_marker" = { bg = "#7c9f4b", fg = "#5e646f" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fafafa" }
+"status title" = { fg = "#fafafa", bg = "#7c9f4b", bold = true }
+"status shortcut" = { fg = "#b870ce" }
+"status dimmed" = { fg = "#5e646f" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d69822", fg = "#d69822" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5e646f" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d69822", fg = "#d69822", bold = true }
+"help" = { bg = "#fafafa" }
+"help title" = { fg = "#7c9f4b", bold = true, underline = true }
+"help border" = { fg = "#5e646f" }
+"menu" = { bg = "#fafafa" }
+"menu title" = { fg = "#7c9f4b", bold = true }
+"menu shortcut" = { fg = "#b870ce" }
+"menu dimmed" = { fg = "#5e646f" }
+"menu border" = { fg = "#5e646f" }
+"menu selected" = { bg = "#d69822", fg = "#d69822" }
+"confirmation" = { bg = "#fafafa" }
+"confirmation text" = { fg = "#5e646f" }
+"confirmation selected" = { bg = "#d69822", fg = "#d69822" }
+"confirmation dimmed" = { fg = "#5e646f" }
+"confirmation border" = { fg = "#7c9f4b" }
+"undo" = { bg = "#fafafa" }
+"undo confirmation dimmed" = { fg = "#5e646f" }
+"undo confirmation selected" = { bg = "#d69822", fg = "#d69822" }
+"preview" = { fg = "#5e646f" }

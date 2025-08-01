@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Ayu Light
+# Scheme author: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#5c6773", bg = "#fafafa" }
+"dimmed" = { fg = "#abb0b6" }
+"selected" = { bg = "#f8f9fa", fg = "#f2ae49" }
+"border" = { fg = "#abb0b6" }
+"title" = { fg = "#f3f4f5", bold = true }
+"shortcut" = { fg = "#a37acc" }
+"matched" = { fg = "#f2ae49", underline = true }
+"source_marker" = { bg = "#f8f9fa", fg = "#5c6773" }
+"target_marker" = { bg = "#f3f4f5", fg = "#5c6773" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fafafa" }
+"status title" = { fg = "#fafafa", bg = "#f3f4f5", bold = true }
+"status shortcut" = { fg = "#a37acc" }
+"status dimmed" = { fg = "#abb0b6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#f8f9fa", fg = "#f2ae49" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#abb0b6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#f8f9fa", fg = "#f2ae49", bold = true }
+"help" = { bg = "#fafafa" }
+"help title" = { fg = "#f3f4f5", bold = true, underline = true }
+"help border" = { fg = "#abb0b6" }
+"menu" = { bg = "#fafafa" }
+"menu title" = { fg = "#f3f4f5", bold = true }
+"menu shortcut" = { fg = "#a37acc" }
+"menu dimmed" = { fg = "#abb0b6" }
+"menu border" = { fg = "#abb0b6" }
+"menu selected" = { bg = "#f8f9fa", fg = "#f2ae49" }
+"confirmation" = { bg = "#fafafa" }
+"confirmation text" = { fg = "#5c6773" }
+"confirmation selected" = { bg = "#f8f9fa", fg = "#f2ae49" }
+"confirmation dimmed" = { fg = "#abb0b6" }
+"confirmation border" = { fg = "#f3f4f5" }
+"undo" = { bg = "#fafafa" }
+"undo confirmation dimmed" = { fg = "#abb0b6" }
+"undo confirmation selected" = { bg = "#f8f9fa", fg = "#f2ae49" }
+"preview" = { fg = "#5c6773" }

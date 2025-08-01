@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Kanagawa Dragon
+# Scheme author: Tommaso Laurenzi (https://github.com/rebelot)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c5c9c5", bg = "#0d0c0c" }
+"dimmed" = { fg = "#737c73" }
+"selected" = { bg = "#282727", fg = "#c4b28a" }
+"border" = { fg = "#737c73" }
+"title" = { fg = "#1d1c19", bold = true }
+"shortcut" = { fg = "#8992a7" }
+"matched" = { fg = "#c4b28a", underline = true }
+"source_marker" = { bg = "#282727", fg = "#c5c9c5" }
+"target_marker" = { bg = "#1d1c19", fg = "#c5c9c5" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0d0c0c" }
+"status title" = { fg = "#0d0c0c", bg = "#1d1c19", bold = true }
+"status shortcut" = { fg = "#8992a7" }
+"status dimmed" = { fg = "#737c73" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#282727", fg = "#c4b28a" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#737c73" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#282727", fg = "#c4b28a", bold = true }
+"help" = { bg = "#0d0c0c" }
+"help title" = { fg = "#1d1c19", bold = true, underline = true }
+"help border" = { fg = "#737c73" }
+"menu" = { bg = "#0d0c0c" }
+"menu title" = { fg = "#1d1c19", bold = true }
+"menu shortcut" = { fg = "#8992a7" }
+"menu dimmed" = { fg = "#737c73" }
+"menu border" = { fg = "#737c73" }
+"menu selected" = { bg = "#282727", fg = "#c4b28a" }
+"confirmation" = { bg = "#0d0c0c" }
+"confirmation text" = { fg = "#c5c9c5" }
+"confirmation selected" = { bg = "#282727", fg = "#c4b28a" }
+"confirmation dimmed" = { fg = "#737c73" }
+"confirmation border" = { fg = "#1d1c19" }
+"undo" = { bg = "#0d0c0c" }
+"undo confirmation dimmed" = { fg = "#737c73" }
+"undo confirmation selected" = { bg = "#282727", fg = "#c4b28a" }
+"preview" = { fg = "#c5c9c5" }

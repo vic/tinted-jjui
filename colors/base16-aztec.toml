@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Aztec
+# Scheme author: TheNeverMan (github.com/TheNeverMan)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#ffda51", bg = "#101600" }
+"dimmed" = { fg = "#2e2e05" }
+"selected" = { bg = "#242604", fg = "#eebb00" }
+"border" = { fg = "#2e2e05" }
+"title" = { fg = "#1a1e01", bold = true }
+"shortcut" = { fg = "#883e9f" }
+"matched" = { fg = "#eebb00", underline = true }
+"source_marker" = { bg = "#242604", fg = "#ffda51" }
+"target_marker" = { bg = "#1a1e01", fg = "#ffda51" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#101600" }
+"status title" = { fg = "#101600", bg = "#1a1e01", bold = true }
+"status shortcut" = { fg = "#883e9f" }
+"status dimmed" = { fg = "#2e2e05" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#242604", fg = "#eebb00" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#2e2e05" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#242604", fg = "#eebb00", bold = true }
+"help" = { bg = "#101600" }
+"help title" = { fg = "#1a1e01", bold = true, underline = true }
+"help border" = { fg = "#2e2e05" }
+"menu" = { bg = "#101600" }
+"menu title" = { fg = "#1a1e01", bold = true }
+"menu shortcut" = { fg = "#883e9f" }
+"menu dimmed" = { fg = "#2e2e05" }
+"menu border" = { fg = "#2e2e05" }
+"menu selected" = { bg = "#242604", fg = "#eebb00" }
+"confirmation" = { bg = "#101600" }
+"confirmation text" = { fg = "#ffda51" }
+"confirmation selected" = { bg = "#242604", fg = "#eebb00" }
+"confirmation dimmed" = { fg = "#2e2e05" }
+"confirmation border" = { fg = "#1a1e01" }
+"undo" = { bg = "#101600" }
+"undo confirmation dimmed" = { fg = "#2e2e05" }
+"undo confirmation selected" = { bg = "#242604", fg = "#eebb00" }
+"preview" = { fg = "#ffda51" }

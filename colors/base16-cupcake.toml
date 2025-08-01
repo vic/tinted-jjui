@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Cupcake
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#8b8198", bg = "#fbf1f2" }
+"dimmed" = { fg = "#bfb9c6" }
+"selected" = { bg = "#d8d5dd", fg = "#dcb16c" }
+"border" = { fg = "#bfb9c6" }
+"title" = { fg = "#f2f1f4", bold = true }
+"shortcut" = { fg = "#bb99b4" }
+"matched" = { fg = "#dcb16c", underline = true }
+"source_marker" = { bg = "#d8d5dd", fg = "#8b8198" }
+"target_marker" = { bg = "#f2f1f4", fg = "#8b8198" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fbf1f2" }
+"status title" = { fg = "#fbf1f2", bg = "#f2f1f4", bold = true }
+"status shortcut" = { fg = "#bb99b4" }
+"status dimmed" = { fg = "#bfb9c6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d8d5dd", fg = "#dcb16c" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#bfb9c6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d8d5dd", fg = "#dcb16c", bold = true }
+"help" = { bg = "#fbf1f2" }
+"help title" = { fg = "#f2f1f4", bold = true, underline = true }
+"help border" = { fg = "#bfb9c6" }
+"menu" = { bg = "#fbf1f2" }
+"menu title" = { fg = "#f2f1f4", bold = true }
+"menu shortcut" = { fg = "#bb99b4" }
+"menu dimmed" = { fg = "#bfb9c6" }
+"menu border" = { fg = "#bfb9c6" }
+"menu selected" = { bg = "#d8d5dd", fg = "#dcb16c" }
+"confirmation" = { bg = "#fbf1f2" }
+"confirmation text" = { fg = "#8b8198" }
+"confirmation selected" = { bg = "#d8d5dd", fg = "#dcb16c" }
+"confirmation dimmed" = { fg = "#bfb9c6" }
+"confirmation border" = { fg = "#f2f1f4" }
+"undo" = { bg = "#fbf1f2" }
+"undo confirmation dimmed" = { fg = "#bfb9c6" }
+"undo confirmation selected" = { bg = "#d8d5dd", fg = "#dcb16c" }
+"preview" = { fg = "#8b8198" }

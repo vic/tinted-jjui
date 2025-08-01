@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Windows High Contrast Light
+# Scheme author: Fergus Collins (https://github.com/ferguscollins)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#545454", bg = "#fcfcfc" }
+"dimmed" = { fg = "#c0c0c0" }
+"selected" = { bg = "#d4d4d4", fg = "#808000" }
+"border" = { fg = "#c0c0c0" }
+"title" = { fg = "#e8e8e8", bold = true }
+"shortcut" = { fg = "#800080" }
+"matched" = { fg = "#808000", underline = true }
+"source_marker" = { bg = "#d4d4d4", fg = "#545454" }
+"target_marker" = { bg = "#e8e8e8", fg = "#545454" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fcfcfc" }
+"status title" = { fg = "#fcfcfc", bg = "#e8e8e8", bold = true }
+"status shortcut" = { fg = "#800080" }
+"status dimmed" = { fg = "#c0c0c0" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d4d4d4", fg = "#808000" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#c0c0c0" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d4d4d4", fg = "#808000", bold = true }
+"help" = { bg = "#fcfcfc" }
+"help title" = { fg = "#e8e8e8", bold = true, underline = true }
+"help border" = { fg = "#c0c0c0" }
+"menu" = { bg = "#fcfcfc" }
+"menu title" = { fg = "#e8e8e8", bold = true }
+"menu shortcut" = { fg = "#800080" }
+"menu dimmed" = { fg = "#c0c0c0" }
+"menu border" = { fg = "#c0c0c0" }
+"menu selected" = { bg = "#d4d4d4", fg = "#808000" }
+"confirmation" = { bg = "#fcfcfc" }
+"confirmation text" = { fg = "#545454" }
+"confirmation selected" = { bg = "#d4d4d4", fg = "#808000" }
+"confirmation dimmed" = { fg = "#c0c0c0" }
+"confirmation border" = { fg = "#e8e8e8" }
+"undo" = { bg = "#fcfcfc" }
+"undo confirmation dimmed" = { fg = "#c0c0c0" }
+"undo confirmation selected" = { bg = "#d4d4d4", fg = "#808000" }
+"preview" = { fg = "#545454" }

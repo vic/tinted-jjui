@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Monokai
+# Scheme author: Wimer Hazenberg (http://www.monokai.nl)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#f8f8f2", bg = "#272822" }
+"dimmed" = { fg = "#75715e" }
+"selected" = { bg = "#49483e", fg = "#f4bf75" }
+"border" = { fg = "#75715e" }
+"title" = { fg = "#383830", bold = true }
+"shortcut" = { fg = "#ae81ff" }
+"matched" = { fg = "#f4bf75", underline = true }
+"source_marker" = { bg = "#49483e", fg = "#f8f8f2" }
+"target_marker" = { bg = "#383830", fg = "#f8f8f2" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#272822" }
+"status title" = { fg = "#272822", bg = "#383830", bold = true }
+"status shortcut" = { fg = "#ae81ff" }
+"status dimmed" = { fg = "#75715e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#49483e", fg = "#f4bf75" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#75715e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#49483e", fg = "#f4bf75", bold = true }
+"help" = { bg = "#272822" }
+"help title" = { fg = "#383830", bold = true, underline = true }
+"help border" = { fg = "#75715e" }
+"menu" = { bg = "#272822" }
+"menu title" = { fg = "#383830", bold = true }
+"menu shortcut" = { fg = "#ae81ff" }
+"menu dimmed" = { fg = "#75715e" }
+"menu border" = { fg = "#75715e" }
+"menu selected" = { bg = "#49483e", fg = "#f4bf75" }
+"confirmation" = { bg = "#272822" }
+"confirmation text" = { fg = "#f8f8f2" }
+"confirmation selected" = { bg = "#49483e", fg = "#f4bf75" }
+"confirmation dimmed" = { fg = "#75715e" }
+"confirmation border" = { fg = "#383830" }
+"undo" = { bg = "#272822" }
+"undo confirmation dimmed" = { fg = "#75715e" }
+"undo confirmation selected" = { bg = "#49483e", fg = "#f4bf75" }
+"preview" = { fg = "#f8f8f2" }

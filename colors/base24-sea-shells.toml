@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Sea Shells
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b79c7e", bg = "#08131a" }
+"dimmed" = { fg = "#696660" }
+"selected" = { bg = "#424b52", fg = "#1bbcdd" }
+"border" = { fg = "#696660" }
+"title" = { fg = "#17384c", bold = true }
+"shortcut" = { fg = "#68d3f1" }
+"matched" = { fg = "#1bbcdd", underline = true }
+"source_marker" = { bg = "#424b52", fg = "#b79c7e" }
+"target_marker" = { bg = "#17384c", fg = "#b79c7e" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#08131a" }
+"status title" = { fg = "#08131a", bg = "#17384c", bold = true }
+"status shortcut" = { fg = "#68d3f1" }
+"status dimmed" = { fg = "#696660" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#424b52", fg = "#1bbcdd" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#696660" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#424b52", fg = "#1bbcdd", bold = true }
+"help" = { bg = "#08131a" }
+"help title" = { fg = "#17384c", bold = true, underline = true }
+"help border" = { fg = "#696660" }
+"menu" = { bg = "#08131a" }
+"menu title" = { fg = "#17384c", bold = true }
+"menu shortcut" = { fg = "#68d3f1" }
+"menu dimmed" = { fg = "#696660" }
+"menu border" = { fg = "#696660" }
+"menu selected" = { bg = "#424b52", fg = "#1bbcdd" }
+"confirmation" = { bg = "#08131a" }
+"confirmation text" = { fg = "#b79c7e" }
+"confirmation selected" = { bg = "#424b52", fg = "#1bbcdd" }
+"confirmation dimmed" = { fg = "#696660" }
+"confirmation border" = { fg = "#17384c" }
+"undo" = { bg = "#08131a" }
+"undo confirmation dimmed" = { fg = "#696660" }
+"undo confirmation selected" = { bg = "#424b52", fg = "#1bbcdd" }
+"preview" = { fg = "#b79c7e" }

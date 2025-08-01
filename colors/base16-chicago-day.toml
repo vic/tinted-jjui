@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Chicago Day
+# Scheme author: Wendell, Ryan &lt;ryanjwendell@gmail.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#364c40", bg = "#e8f0ea" }
+"dimmed" = { fg = "#8a9a91" }
+"selected" = { bg = "#b9d0c3", fg = "#968400" }
+"border" = { fg = "#8a9a91" }
+"title" = { fg = "#d1e0d7", bold = true }
+"shortcut" = { fg = "#e27ea6" }
+"matched" = { fg = "#968400", underline = true }
+"source_marker" = { bg = "#b9d0c3", fg = "#364c40" }
+"target_marker" = { bg = "#d1e0d7", fg = "#364c40" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#e8f0ea" }
+"status title" = { fg = "#e8f0ea", bg = "#d1e0d7", bold = true }
+"status shortcut" = { fg = "#e27ea6" }
+"status dimmed" = { fg = "#8a9a91" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#b9d0c3", fg = "#968400" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#8a9a91" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#b9d0c3", fg = "#968400", bold = true }
+"help" = { bg = "#e8f0ea" }
+"help title" = { fg = "#d1e0d7", bold = true, underline = true }
+"help border" = { fg = "#8a9a91" }
+"menu" = { bg = "#e8f0ea" }
+"menu title" = { fg = "#d1e0d7", bold = true }
+"menu shortcut" = { fg = "#e27ea6" }
+"menu dimmed" = { fg = "#8a9a91" }
+"menu border" = { fg = "#8a9a91" }
+"menu selected" = { bg = "#b9d0c3", fg = "#968400" }
+"confirmation" = { bg = "#e8f0ea" }
+"confirmation text" = { fg = "#364c40" }
+"confirmation selected" = { bg = "#b9d0c3", fg = "#968400" }
+"confirmation dimmed" = { fg = "#8a9a91" }
+"confirmation border" = { fg = "#d1e0d7" }
+"undo" = { bg = "#e8f0ea" }
+"undo confirmation dimmed" = { fg = "#8a9a91" }
+"undo confirmation selected" = { bg = "#b9d0c3", fg = "#968400" }
+"preview" = { fg = "#364c40" }

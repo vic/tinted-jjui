@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Horizon Light
+# Scheme author: Michaël Ball (http://github.com/michael-ball/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#403c3d", bg = "#fdf0ed" }
+"dimmed" = { fg = "#bdb3b1" }
+"selected" = { bg = "#f9cbbe", fg = "#fbe0d9" }
+"border" = { fg = "#bdb3b1" }
+"title" = { fg = "#fadad1", bold = true }
+"shortcut" = { fg = "#1d8991" }
+"matched" = { fg = "#fbe0d9", underline = true }
+"source_marker" = { bg = "#f9cbbe", fg = "#403c3d" }
+"target_marker" = { bg = "#fadad1", fg = "#403c3d" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fdf0ed" }
+"status title" = { fg = "#fdf0ed", bg = "#fadad1", bold = true }
+"status shortcut" = { fg = "#1d8991" }
+"status dimmed" = { fg = "#bdb3b1" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#f9cbbe", fg = "#fbe0d9" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#bdb3b1" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#f9cbbe", fg = "#fbe0d9", bold = true }
+"help" = { bg = "#fdf0ed" }
+"help title" = { fg = "#fadad1", bold = true, underline = true }
+"help border" = { fg = "#bdb3b1" }
+"menu" = { bg = "#fdf0ed" }
+"menu title" = { fg = "#fadad1", bold = true }
+"menu shortcut" = { fg = "#1d8991" }
+"menu dimmed" = { fg = "#bdb3b1" }
+"menu border" = { fg = "#bdb3b1" }
+"menu selected" = { bg = "#f9cbbe", fg = "#fbe0d9" }
+"confirmation" = { bg = "#fdf0ed" }
+"confirmation text" = { fg = "#403c3d" }
+"confirmation selected" = { bg = "#f9cbbe", fg = "#fbe0d9" }
+"confirmation dimmed" = { fg = "#bdb3b1" }
+"confirmation border" = { fg = "#fadad1" }
+"undo" = { bg = "#fdf0ed" }
+"undo confirmation dimmed" = { fg = "#bdb3b1" }
+"undo confirmation selected" = { bg = "#f9cbbe", fg = "#fbe0d9" }
+"preview" = { fg = "#403c3d" }

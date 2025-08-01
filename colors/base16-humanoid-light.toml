@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Humanoid light
+# Scheme author: Thomas (tasmo) Friese
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#232629", bg = "#f8f8f2" }
+"dimmed" = { fg = "#c0c0bd" }
+"selected" = { bg = "#deded8", fg = "#ffb627" }
+"border" = { fg = "#c0c0bd" }
+"title" = { fg = "#efefe9", bold = true }
+"shortcut" = { fg = "#700f98" }
+"matched" = { fg = "#ffb627", underline = true }
+"source_marker" = { bg = "#deded8", fg = "#232629" }
+"target_marker" = { bg = "#efefe9", fg = "#232629" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f8f8f2" }
+"status title" = { fg = "#f8f8f2", bg = "#efefe9", bold = true }
+"status shortcut" = { fg = "#700f98" }
+"status dimmed" = { fg = "#c0c0bd" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#deded8", fg = "#ffb627" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#c0c0bd" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#deded8", fg = "#ffb627", bold = true }
+"help" = { bg = "#f8f8f2" }
+"help title" = { fg = "#efefe9", bold = true, underline = true }
+"help border" = { fg = "#c0c0bd" }
+"menu" = { bg = "#f8f8f2" }
+"menu title" = { fg = "#efefe9", bold = true }
+"menu shortcut" = { fg = "#700f98" }
+"menu dimmed" = { fg = "#c0c0bd" }
+"menu border" = { fg = "#c0c0bd" }
+"menu selected" = { bg = "#deded8", fg = "#ffb627" }
+"confirmation" = { bg = "#f8f8f2" }
+"confirmation text" = { fg = "#232629" }
+"confirmation selected" = { bg = "#deded8", fg = "#ffb627" }
+"confirmation dimmed" = { fg = "#c0c0bd" }
+"confirmation border" = { fg = "#efefe9" }
+"undo" = { bg = "#f8f8f2" }
+"undo confirmation dimmed" = { fg = "#c0c0bd" }
+"undo confirmation selected" = { bg = "#deded8", fg = "#ffb627" }
+"preview" = { fg = "#232629" }

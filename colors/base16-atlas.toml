@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Atlas
+# Scheme author: Alex Lende (https://ajlende.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a1a19a", bg = "#002635" }
+"dimmed" = { fg = "#6c8b91" }
+"selected" = { bg = "#517f8d", fg = "#ffcc1b" }
+"border" = { fg = "#6c8b91" }
+"title" = { fg = "#00384d", bold = true }
+"shortcut" = { fg = "#9a70a4" }
+"matched" = { fg = "#ffcc1b", underline = true }
+"source_marker" = { bg = "#517f8d", fg = "#a1a19a" }
+"target_marker" = { bg = "#00384d", fg = "#a1a19a" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#002635" }
+"status title" = { fg = "#002635", bg = "#00384d", bold = true }
+"status shortcut" = { fg = "#9a70a4" }
+"status dimmed" = { fg = "#6c8b91" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#517f8d", fg = "#ffcc1b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6c8b91" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#517f8d", fg = "#ffcc1b", bold = true }
+"help" = { bg = "#002635" }
+"help title" = { fg = "#00384d", bold = true, underline = true }
+"help border" = { fg = "#6c8b91" }
+"menu" = { bg = "#002635" }
+"menu title" = { fg = "#00384d", bold = true }
+"menu shortcut" = { fg = "#9a70a4" }
+"menu dimmed" = { fg = "#6c8b91" }
+"menu border" = { fg = "#6c8b91" }
+"menu selected" = { bg = "#517f8d", fg = "#ffcc1b" }
+"confirmation" = { bg = "#002635" }
+"confirmation text" = { fg = "#a1a19a" }
+"confirmation selected" = { bg = "#517f8d", fg = "#ffcc1b" }
+"confirmation dimmed" = { fg = "#6c8b91" }
+"confirmation border" = { fg = "#00384d" }
+"undo" = { bg = "#002635" }
+"undo confirmation dimmed" = { fg = "#6c8b91" }
+"undo confirmation selected" = { bg = "#517f8d", fg = "#ffcc1b" }
+"preview" = { fg = "#a1a19a" }

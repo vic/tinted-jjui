@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Shapeshifter
+# Scheme author: Tyler Benziger (http://tybenz.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#102015", bg = "#f9f9f9" }
+"dimmed" = { fg = "#555555" }
+"selected" = { bg = "#ababab", fg = "#dddd13" }
+"border" = { fg = "#555555" }
+"title" = { fg = "#e0e0e0", bold = true }
+"shortcut" = { fg = "#f996e2" }
+"matched" = { fg = "#dddd13", underline = true }
+"source_marker" = { bg = "#ababab", fg = "#102015" }
+"target_marker" = { bg = "#e0e0e0", fg = "#102015" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f9f9f9" }
+"status title" = { fg = "#f9f9f9", bg = "#e0e0e0", bold = true }
+"status shortcut" = { fg = "#f996e2" }
+"status dimmed" = { fg = "#555555" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#ababab", fg = "#dddd13" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#555555" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#ababab", fg = "#dddd13", bold = true }
+"help" = { bg = "#f9f9f9" }
+"help title" = { fg = "#e0e0e0", bold = true, underline = true }
+"help border" = { fg = "#555555" }
+"menu" = { bg = "#f9f9f9" }
+"menu title" = { fg = "#e0e0e0", bold = true }
+"menu shortcut" = { fg = "#f996e2" }
+"menu dimmed" = { fg = "#555555" }
+"menu border" = { fg = "#555555" }
+"menu selected" = { bg = "#ababab", fg = "#dddd13" }
+"confirmation" = { bg = "#f9f9f9" }
+"confirmation text" = { fg = "#102015" }
+"confirmation selected" = { bg = "#ababab", fg = "#dddd13" }
+"confirmation dimmed" = { fg = "#555555" }
+"confirmation border" = { fg = "#e0e0e0" }
+"undo" = { bg = "#f9f9f9" }
+"undo confirmation dimmed" = { fg = "#555555" }
+"undo confirmation selected" = { bg = "#ababab", fg = "#dddd13" }
+"preview" = { fg = "#102015" }

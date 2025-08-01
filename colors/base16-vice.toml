@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: vice
+# Scheme author: Thomas Leon Highbaugh thighbaugh@zoho.com
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#8b9cbe", bg = "#17191e" }
+"dimmed" = { fg = "#383a47" }
+"selected" = { bg = "#3c3f4c", fg = "#f0ffaa" }
+"border" = { fg = "#383a47" }
+"title" = { fg = "#22262d", bold = true }
+"shortcut" = { fg = "#00f6d9" }
+"matched" = { fg = "#f0ffaa", underline = true }
+"source_marker" = { bg = "#3c3f4c", fg = "#8b9cbe" }
+"target_marker" = { bg = "#22262d", fg = "#8b9cbe" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#17191e" }
+"status title" = { fg = "#17191e", bg = "#22262d", bold = true }
+"status shortcut" = { fg = "#00f6d9" }
+"status dimmed" = { fg = "#383a47" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3c3f4c", fg = "#f0ffaa" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#383a47" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3c3f4c", fg = "#f0ffaa", bold = true }
+"help" = { bg = "#17191e" }
+"help title" = { fg = "#22262d", bold = true, underline = true }
+"help border" = { fg = "#383a47" }
+"menu" = { bg = "#17191e" }
+"menu title" = { fg = "#22262d", bold = true }
+"menu shortcut" = { fg = "#00f6d9" }
+"menu dimmed" = { fg = "#383a47" }
+"menu border" = { fg = "#383a47" }
+"menu selected" = { bg = "#3c3f4c", fg = "#f0ffaa" }
+"confirmation" = { bg = "#17191e" }
+"confirmation text" = { fg = "#8b9cbe" }
+"confirmation selected" = { bg = "#3c3f4c", fg = "#f0ffaa" }
+"confirmation dimmed" = { fg = "#383a47" }
+"confirmation border" = { fg = "#22262d" }
+"undo" = { bg = "#17191e" }
+"undo confirmation dimmed" = { fg = "#383a47" }
+"undo confirmation selected" = { bg = "#3c3f4c", fg = "#f0ffaa" }
+"preview" = { fg = "#8b9cbe" }

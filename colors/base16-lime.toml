@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: lime
+# Scheme author: limelier
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#818175", bg = "#1a1a2f" }
+"dimmed" = { fg = "#313140" }
+"selected" = { bg = "#2a2a3f", fg = "#ffd15e" }
+"border" = { fg = "#313140" }
+"title" = { fg = "#202030", bold = true }
+"shortcut" = { fg = "#1b825f" }
+"matched" = { fg = "#ffd15e", underline = true }
+"source_marker" = { bg = "#2a2a3f", fg = "#818175" }
+"target_marker" = { bg = "#202030", fg = "#818175" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1a1a2f" }
+"status title" = { fg = "#1a1a2f", bg = "#202030", bold = true }
+"status shortcut" = { fg = "#1b825f" }
+"status dimmed" = { fg = "#313140" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2a2a3f", fg = "#ffd15e" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#313140" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2a2a3f", fg = "#ffd15e", bold = true }
+"help" = { bg = "#1a1a2f" }
+"help title" = { fg = "#202030", bold = true, underline = true }
+"help border" = { fg = "#313140" }
+"menu" = { bg = "#1a1a2f" }
+"menu title" = { fg = "#202030", bold = true }
+"menu shortcut" = { fg = "#1b825f" }
+"menu dimmed" = { fg = "#313140" }
+"menu border" = { fg = "#313140" }
+"menu selected" = { bg = "#2a2a3f", fg = "#ffd15e" }
+"confirmation" = { bg = "#1a1a2f" }
+"confirmation text" = { fg = "#818175" }
+"confirmation selected" = { bg = "#2a2a3f", fg = "#ffd15e" }
+"confirmation dimmed" = { fg = "#313140" }
+"confirmation border" = { fg = "#202030" }
+"undo" = { bg = "#1a1a2f" }
+"undo confirmation dimmed" = { fg = "#313140" }
+"undo confirmation selected" = { bg = "#2a2a3f", fg = "#ffd15e" }
+"preview" = { fg = "#818175" }

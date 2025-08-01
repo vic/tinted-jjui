@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Fruit Soda
+# Scheme author: jozip
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#515151", bg = "#f1ecf1" }
+"dimmed" = { fg = "#b5b4b6" }
+"selected" = { bg = "#d8d5d5", fg = "#f7e203" }
+"border" = { fg = "#b5b4b6" }
+"title" = { fg = "#e0dee0", bold = true }
+"shortcut" = { fg = "#611fce" }
+"matched" = { fg = "#f7e203", underline = true }
+"source_marker" = { bg = "#d8d5d5", fg = "#515151" }
+"target_marker" = { bg = "#e0dee0", fg = "#515151" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f1ecf1" }
+"status title" = { fg = "#f1ecf1", bg = "#e0dee0", bold = true }
+"status shortcut" = { fg = "#611fce" }
+"status dimmed" = { fg = "#b5b4b6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d8d5d5", fg = "#f7e203" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b5b4b6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d8d5d5", fg = "#f7e203", bold = true }
+"help" = { bg = "#f1ecf1" }
+"help title" = { fg = "#e0dee0", bold = true, underline = true }
+"help border" = { fg = "#b5b4b6" }
+"menu" = { bg = "#f1ecf1" }
+"menu title" = { fg = "#e0dee0", bold = true }
+"menu shortcut" = { fg = "#611fce" }
+"menu dimmed" = { fg = "#b5b4b6" }
+"menu border" = { fg = "#b5b4b6" }
+"menu selected" = { bg = "#d8d5d5", fg = "#f7e203" }
+"confirmation" = { bg = "#f1ecf1" }
+"confirmation text" = { fg = "#515151" }
+"confirmation selected" = { bg = "#d8d5d5", fg = "#f7e203" }
+"confirmation dimmed" = { fg = "#b5b4b6" }
+"confirmation border" = { fg = "#e0dee0" }
+"undo" = { bg = "#f1ecf1" }
+"undo confirmation dimmed" = { fg = "#b5b4b6" }
+"undo confirmation selected" = { bg = "#d8d5d5", fg = "#f7e203" }
+"preview" = { fg = "#515151" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Outrun Dark
+# Scheme author: Hugo Delahousse (http://github.com/hugodelahousse/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#d0d0fa", bg = "#00002a" }
+"dimmed" = { fg = "#50507a" }
+"selected" = { bg = "#30305a", fg = "#f3e877" }
+"border" = { fg = "#50507a" }
+"title" = { fg = "#20204a", bold = true }
+"shortcut" = { fg = "#f10596" }
+"matched" = { fg = "#f3e877", underline = true }
+"source_marker" = { bg = "#30305a", fg = "#d0d0fa" }
+"target_marker" = { bg = "#20204a", fg = "#d0d0fa" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#00002a" }
+"status title" = { fg = "#00002a", bg = "#20204a", bold = true }
+"status shortcut" = { fg = "#f10596" }
+"status dimmed" = { fg = "#50507a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#30305a", fg = "#f3e877" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#50507a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#30305a", fg = "#f3e877", bold = true }
+"help" = { bg = "#00002a" }
+"help title" = { fg = "#20204a", bold = true, underline = true }
+"help border" = { fg = "#50507a" }
+"menu" = { bg = "#00002a" }
+"menu title" = { fg = "#20204a", bold = true }
+"menu shortcut" = { fg = "#f10596" }
+"menu dimmed" = { fg = "#50507a" }
+"menu border" = { fg = "#50507a" }
+"menu selected" = { bg = "#30305a", fg = "#f3e877" }
+"confirmation" = { bg = "#00002a" }
+"confirmation text" = { fg = "#d0d0fa" }
+"confirmation selected" = { bg = "#30305a", fg = "#f3e877" }
+"confirmation dimmed" = { fg = "#50507a" }
+"confirmation border" = { fg = "#20204a" }
+"undo" = { bg = "#00002a" }
+"undo confirmation dimmed" = { fg = "#50507a" }
+"undo confirmation selected" = { bg = "#30305a", fg = "#f3e877" }
+"preview" = { fg = "#d0d0fa" }

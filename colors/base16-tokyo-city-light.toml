@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Tokyo City Light
+# Scheme author: Michaël Ball
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#343b59", bg = "#fbfbfd" }
+"dimmed" = { fg = "#9699a3" }
+"selected" = { bg = "#edeff6", fg = "#4c505e" }
+"border" = { fg = "#9699a3" }
+"title" = { fg = "#f6f6f8", bold = true }
+"shortcut" = { fg = "#5a4a78" }
+"matched" = { fg = "#4c505e", underline = true }
+"source_marker" = { bg = "#edeff6", fg = "#343b59" }
+"target_marker" = { bg = "#f6f6f8", fg = "#343b59" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fbfbfd" }
+"status title" = { fg = "#fbfbfd", bg = "#f6f6f8", bold = true }
+"status shortcut" = { fg = "#5a4a78" }
+"status dimmed" = { fg = "#9699a3" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#edeff6", fg = "#4c505e" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#9699a3" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#edeff6", fg = "#4c505e", bold = true }
+"help" = { bg = "#fbfbfd" }
+"help title" = { fg = "#f6f6f8", bold = true, underline = true }
+"help border" = { fg = "#9699a3" }
+"menu" = { bg = "#fbfbfd" }
+"menu title" = { fg = "#f6f6f8", bold = true }
+"menu shortcut" = { fg = "#5a4a78" }
+"menu dimmed" = { fg = "#9699a3" }
+"menu border" = { fg = "#9699a3" }
+"menu selected" = { bg = "#edeff6", fg = "#4c505e" }
+"confirmation" = { bg = "#fbfbfd" }
+"confirmation text" = { fg = "#343b59" }
+"confirmation selected" = { bg = "#edeff6", fg = "#4c505e" }
+"confirmation dimmed" = { fg = "#9699a3" }
+"confirmation border" = { fg = "#f6f6f8" }
+"undo" = { bg = "#fbfbfd" }
+"undo confirmation dimmed" = { fg = "#9699a3" }
+"undo confirmation selected" = { bg = "#edeff6", fg = "#4c505e" }
+"preview" = { fg = "#343b59" }

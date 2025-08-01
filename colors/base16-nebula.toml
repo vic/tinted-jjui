@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Nebula
+# Scheme author: Gabriel Fontes (https://github.com/Misterio77)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a4a6a9", bg = "#22273b" }
+"dimmed" = { fg = "#6e6f72" }
+"selected" = { bg = "#5a8380", fg = "#4f9062" }
+"border" = { fg = "#6e6f72" }
+"title" = { fg = "#414f60", bold = true }
+"shortcut" = { fg = "#716cae" }
+"matched" = { fg = "#4f9062", underline = true }
+"source_marker" = { bg = "#5a8380", fg = "#a4a6a9" }
+"target_marker" = { bg = "#414f60", fg = "#a4a6a9" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#22273b" }
+"status title" = { fg = "#22273b", bg = "#414f60", bold = true }
+"status shortcut" = { fg = "#716cae" }
+"status dimmed" = { fg = "#6e6f72" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#5a8380", fg = "#4f9062" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6e6f72" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#5a8380", fg = "#4f9062", bold = true }
+"help" = { bg = "#22273b" }
+"help title" = { fg = "#414f60", bold = true, underline = true }
+"help border" = { fg = "#6e6f72" }
+"menu" = { bg = "#22273b" }
+"menu title" = { fg = "#414f60", bold = true }
+"menu shortcut" = { fg = "#716cae" }
+"menu dimmed" = { fg = "#6e6f72" }
+"menu border" = { fg = "#6e6f72" }
+"menu selected" = { bg = "#5a8380", fg = "#4f9062" }
+"confirmation" = { bg = "#22273b" }
+"confirmation text" = { fg = "#a4a6a9" }
+"confirmation selected" = { bg = "#5a8380", fg = "#4f9062" }
+"confirmation dimmed" = { fg = "#6e6f72" }
+"confirmation border" = { fg = "#414f60" }
+"undo" = { bg = "#22273b" }
+"undo confirmation dimmed" = { fg = "#6e6f72" }
+"undo confirmation selected" = { bg = "#5a8380", fg = "#4f9062" }
+"preview" = { fg = "#a4a6a9" }

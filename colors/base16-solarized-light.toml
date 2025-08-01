@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Solarized Light
+# Scheme author: Ethan Schoonover (modified by aramisgithub)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#586e75", bg = "#fdf6e3" }
+"dimmed" = { fg = "#839496" }
+"selected" = { bg = "#93a1a1", fg = "#b58900" }
+"border" = { fg = "#839496" }
+"title" = { fg = "#eee8d5", bold = true }
+"shortcut" = { fg = "#6c71c4" }
+"matched" = { fg = "#b58900", underline = true }
+"source_marker" = { bg = "#93a1a1", fg = "#586e75" }
+"target_marker" = { bg = "#eee8d5", fg = "#586e75" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fdf6e3" }
+"status title" = { fg = "#fdf6e3", bg = "#eee8d5", bold = true }
+"status shortcut" = { fg = "#6c71c4" }
+"status dimmed" = { fg = "#839496" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#93a1a1", fg = "#b58900" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#839496" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#93a1a1", fg = "#b58900", bold = true }
+"help" = { bg = "#fdf6e3" }
+"help title" = { fg = "#eee8d5", bold = true, underline = true }
+"help border" = { fg = "#839496" }
+"menu" = { bg = "#fdf6e3" }
+"menu title" = { fg = "#eee8d5", bold = true }
+"menu shortcut" = { fg = "#6c71c4" }
+"menu dimmed" = { fg = "#839496" }
+"menu border" = { fg = "#839496" }
+"menu selected" = { bg = "#93a1a1", fg = "#b58900" }
+"confirmation" = { bg = "#fdf6e3" }
+"confirmation text" = { fg = "#586e75" }
+"confirmation selected" = { bg = "#93a1a1", fg = "#b58900" }
+"confirmation dimmed" = { fg = "#839496" }
+"confirmation border" = { fg = "#eee8d5" }
+"undo" = { bg = "#fdf6e3" }
+"undo confirmation dimmed" = { fg = "#839496" }
+"undo confirmation selected" = { bg = "#93a1a1", fg = "#b58900" }
+"preview" = { fg = "#586e75" }

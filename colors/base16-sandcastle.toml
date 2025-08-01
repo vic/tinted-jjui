@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Sandcastle
+# Scheme author: George Essig (https://github.com/gessig)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a89984", bg = "#282c34" }
+"dimmed" = { fg = "#665c54" }
+"selected" = { bg = "#3e4451", fg = "#a07e3b" }
+"border" = { fg = "#665c54" }
+"title" = { fg = "#2c323b", bold = true }
+"shortcut" = { fg = "#d75f5f" }
+"matched" = { fg = "#a07e3b", underline = true }
+"source_marker" = { bg = "#3e4451", fg = "#a89984" }
+"target_marker" = { bg = "#2c323b", fg = "#a89984" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282c34" }
+"status title" = { fg = "#282c34", bg = "#2c323b", bold = true }
+"status shortcut" = { fg = "#d75f5f" }
+"status dimmed" = { fg = "#665c54" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3e4451", fg = "#a07e3b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#665c54" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3e4451", fg = "#a07e3b", bold = true }
+"help" = { bg = "#282c34" }
+"help title" = { fg = "#2c323b", bold = true, underline = true }
+"help border" = { fg = "#665c54" }
+"menu" = { bg = "#282c34" }
+"menu title" = { fg = "#2c323b", bold = true }
+"menu shortcut" = { fg = "#d75f5f" }
+"menu dimmed" = { fg = "#665c54" }
+"menu border" = { fg = "#665c54" }
+"menu selected" = { bg = "#3e4451", fg = "#a07e3b" }
+"confirmation" = { bg = "#282c34" }
+"confirmation text" = { fg = "#a89984" }
+"confirmation selected" = { bg = "#3e4451", fg = "#a07e3b" }
+"confirmation dimmed" = { fg = "#665c54" }
+"confirmation border" = { fg = "#2c323b" }
+"undo" = { bg = "#282c34" }
+"undo confirmation dimmed" = { fg = "#665c54" }
+"undo confirmation selected" = { bg = "#3e4451", fg = "#a07e3b" }
+"preview" = { fg = "#a89984" }

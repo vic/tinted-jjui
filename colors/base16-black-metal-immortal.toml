@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Black Metal (Immortal)
+# Scheme author: metalelf0 (https://github.com/metalelf0)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c1c1c1", bg = "#000000" }
+"dimmed" = { fg = "#333333" }
+"selected" = { bg = "#222222", fg = "#556677" }
+"border" = { fg = "#333333" }
+"title" = { fg = "#121212", bold = true }
+"shortcut" = { fg = "#999999" }
+"matched" = { fg = "#556677", underline = true }
+"source_marker" = { bg = "#222222", fg = "#c1c1c1" }
+"target_marker" = { bg = "#121212", fg = "#c1c1c1" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#121212", bold = true }
+"status shortcut" = { fg = "#999999" }
+"status dimmed" = { fg = "#333333" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#222222", fg = "#556677" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#333333" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#222222", fg = "#556677", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#121212", bold = true, underline = true }
+"help border" = { fg = "#333333" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#121212", bold = true }
+"menu shortcut" = { fg = "#999999" }
+"menu dimmed" = { fg = "#333333" }
+"menu border" = { fg = "#333333" }
+"menu selected" = { bg = "#222222", fg = "#556677" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#c1c1c1" }
+"confirmation selected" = { bg = "#222222", fg = "#556677" }
+"confirmation dimmed" = { fg = "#333333" }
+"confirmation border" = { fg = "#121212" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#333333" }
+"undo confirmation selected" = { bg = "#222222", fg = "#556677" }
+"preview" = { fg = "#c1c1c1" }

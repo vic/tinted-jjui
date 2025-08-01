@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Qualia
+# Scheme author: isaacwhanson
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0c0c0", bg = "#101010" }
+"dimmed" = { fg = "#454545" }
+"selected" = { bg = "#454545", fg = "#e6a3dc" }
+"border" = { fg = "#454545" }
+"title" = { fg = "#454545", bold = true }
+"shortcut" = { fg = "#e0af85" }
+"matched" = { fg = "#e6a3dc", underline = true }
+"source_marker" = { bg = "#454545", fg = "#c0c0c0" }
+"target_marker" = { bg = "#454545", fg = "#c0c0c0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#101010" }
+"status title" = { fg = "#101010", bg = "#454545", bold = true }
+"status shortcut" = { fg = "#e0af85" }
+"status dimmed" = { fg = "#454545" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#454545", fg = "#e6a3dc" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#454545" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#454545", fg = "#e6a3dc", bold = true }
+"help" = { bg = "#101010" }
+"help title" = { fg = "#454545", bold = true, underline = true }
+"help border" = { fg = "#454545" }
+"menu" = { bg = "#101010" }
+"menu title" = { fg = "#454545", bold = true }
+"menu shortcut" = { fg = "#e0af85" }
+"menu dimmed" = { fg = "#454545" }
+"menu border" = { fg = "#454545" }
+"menu selected" = { bg = "#454545", fg = "#e6a3dc" }
+"confirmation" = { bg = "#101010" }
+"confirmation text" = { fg = "#c0c0c0" }
+"confirmation selected" = { bg = "#454545", fg = "#e6a3dc" }
+"confirmation dimmed" = { fg = "#454545" }
+"confirmation border" = { fg = "#454545" }
+"undo" = { bg = "#101010" }
+"undo confirmation dimmed" = { fg = "#454545" }
+"undo confirmation selected" = { bg = "#454545", fg = "#e6a3dc" }
+"preview" = { fg = "#c0c0c0" }

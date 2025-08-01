@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Operator Mono Dark
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0c4c0", bg = "#191919" }
+"dimmed" = { fg = "#a6a8a6" }
+"selected" = { bg = "#9a9a99", fg = "#89d3f6" }
+"border" = { fg = "#a6a8a6" }
+"title" = { fg = "#5a5a5a", bold = true }
+"shortcut" = { fg = "#b86cb4" }
+"matched" = { fg = "#89d3f6", underline = true }
+"source_marker" = { bg = "#9a9a99", fg = "#c0c4c0" }
+"target_marker" = { bg = "#5a5a5a", fg = "#c0c4c0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191919" }
+"status title" = { fg = "#191919", bg = "#5a5a5a", bold = true }
+"status shortcut" = { fg = "#b86cb4" }
+"status dimmed" = { fg = "#a6a8a6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#9a9a99", fg = "#89d3f6" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#a6a8a6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#9a9a99", fg = "#89d3f6", bold = true }
+"help" = { bg = "#191919" }
+"help title" = { fg = "#5a5a5a", bold = true, underline = true }
+"help border" = { fg = "#a6a8a6" }
+"menu" = { bg = "#191919" }
+"menu title" = { fg = "#5a5a5a", bold = true }
+"menu shortcut" = { fg = "#b86cb4" }
+"menu dimmed" = { fg = "#a6a8a6" }
+"menu border" = { fg = "#a6a8a6" }
+"menu selected" = { bg = "#9a9a99", fg = "#89d3f6" }
+"confirmation" = { bg = "#191919" }
+"confirmation text" = { fg = "#c0c4c0" }
+"confirmation selected" = { bg = "#9a9a99", fg = "#89d3f6" }
+"confirmation dimmed" = { fg = "#a6a8a6" }
+"confirmation border" = { fg = "#5a5a5a" }
+"undo" = { bg = "#191919" }
+"undo confirmation dimmed" = { fg = "#a6a8a6" }
+"undo confirmation selected" = { bg = "#9a9a99", fg = "#89d3f6" }
+"preview" = { fg = "#c0c4c0" }

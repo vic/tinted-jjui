@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Brush Trees
+# Scheme author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#6d828e", bg = "#e3efef" }
+"dimmed" = { fg = "#98afb5" }
+"selected" = { bg = "#b0c5c8", fg = "#aab386" }
+"border" = { fg = "#98afb5" }
+"title" = { fg = "#c9dbdc", bold = true }
+"shortcut" = { fg = "#b386b2" }
+"matched" = { fg = "#aab386", underline = true }
+"source_marker" = { bg = "#b0c5c8", fg = "#6d828e" }
+"target_marker" = { bg = "#c9dbdc", fg = "#6d828e" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#e3efef" }
+"status title" = { fg = "#e3efef", bg = "#c9dbdc", bold = true }
+"status shortcut" = { fg = "#b386b2" }
+"status dimmed" = { fg = "#98afb5" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#b0c5c8", fg = "#aab386" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#98afb5" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#b0c5c8", fg = "#aab386", bold = true }
+"help" = { bg = "#e3efef" }
+"help title" = { fg = "#c9dbdc", bold = true, underline = true }
+"help border" = { fg = "#98afb5" }
+"menu" = { bg = "#e3efef" }
+"menu title" = { fg = "#c9dbdc", bold = true }
+"menu shortcut" = { fg = "#b386b2" }
+"menu dimmed" = { fg = "#98afb5" }
+"menu border" = { fg = "#98afb5" }
+"menu selected" = { bg = "#b0c5c8", fg = "#aab386" }
+"confirmation" = { bg = "#e3efef" }
+"confirmation text" = { fg = "#6d828e" }
+"confirmation selected" = { bg = "#b0c5c8", fg = "#aab386" }
+"confirmation dimmed" = { fg = "#98afb5" }
+"confirmation border" = { fg = "#c9dbdc" }
+"undo" = { bg = "#e3efef" }
+"undo confirmation dimmed" = { fg = "#98afb5" }
+"undo confirmation selected" = { bg = "#b0c5c8", fg = "#aab386" }
+"preview" = { fg = "#6d828e" }

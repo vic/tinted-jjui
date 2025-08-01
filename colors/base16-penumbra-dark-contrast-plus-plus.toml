@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Penumbra Dark Contrast Plus Plus
+# Scheme author: Zachary Weiss (https://github.com/zacharyweiss)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#dedede", bg = "#0d0f13" }
+"dimmed" = { fg = "#636363" }
+"selected" = { bg = "#3e4044", fg = "#a9b852" }
+"border" = { fg = "#636363" }
+"title" = { fg = "#181b1f", bold = true }
+"shortcut" = { fg = "#b69cf6" }
+"matched" = { fg = "#a9b852", underline = true }
+"source_marker" = { bg = "#3e4044", fg = "#dedede" }
+"target_marker" = { bg = "#181b1f", fg = "#dedede" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0d0f13" }
+"status title" = { fg = "#0d0f13", bg = "#181b1f", bold = true }
+"status shortcut" = { fg = "#b69cf6" }
+"status dimmed" = { fg = "#636363" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3e4044", fg = "#a9b852" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#636363" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3e4044", fg = "#a9b852", bold = true }
+"help" = { bg = "#0d0f13" }
+"help title" = { fg = "#181b1f", bold = true, underline = true }
+"help border" = { fg = "#636363" }
+"menu" = { bg = "#0d0f13" }
+"menu title" = { fg = "#181b1f", bold = true }
+"menu shortcut" = { fg = "#b69cf6" }
+"menu dimmed" = { fg = "#636363" }
+"menu border" = { fg = "#636363" }
+"menu selected" = { bg = "#3e4044", fg = "#a9b852" }
+"confirmation" = { bg = "#0d0f13" }
+"confirmation text" = { fg = "#dedede" }
+"confirmation selected" = { bg = "#3e4044", fg = "#a9b852" }
+"confirmation dimmed" = { fg = "#636363" }
+"confirmation border" = { fg = "#181b1f" }
+"undo" = { bg = "#0d0f13" }
+"undo confirmation dimmed" = { fg = "#636363" }
+"undo confirmation selected" = { bg = "#3e4044", fg = "#a9b852" }
+"preview" = { fg = "#dedede" }

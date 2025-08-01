@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Synth Midnight Terminal Dark
+# Scheme author: Michaël Ball (http://github.com/michael-ball/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c1c3c4", bg = "#050608" }
+"dimmed" = { fg = "#474849" }
+"selected" = { bg = "#28292a", fg = "#c9d364" }
+"border" = { fg = "#474849" }
+"title" = { fg = "#1a1b1c", bold = true }
+"shortcut" = { fg = "#ea5ce2" }
+"matched" = { fg = "#c9d364", underline = true }
+"source_marker" = { bg = "#28292a", fg = "#c1c3c4" }
+"target_marker" = { bg = "#1a1b1c", fg = "#c1c3c4" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#050608" }
+"status title" = { fg = "#050608", bg = "#1a1b1c", bold = true }
+"status shortcut" = { fg = "#ea5ce2" }
+"status dimmed" = { fg = "#474849" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#28292a", fg = "#c9d364" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#474849" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#28292a", fg = "#c9d364", bold = true }
+"help" = { bg = "#050608" }
+"help title" = { fg = "#1a1b1c", bold = true, underline = true }
+"help border" = { fg = "#474849" }
+"menu" = { bg = "#050608" }
+"menu title" = { fg = "#1a1b1c", bold = true }
+"menu shortcut" = { fg = "#ea5ce2" }
+"menu dimmed" = { fg = "#474849" }
+"menu border" = { fg = "#474849" }
+"menu selected" = { bg = "#28292a", fg = "#c9d364" }
+"confirmation" = { bg = "#050608" }
+"confirmation text" = { fg = "#c1c3c4" }
+"confirmation selected" = { bg = "#28292a", fg = "#c9d364" }
+"confirmation dimmed" = { fg = "#474849" }
+"confirmation border" = { fg = "#1a1b1c" }
+"undo" = { bg = "#050608" }
+"undo confirmation dimmed" = { fg = "#474849" }
+"undo confirmation selected" = { bg = "#28292a", fg = "#c9d364" }
+"preview" = { fg = "#c1c3c4" }

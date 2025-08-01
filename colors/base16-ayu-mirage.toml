@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Ayu Mirage
+# Scheme author: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cccac2", bg = "#171b24" }
+"dimmed" = { fg = "#707a8c" }
+"selected" = { bg = "#242936", fg = "#ffd173" }
+"border" = { fg = "#707a8c" }
+"title" = { fg = "#1f2430", bold = true }
+"shortcut" = { fg = "#d4bfff" }
+"matched" = { fg = "#ffd173", underline = true }
+"source_marker" = { bg = "#242936", fg = "#cccac2" }
+"target_marker" = { bg = "#1f2430", fg = "#cccac2" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#171b24" }
+"status title" = { fg = "#171b24", bg = "#1f2430", bold = true }
+"status shortcut" = { fg = "#d4bfff" }
+"status dimmed" = { fg = "#707a8c" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#242936", fg = "#ffd173" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#707a8c" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#242936", fg = "#ffd173", bold = true }
+"help" = { bg = "#171b24" }
+"help title" = { fg = "#1f2430", bold = true, underline = true }
+"help border" = { fg = "#707a8c" }
+"menu" = { bg = "#171b24" }
+"menu title" = { fg = "#1f2430", bold = true }
+"menu shortcut" = { fg = "#d4bfff" }
+"menu dimmed" = { fg = "#707a8c" }
+"menu border" = { fg = "#707a8c" }
+"menu selected" = { bg = "#242936", fg = "#ffd173" }
+"confirmation" = { bg = "#171b24" }
+"confirmation text" = { fg = "#cccac2" }
+"confirmation selected" = { bg = "#242936", fg = "#ffd173" }
+"confirmation dimmed" = { fg = "#707a8c" }
+"confirmation border" = { fg = "#1f2430" }
+"undo" = { bg = "#171b24" }
+"undo confirmation dimmed" = { fg = "#707a8c" }
+"undo confirmation selected" = { bg = "#242936", fg = "#ffd173" }
+"preview" = { fg = "#cccac2" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Summerfruit Light
+# Scheme author: Christopher Corley (http://christop.club/)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#101010", bg = "#ffffff" }
+"dimmed" = { fg = "#b0b0b0" }
+"selected" = { bg = "#d0d0d0", fg = "#aba800" }
+"border" = { fg = "#b0b0b0" }
+"title" = { fg = "#e0e0e0", bold = true }
+"shortcut" = { fg = "#ad00a1" }
+"matched" = { fg = "#aba800", underline = true }
+"source_marker" = { bg = "#d0d0d0", fg = "#101010" }
+"target_marker" = { bg = "#e0e0e0", fg = "#101010" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#ffffff" }
+"status title" = { fg = "#ffffff", bg = "#e0e0e0", bold = true }
+"status shortcut" = { fg = "#ad00a1" }
+"status dimmed" = { fg = "#b0b0b0" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d0d0d0", fg = "#aba800" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b0b0b0" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d0d0d0", fg = "#aba800", bold = true }
+"help" = { bg = "#ffffff" }
+"help title" = { fg = "#e0e0e0", bold = true, underline = true }
+"help border" = { fg = "#b0b0b0" }
+"menu" = { bg = "#ffffff" }
+"menu title" = { fg = "#e0e0e0", bold = true }
+"menu shortcut" = { fg = "#ad00a1" }
+"menu dimmed" = { fg = "#b0b0b0" }
+"menu border" = { fg = "#b0b0b0" }
+"menu selected" = { bg = "#d0d0d0", fg = "#aba800" }
+"confirmation" = { bg = "#ffffff" }
+"confirmation text" = { fg = "#101010" }
+"confirmation selected" = { bg = "#d0d0d0", fg = "#aba800" }
+"confirmation dimmed" = { fg = "#b0b0b0" }
+"confirmation border" = { fg = "#e0e0e0" }
+"undo" = { bg = "#ffffff" }
+"undo confirmation dimmed" = { fg = "#b0b0b0" }
+"undo confirmation selected" = { bg = "#d0d0d0", fg = "#aba800" }
+"preview" = { fg = "#101010" }

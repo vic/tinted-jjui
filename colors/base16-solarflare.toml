@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Solar Flare
+# Scheme author: Chuck Harmston (https://chuck.harmston.ch)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a6afb8", bg = "#18262f" }
+"dimmed" = { fg = "#667581" }
+"selected" = { bg = "#586875", fg = "#e4b51c" }
+"border" = { fg = "#667581" }
+"title" = { fg = "#222e38", bold = true }
+"shortcut" = { fg = "#a363d5" }
+"matched" = { fg = "#e4b51c", underline = true }
+"source_marker" = { bg = "#586875", fg = "#a6afb8" }
+"target_marker" = { bg = "#222e38", fg = "#a6afb8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#18262f" }
+"status title" = { fg = "#18262f", bg = "#222e38", bold = true }
+"status shortcut" = { fg = "#a363d5" }
+"status dimmed" = { fg = "#667581" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#586875", fg = "#e4b51c" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#667581" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#586875", fg = "#e4b51c", bold = true }
+"help" = { bg = "#18262f" }
+"help title" = { fg = "#222e38", bold = true, underline = true }
+"help border" = { fg = "#667581" }
+"menu" = { bg = "#18262f" }
+"menu title" = { fg = "#222e38", bold = true }
+"menu shortcut" = { fg = "#a363d5" }
+"menu dimmed" = { fg = "#667581" }
+"menu border" = { fg = "#667581" }
+"menu selected" = { bg = "#586875", fg = "#e4b51c" }
+"confirmation" = { bg = "#18262f" }
+"confirmation text" = { fg = "#a6afb8" }
+"confirmation selected" = { bg = "#586875", fg = "#e4b51c" }
+"confirmation dimmed" = { fg = "#667581" }
+"confirmation border" = { fg = "#222e38" }
+"undo" = { bg = "#18262f" }
+"undo confirmation dimmed" = { fg = "#667581" }
+"undo confirmation selected" = { bg = "#586875", fg = "#e4b51c" }
+"preview" = { fg = "#a6afb8" }

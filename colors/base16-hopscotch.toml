@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Hopscotch
+# Scheme author: Jan T. Sott
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#b9b5b8", bg = "#322931" }
+"dimmed" = { fg = "#797379" }
+"selected" = { bg = "#5c545b", fg = "#fdcc59" }
+"border" = { fg = "#797379" }
+"title" = { fg = "#433b42", bold = true }
+"shortcut" = { fg = "#c85e7c" }
+"matched" = { fg = "#fdcc59", underline = true }
+"source_marker" = { bg = "#5c545b", fg = "#b9b5b8" }
+"target_marker" = { bg = "#433b42", fg = "#b9b5b8" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#322931" }
+"status title" = { fg = "#322931", bg = "#433b42", bold = true }
+"status shortcut" = { fg = "#c85e7c" }
+"status dimmed" = { fg = "#797379" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#5c545b", fg = "#fdcc59" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#797379" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#5c545b", fg = "#fdcc59", bold = true }
+"help" = { bg = "#322931" }
+"help title" = { fg = "#433b42", bold = true, underline = true }
+"help border" = { fg = "#797379" }
+"menu" = { bg = "#322931" }
+"menu title" = { fg = "#433b42", bold = true }
+"menu shortcut" = { fg = "#c85e7c" }
+"menu dimmed" = { fg = "#797379" }
+"menu border" = { fg = "#797379" }
+"menu selected" = { bg = "#5c545b", fg = "#fdcc59" }
+"confirmation" = { bg = "#322931" }
+"confirmation text" = { fg = "#b9b5b8" }
+"confirmation selected" = { bg = "#5c545b", fg = "#fdcc59" }
+"confirmation dimmed" = { fg = "#797379" }
+"confirmation border" = { fg = "#433b42" }
+"undo" = { bg = "#322931" }
+"undo confirmation dimmed" = { fg = "#797379" }
+"undo confirmation selected" = { bg = "#5c545b", fg = "#fdcc59" }
+"preview" = { fg = "#b9b5b8" }

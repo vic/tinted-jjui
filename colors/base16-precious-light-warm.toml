@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Precious Light Warm
+# Scheme author: 4lex4 &lt;4lex49@zoho.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#4e5359", bg = "#fff5e5" }
+"dimmed" = { fg = "#7f8080" }
+"selected" = { bg = "#d9d3c8", fg = "#876500" }
+"border" = { fg = "#7f8080" }
+"title" = { fg = "#ece4d6", bold = true }
+"shortcut" = { fg = "#7a50c6" }
+"matched" = { fg = "#876500", underline = true }
+"source_marker" = { bg = "#d9d3c8", fg = "#4e5359" }
+"target_marker" = { bg = "#ece4d6", fg = "#4e5359" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#fff5e5" }
+"status title" = { fg = "#fff5e5", bg = "#ece4d6", bold = true }
+"status shortcut" = { fg = "#7a50c6" }
+"status dimmed" = { fg = "#7f8080" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d9d3c8", fg = "#876500" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7f8080" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d9d3c8", fg = "#876500", bold = true }
+"help" = { bg = "#fff5e5" }
+"help title" = { fg = "#ece4d6", bold = true, underline = true }
+"help border" = { fg = "#7f8080" }
+"menu" = { bg = "#fff5e5" }
+"menu title" = { fg = "#ece4d6", bold = true }
+"menu shortcut" = { fg = "#7a50c6" }
+"menu dimmed" = { fg = "#7f8080" }
+"menu border" = { fg = "#7f8080" }
+"menu selected" = { bg = "#d9d3c8", fg = "#876500" }
+"confirmation" = { bg = "#fff5e5" }
+"confirmation text" = { fg = "#4e5359" }
+"confirmation selected" = { bg = "#d9d3c8", fg = "#876500" }
+"confirmation dimmed" = { fg = "#7f8080" }
+"confirmation border" = { fg = "#ece4d6" }
+"undo" = { bg = "#fff5e5" }
+"undo confirmation dimmed" = { fg = "#7f8080" }
+"undo confirmation selected" = { bg = "#d9d3c8", fg = "#876500" }
+"preview" = { fg = "#4e5359" }

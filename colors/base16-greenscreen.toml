@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Green Screen
+# Scheme author: Chris Kempson (http://chriskempson.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#00bb00", bg = "#001100" }
+"dimmed" = { fg = "#007700" }
+"selected" = { bg = "#005500", fg = "#007700" }
+"border" = { fg = "#007700" }
+"title" = { fg = "#003300", bold = true }
+"shortcut" = { fg = "#00bb00" }
+"matched" = { fg = "#007700", underline = true }
+"source_marker" = { bg = "#005500", fg = "#00bb00" }
+"target_marker" = { bg = "#003300", fg = "#00bb00" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#001100" }
+"status title" = { fg = "#001100", bg = "#003300", bold = true }
+"status shortcut" = { fg = "#00bb00" }
+"status dimmed" = { fg = "#007700" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#005500", fg = "#007700" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#007700" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#005500", fg = "#007700", bold = true }
+"help" = { bg = "#001100" }
+"help title" = { fg = "#003300", bold = true, underline = true }
+"help border" = { fg = "#007700" }
+"menu" = { bg = "#001100" }
+"menu title" = { fg = "#003300", bold = true }
+"menu shortcut" = { fg = "#00bb00" }
+"menu dimmed" = { fg = "#007700" }
+"menu border" = { fg = "#007700" }
+"menu selected" = { bg = "#005500", fg = "#007700" }
+"confirmation" = { bg = "#001100" }
+"confirmation text" = { fg = "#00bb00" }
+"confirmation selected" = { bg = "#005500", fg = "#007700" }
+"confirmation dimmed" = { fg = "#007700" }
+"confirmation border" = { fg = "#003300" }
+"undo" = { bg = "#001100" }
+"undo confirmation dimmed" = { fg = "#007700" }
+"undo confirmation selected" = { bg = "#005500", fg = "#007700" }
+"preview" = { fg = "#00bb00" }

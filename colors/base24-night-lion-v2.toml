@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Night Lion V2
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a1a1a1", bg = "#171717" }
+"dimmed" = { fg = "#6e6e6e" }
+"selected" = { bg = "#555555", fg = "#62cae7" }
+"border" = { fg = "#6e6e6e" }
+"title" = { fg = "#4c4c4c", bold = true }
+"shortcut" = { fg = "#ce6fda" }
+"matched" = { fg = "#62cae7", underline = true }
+"source_marker" = { bg = "#555555", fg = "#a1a1a1" }
+"target_marker" = { bg = "#4c4c4c", fg = "#a1a1a1" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#171717" }
+"status title" = { fg = "#171717", bg = "#4c4c4c", bold = true }
+"status shortcut" = { fg = "#ce6fda" }
+"status dimmed" = { fg = "#6e6e6e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#555555", fg = "#62cae7" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6e6e6e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#555555", fg = "#62cae7", bold = true }
+"help" = { bg = "#171717" }
+"help title" = { fg = "#4c4c4c", bold = true, underline = true }
+"help border" = { fg = "#6e6e6e" }
+"menu" = { bg = "#171717" }
+"menu title" = { fg = "#4c4c4c", bold = true }
+"menu shortcut" = { fg = "#ce6fda" }
+"menu dimmed" = { fg = "#6e6e6e" }
+"menu border" = { fg = "#6e6e6e" }
+"menu selected" = { bg = "#555555", fg = "#62cae7" }
+"confirmation" = { bg = "#171717" }
+"confirmation text" = { fg = "#a1a1a1" }
+"confirmation selected" = { bg = "#555555", fg = "#62cae7" }
+"confirmation dimmed" = { fg = "#6e6e6e" }
+"confirmation border" = { fg = "#4c4c4c" }
+"undo" = { bg = "#171717" }
+"undo confirmation dimmed" = { fg = "#6e6e6e" }
+"undo confirmation selected" = { bg = "#555555", fg = "#62cae7" }
+"preview" = { fg = "#a1a1a1" }

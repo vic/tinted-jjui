@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: eris
+# Scheme author: ed (https://codeberg.org/ed)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#606bac", bg = "#0a0920" }
+"dimmed" = { fg = "#333773" }
+"selected" = { bg = "#23255a", fg = "#faaea2" }
+"border" = { fg = "#333773" }
+"title" = { fg = "#13133a", bold = true }
+"shortcut" = { fg = "#f768a3" }
+"matched" = { fg = "#faaea2", underline = true }
+"source_marker" = { bg = "#23255a", fg = "#606bac" }
+"target_marker" = { bg = "#13133a", fg = "#606bac" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0a0920" }
+"status title" = { fg = "#0a0920", bg = "#13133a", bold = true }
+"status shortcut" = { fg = "#f768a3" }
+"status dimmed" = { fg = "#333773" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#23255a", fg = "#faaea2" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#333773" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#23255a", fg = "#faaea2", bold = true }
+"help" = { bg = "#0a0920" }
+"help title" = { fg = "#13133a", bold = true, underline = true }
+"help border" = { fg = "#333773" }
+"menu" = { bg = "#0a0920" }
+"menu title" = { fg = "#13133a", bold = true }
+"menu shortcut" = { fg = "#f768a3" }
+"menu dimmed" = { fg = "#333773" }
+"menu border" = { fg = "#333773" }
+"menu selected" = { bg = "#23255a", fg = "#faaea2" }
+"confirmation" = { bg = "#0a0920" }
+"confirmation text" = { fg = "#606bac" }
+"confirmation selected" = { bg = "#23255a", fg = "#faaea2" }
+"confirmation dimmed" = { fg = "#333773" }
+"confirmation border" = { fg = "#13133a" }
+"undo" = { bg = "#0a0920" }
+"undo confirmation dimmed" = { fg = "#333773" }
+"undo confirmation selected" = { bg = "#23255a", fg = "#faaea2" }
+"preview" = { fg = "#606bac" }

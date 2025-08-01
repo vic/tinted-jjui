@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Tokyo Night Moon
+# Scheme author: Ólafur Bjarki Bogason
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#3b4261", bg = "#222436" }
+"dimmed" = { fg = "#636da6" }
+"selected" = { bg = "#2d3f76", fg = "#ffc777" }
+"border" = { fg = "#636da6" }
+"title" = { fg = "#1e2030", bold = true }
+"shortcut" = { fg = "#fca7ea" }
+"matched" = { fg = "#ffc777", underline = true }
+"source_marker" = { bg = "#2d3f76", fg = "#3b4261" }
+"target_marker" = { bg = "#1e2030", fg = "#3b4261" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#222436" }
+"status title" = { fg = "#222436", bg = "#1e2030", bold = true }
+"status shortcut" = { fg = "#fca7ea" }
+"status dimmed" = { fg = "#636da6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2d3f76", fg = "#ffc777" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#636da6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2d3f76", fg = "#ffc777", bold = true }
+"help" = { bg = "#222436" }
+"help title" = { fg = "#1e2030", bold = true, underline = true }
+"help border" = { fg = "#636da6" }
+"menu" = { bg = "#222436" }
+"menu title" = { fg = "#1e2030", bold = true }
+"menu shortcut" = { fg = "#fca7ea" }
+"menu dimmed" = { fg = "#636da6" }
+"menu border" = { fg = "#636da6" }
+"menu selected" = { bg = "#2d3f76", fg = "#ffc777" }
+"confirmation" = { bg = "#222436" }
+"confirmation text" = { fg = "#3b4261" }
+"confirmation selected" = { bg = "#2d3f76", fg = "#ffc777" }
+"confirmation dimmed" = { fg = "#636da6" }
+"confirmation border" = { fg = "#1e2030" }
+"undo" = { bg = "#222436" }
+"undo confirmation dimmed" = { fg = "#636da6" }
+"undo confirmation selected" = { bg = "#2d3f76", fg = "#ffc777" }
+"preview" = { fg = "#3b4261" }

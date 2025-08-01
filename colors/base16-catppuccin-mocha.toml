@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Catppuccin Mocha
+# Scheme author: https://github.com/catppuccin/catppuccin
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cdd6f4", bg = "#1e1e2e" }
+"dimmed" = { fg = "#45475a" }
+"selected" = { bg = "#313244", fg = "#f9e2af" }
+"border" = { fg = "#45475a" }
+"title" = { fg = "#181825", bold = true }
+"shortcut" = { fg = "#cba6f7" }
+"matched" = { fg = "#f9e2af", underline = true }
+"source_marker" = { bg = "#313244", fg = "#cdd6f4" }
+"target_marker" = { bg = "#181825", fg = "#cdd6f4" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1e1e2e" }
+"status title" = { fg = "#1e1e2e", bg = "#181825", bold = true }
+"status shortcut" = { fg = "#cba6f7" }
+"status dimmed" = { fg = "#45475a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#313244", fg = "#f9e2af" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#45475a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#313244", fg = "#f9e2af", bold = true }
+"help" = { bg = "#1e1e2e" }
+"help title" = { fg = "#181825", bold = true, underline = true }
+"help border" = { fg = "#45475a" }
+"menu" = { bg = "#1e1e2e" }
+"menu title" = { fg = "#181825", bold = true }
+"menu shortcut" = { fg = "#cba6f7" }
+"menu dimmed" = { fg = "#45475a" }
+"menu border" = { fg = "#45475a" }
+"menu selected" = { bg = "#313244", fg = "#f9e2af" }
+"confirmation" = { bg = "#1e1e2e" }
+"confirmation text" = { fg = "#cdd6f4" }
+"confirmation selected" = { bg = "#313244", fg = "#f9e2af" }
+"confirmation dimmed" = { fg = "#45475a" }
+"confirmation border" = { fg = "#181825" }
+"undo" = { bg = "#1e1e2e" }
+"undo confirmation dimmed" = { fg = "#45475a" }
+"undo confirmation selected" = { bg = "#313244", fg = "#f9e2af" }
+"preview" = { fg = "#cdd6f4" }

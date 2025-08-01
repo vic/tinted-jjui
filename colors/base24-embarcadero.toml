@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Embarcadero
+# Scheme author: Thomas Leon Highbaugh
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#bcbdc0", bg = "#252a2f" }
+"dimmed" = { fg = "#7f8285" }
+"selected" = { bg = "#616568", fg = "#eb824d" }
+"border" = { fg = "#7f8285" }
+"title" = { fg = "#43474c", bold = true }
+"shortcut" = { fg = "#a070d0" }
+"matched" = { fg = "#eb824d", underline = true }
+"source_marker" = { bg = "#616568", fg = "#bcbdc0" }
+"target_marker" = { bg = "#43474c", fg = "#bcbdc0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#252a2f" }
+"status title" = { fg = "#252a2f", bg = "#43474c", bold = true }
+"status shortcut" = { fg = "#a070d0" }
+"status dimmed" = { fg = "#7f8285" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#616568", fg = "#eb824d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#7f8285" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#616568", fg = "#eb824d", bold = true }
+"help" = { bg = "#252a2f" }
+"help title" = { fg = "#43474c", bold = true, underline = true }
+"help border" = { fg = "#7f8285" }
+"menu" = { bg = "#252a2f" }
+"menu title" = { fg = "#43474c", bold = true }
+"menu shortcut" = { fg = "#a070d0" }
+"menu dimmed" = { fg = "#7f8285" }
+"menu border" = { fg = "#7f8285" }
+"menu selected" = { bg = "#616568", fg = "#eb824d" }
+"confirmation" = { bg = "#252a2f" }
+"confirmation text" = { fg = "#bcbdc0" }
+"confirmation selected" = { bg = "#616568", fg = "#eb824d" }
+"confirmation dimmed" = { fg = "#7f8285" }
+"confirmation border" = { fg = "#43474c" }
+"undo" = { bg = "#252a2f" }
+"undo confirmation dimmed" = { fg = "#7f8285" }
+"undo confirmation selected" = { bg = "#616568", fg = "#eb824d" }
+"preview" = { fg = "#bcbdc0" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Railscasts
+# Scheme author: Ryan Bates (http://railscasts.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#e6e1dc", bg = "#2b2b2b" }
+"dimmed" = { fg = "#5a647e" }
+"selected" = { bg = "#3a4055", fg = "#ffc66d" }
+"border" = { fg = "#5a647e" }
+"title" = { fg = "#272935", bold = true }
+"shortcut" = { fg = "#b6b3eb" }
+"matched" = { fg = "#ffc66d", underline = true }
+"source_marker" = { bg = "#3a4055", fg = "#e6e1dc" }
+"target_marker" = { bg = "#272935", fg = "#e6e1dc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#2b2b2b" }
+"status title" = { fg = "#2b2b2b", bg = "#272935", bold = true }
+"status shortcut" = { fg = "#b6b3eb" }
+"status dimmed" = { fg = "#5a647e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#3a4055", fg = "#ffc66d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5a647e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#3a4055", fg = "#ffc66d", bold = true }
+"help" = { bg = "#2b2b2b" }
+"help title" = { fg = "#272935", bold = true, underline = true }
+"help border" = { fg = "#5a647e" }
+"menu" = { bg = "#2b2b2b" }
+"menu title" = { fg = "#272935", bold = true }
+"menu shortcut" = { fg = "#b6b3eb" }
+"menu dimmed" = { fg = "#5a647e" }
+"menu border" = { fg = "#5a647e" }
+"menu selected" = { bg = "#3a4055", fg = "#ffc66d" }
+"confirmation" = { bg = "#2b2b2b" }
+"confirmation text" = { fg = "#e6e1dc" }
+"confirmation selected" = { bg = "#3a4055", fg = "#ffc66d" }
+"confirmation dimmed" = { fg = "#5a647e" }
+"confirmation border" = { fg = "#272935" }
+"undo" = { bg = "#2b2b2b" }
+"undo confirmation dimmed" = { fg = "#5a647e" }
+"undo confirmation selected" = { bg = "#3a4055", fg = "#ffc66d" }
+"preview" = { fg = "#e6e1dc" }

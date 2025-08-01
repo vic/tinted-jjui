@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Nord Light
+# Scheme author: threddast, based on fuxialexander&#39;s doom-nord-light-theme (Doom Emacs)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#2e3440", bg = "#e5e9f0" }
+"dimmed" = { fg = "#aebacf" }
+"selected" = { bg = "#b8c5db", fg = "#9a7500" }
+"border" = { fg = "#aebacf" }
+"title" = { fg = "#c2d0e7", bold = true }
+"shortcut" = { fg = "#97365b" }
+"matched" = { fg = "#9a7500", underline = true }
+"source_marker" = { bg = "#b8c5db", fg = "#2e3440" }
+"target_marker" = { bg = "#c2d0e7", fg = "#2e3440" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#e5e9f0" }
+"status title" = { fg = "#e5e9f0", bg = "#c2d0e7", bold = true }
+"status shortcut" = { fg = "#97365b" }
+"status dimmed" = { fg = "#aebacf" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#b8c5db", fg = "#9a7500" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#aebacf" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#b8c5db", fg = "#9a7500", bold = true }
+"help" = { bg = "#e5e9f0" }
+"help title" = { fg = "#c2d0e7", bold = true, underline = true }
+"help border" = { fg = "#aebacf" }
+"menu" = { bg = "#e5e9f0" }
+"menu title" = { fg = "#c2d0e7", bold = true }
+"menu shortcut" = { fg = "#97365b" }
+"menu dimmed" = { fg = "#aebacf" }
+"menu border" = { fg = "#aebacf" }
+"menu selected" = { bg = "#b8c5db", fg = "#9a7500" }
+"confirmation" = { bg = "#e5e9f0" }
+"confirmation text" = { fg = "#2e3440" }
+"confirmation selected" = { bg = "#b8c5db", fg = "#9a7500" }
+"confirmation dimmed" = { fg = "#aebacf" }
+"confirmation border" = { fg = "#c2d0e7" }
+"undo" = { bg = "#e5e9f0" }
+"undo confirmation dimmed" = { fg = "#aebacf" }
+"undo confirmation selected" = { bg = "#b8c5db", fg = "#9a7500" }
+"preview" = { fg = "#2e3440" }

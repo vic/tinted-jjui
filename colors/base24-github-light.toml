@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Github Light
+# Scheme author: Tinted Theming (https://github.com/tinted-theming)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#424a53", bg = "#eaeef2" }
+"dimmed" = { fg = "#8c959f" }
+"selected" = { bg = "#afb8c1", fg = "#bf8700" }
+"border" = { fg = "#8c959f" }
+"title" = { fg = "#d0d7de", bold = true }
+"shortcut" = { fg = "#a475f9" }
+"matched" = { fg = "#bf8700", underline = true }
+"source_marker" = { bg = "#afb8c1", fg = "#424a53" }
+"target_marker" = { bg = "#d0d7de", fg = "#424a53" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#eaeef2" }
+"status title" = { fg = "#eaeef2", bg = "#d0d7de", bold = true }
+"status shortcut" = { fg = "#a475f9" }
+"status dimmed" = { fg = "#8c959f" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#afb8c1", fg = "#bf8700" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#8c959f" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#afb8c1", fg = "#bf8700", bold = true }
+"help" = { bg = "#eaeef2" }
+"help title" = { fg = "#d0d7de", bold = true, underline = true }
+"help border" = { fg = "#8c959f" }
+"menu" = { bg = "#eaeef2" }
+"menu title" = { fg = "#d0d7de", bold = true }
+"menu shortcut" = { fg = "#a475f9" }
+"menu dimmed" = { fg = "#8c959f" }
+"menu border" = { fg = "#8c959f" }
+"menu selected" = { bg = "#afb8c1", fg = "#bf8700" }
+"confirmation" = { bg = "#eaeef2" }
+"confirmation text" = { fg = "#424a53" }
+"confirmation selected" = { bg = "#afb8c1", fg = "#bf8700" }
+"confirmation dimmed" = { fg = "#8c959f" }
+"confirmation border" = { fg = "#d0d7de" }
+"undo" = { bg = "#eaeef2" }
+"undo confirmation dimmed" = { fg = "#8c959f" }
+"undo confirmation selected" = { bg = "#afb8c1", fg = "#bf8700" }
+"preview" = { fg = "#424a53" }

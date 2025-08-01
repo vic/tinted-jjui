@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Blue Berry Pie
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#bbb2ad", bg = "#1c0b28" }
+"dimmed" = { fg = "#534a5e" }
+"selected" = { bg = "#1f1637", fg = "#38163d" }
+"border" = { fg = "#534a5e" }
+"title" = { fg = "#0a4b61", bold = true }
+"shortcut" = { fg = "#9d53a7" }
+"matched" = { fg = "#38163d", underline = true }
+"source_marker" = { bg = "#1f1637", fg = "#bbb2ad" }
+"target_marker" = { bg = "#0a4b61", fg = "#bbb2ad" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1c0b28" }
+"status title" = { fg = "#1c0b28", bg = "#0a4b61", bold = true }
+"status shortcut" = { fg = "#9d53a7" }
+"status dimmed" = { fg = "#534a5e" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#1f1637", fg = "#38163d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#534a5e" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#1f1637", fg = "#38163d", bold = true }
+"help" = { bg = "#1c0b28" }
+"help title" = { fg = "#0a4b61", bold = true, underline = true }
+"help border" = { fg = "#534a5e" }
+"menu" = { bg = "#1c0b28" }
+"menu title" = { fg = "#0a4b61", bold = true }
+"menu shortcut" = { fg = "#9d53a7" }
+"menu dimmed" = { fg = "#534a5e" }
+"menu border" = { fg = "#534a5e" }
+"menu selected" = { bg = "#1f1637", fg = "#38163d" }
+"confirmation" = { bg = "#1c0b28" }
+"confirmation text" = { fg = "#bbb2ad" }
+"confirmation selected" = { bg = "#1f1637", fg = "#38163d" }
+"confirmation dimmed" = { fg = "#534a5e" }
+"confirmation border" = { fg = "#0a4b61" }
+"undo" = { bg = "#1c0b28" }
+"undo confirmation dimmed" = { fg = "#534a5e" }
+"undo confirmation selected" = { bg = "#1f1637", fg = "#38163d" }
+"preview" = { fg = "#bbb2ad" }

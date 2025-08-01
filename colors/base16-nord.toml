@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Nord
+# Scheme author: arcticicestudio
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#e5e9f0", bg = "#2e3440" }
+"dimmed" = { fg = "#4c566a" }
+"selected" = { bg = "#434c5e", fg = "#ebcb8b" }
+"border" = { fg = "#4c566a" }
+"title" = { fg = "#3b4252", bold = true }
+"shortcut" = { fg = "#b48ead" }
+"matched" = { fg = "#ebcb8b", underline = true }
+"source_marker" = { bg = "#434c5e", fg = "#e5e9f0" }
+"target_marker" = { bg = "#3b4252", fg = "#e5e9f0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#2e3440" }
+"status title" = { fg = "#2e3440", bg = "#3b4252", bold = true }
+"status shortcut" = { fg = "#b48ead" }
+"status dimmed" = { fg = "#4c566a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#434c5e", fg = "#ebcb8b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#4c566a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#434c5e", fg = "#ebcb8b", bold = true }
+"help" = { bg = "#2e3440" }
+"help title" = { fg = "#3b4252", bold = true, underline = true }
+"help border" = { fg = "#4c566a" }
+"menu" = { bg = "#2e3440" }
+"menu title" = { fg = "#3b4252", bold = true }
+"menu shortcut" = { fg = "#b48ead" }
+"menu dimmed" = { fg = "#4c566a" }
+"menu border" = { fg = "#4c566a" }
+"menu selected" = { bg = "#434c5e", fg = "#ebcb8b" }
+"confirmation" = { bg = "#2e3440" }
+"confirmation text" = { fg = "#e5e9f0" }
+"confirmation selected" = { bg = "#434c5e", fg = "#ebcb8b" }
+"confirmation dimmed" = { fg = "#4c566a" }
+"confirmation border" = { fg = "#3b4252" }
+"undo" = { bg = "#2e3440" }
+"undo confirmation dimmed" = { fg = "#4c566a" }
+"undo confirmation selected" = { bg = "#434c5e", fg = "#ebcb8b" }
+"preview" = { fg = "#e5e9f0" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Silk Light
+# Scheme author: Gabriel Fontes (https://github.com/Misterio77)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#385156", bg = "#e9f1ef" }
+"dimmed" = { fg = "#5c787b" }
+"selected" = { bg = "#90b7b6", fg = "#cfad25" }
+"border" = { fg = "#5c787b" }
+"title" = { fg = "#ccd4d3", bold = true }
+"shortcut" = { fg = "#6e6582" }
+"matched" = { fg = "#cfad25", underline = true }
+"source_marker" = { bg = "#90b7b6", fg = "#385156" }
+"target_marker" = { bg = "#ccd4d3", fg = "#385156" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#e9f1ef" }
+"status title" = { fg = "#e9f1ef", bg = "#ccd4d3", bold = true }
+"status shortcut" = { fg = "#6e6582" }
+"status dimmed" = { fg = "#5c787b" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#90b7b6", fg = "#cfad25" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5c787b" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#90b7b6", fg = "#cfad25", bold = true }
+"help" = { bg = "#e9f1ef" }
+"help title" = { fg = "#ccd4d3", bold = true, underline = true }
+"help border" = { fg = "#5c787b" }
+"menu" = { bg = "#e9f1ef" }
+"menu title" = { fg = "#ccd4d3", bold = true }
+"menu shortcut" = { fg = "#6e6582" }
+"menu dimmed" = { fg = "#5c787b" }
+"menu border" = { fg = "#5c787b" }
+"menu selected" = { bg = "#90b7b6", fg = "#cfad25" }
+"confirmation" = { bg = "#e9f1ef" }
+"confirmation text" = { fg = "#385156" }
+"confirmation selected" = { bg = "#90b7b6", fg = "#cfad25" }
+"confirmation dimmed" = { fg = "#5c787b" }
+"confirmation border" = { fg = "#ccd4d3" }
+"undo" = { bg = "#e9f1ef" }
+"undo confirmation dimmed" = { fg = "#5c787b" }
+"undo confirmation selected" = { bg = "#90b7b6", fg = "#cfad25" }
+"preview" = { fg = "#385156" }

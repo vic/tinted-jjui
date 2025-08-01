@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Darktooth
+# Scheme author: Jason Milkins (https://github.com/jasonm23)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a89984", bg = "#1d2021" }
+"dimmed" = { fg = "#665c54" }
+"selected" = { bg = "#504945", fg = "#fac03b" }
+"border" = { fg = "#665c54" }
+"title" = { fg = "#32302f", bold = true }
+"shortcut" = { fg = "#8f4673" }
+"matched" = { fg = "#fac03b", underline = true }
+"source_marker" = { bg = "#504945", fg = "#a89984" }
+"target_marker" = { bg = "#32302f", fg = "#a89984" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1d2021" }
+"status title" = { fg = "#1d2021", bg = "#32302f", bold = true }
+"status shortcut" = { fg = "#8f4673" }
+"status dimmed" = { fg = "#665c54" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#504945", fg = "#fac03b" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#665c54" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#504945", fg = "#fac03b", bold = true }
+"help" = { bg = "#1d2021" }
+"help title" = { fg = "#32302f", bold = true, underline = true }
+"help border" = { fg = "#665c54" }
+"menu" = { bg = "#1d2021" }
+"menu title" = { fg = "#32302f", bold = true }
+"menu shortcut" = { fg = "#8f4673" }
+"menu dimmed" = { fg = "#665c54" }
+"menu border" = { fg = "#665c54" }
+"menu selected" = { bg = "#504945", fg = "#fac03b" }
+"confirmation" = { bg = "#1d2021" }
+"confirmation text" = { fg = "#a89984" }
+"confirmation selected" = { bg = "#504945", fg = "#fac03b" }
+"confirmation dimmed" = { fg = "#665c54" }
+"confirmation border" = { fg = "#32302f" }
+"undo" = { bg = "#1d2021" }
+"undo confirmation dimmed" = { fg = "#665c54" }
+"undo confirmation selected" = { bg = "#504945", fg = "#fac03b" }
+"preview" = { fg = "#a89984" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Codeschool
+# Scheme author: blockloop
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#9ea7a6", bg = "#232c31" }
+"dimmed" = { fg = "#3f4944" }
+"selected" = { bg = "#2a343a", fg = "#a03b1e" }
+"border" = { fg = "#3f4944" }
+"title" = { fg = "#1c3657", bold = true }
+"shortcut" = { fg = "#c59820" }
+"matched" = { fg = "#a03b1e", underline = true }
+"source_marker" = { bg = "#2a343a", fg = "#9ea7a6" }
+"target_marker" = { bg = "#1c3657", fg = "#9ea7a6" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#232c31" }
+"status title" = { fg = "#232c31", bg = "#1c3657", bold = true }
+"status shortcut" = { fg = "#c59820" }
+"status dimmed" = { fg = "#3f4944" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2a343a", fg = "#a03b1e" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#3f4944" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2a343a", fg = "#a03b1e", bold = true }
+"help" = { bg = "#232c31" }
+"help title" = { fg = "#1c3657", bold = true, underline = true }
+"help border" = { fg = "#3f4944" }
+"menu" = { bg = "#232c31" }
+"menu title" = { fg = "#1c3657", bold = true }
+"menu shortcut" = { fg = "#c59820" }
+"menu dimmed" = { fg = "#3f4944" }
+"menu border" = { fg = "#3f4944" }
+"menu selected" = { bg = "#2a343a", fg = "#a03b1e" }
+"confirmation" = { bg = "#232c31" }
+"confirmation text" = { fg = "#9ea7a6" }
+"confirmation selected" = { bg = "#2a343a", fg = "#a03b1e" }
+"confirmation dimmed" = { fg = "#3f4944" }
+"confirmation border" = { fg = "#1c3657" }
+"undo" = { bg = "#232c31" }
+"undo confirmation dimmed" = { fg = "#3f4944" }
+"undo confirmation selected" = { bg = "#2a343a", fg = "#a03b1e" }
+"preview" = { fg = "#9ea7a6" }

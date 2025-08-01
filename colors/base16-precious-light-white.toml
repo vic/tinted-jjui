@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Precious Light White
+# Scheme author: 4lex4 &lt;4lex49@zoho.com&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#555555", bg = "#ffffff" }
+"dimmed" = { fg = "#848484" }
+"selected" = { bg = "#dbdbdb", fg = "#876500" }
+"border" = { fg = "#848484" }
+"title" = { fg = "#ededed", bold = true }
+"shortcut" = { fg = "#7b4ecb" }
+"matched" = { fg = "#876500", underline = true }
+"source_marker" = { bg = "#dbdbdb", fg = "#555555" }
+"target_marker" = { bg = "#ededed", fg = "#555555" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#ffffff" }
+"status title" = { fg = "#ffffff", bg = "#ededed", bold = true }
+"status shortcut" = { fg = "#7b4ecb" }
+"status dimmed" = { fg = "#848484" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#dbdbdb", fg = "#876500" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#848484" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#dbdbdb", fg = "#876500", bold = true }
+"help" = { bg = "#ffffff" }
+"help title" = { fg = "#ededed", bold = true, underline = true }
+"help border" = { fg = "#848484" }
+"menu" = { bg = "#ffffff" }
+"menu title" = { fg = "#ededed", bold = true }
+"menu shortcut" = { fg = "#7b4ecb" }
+"menu dimmed" = { fg = "#848484" }
+"menu border" = { fg = "#848484" }
+"menu selected" = { bg = "#dbdbdb", fg = "#876500" }
+"confirmation" = { bg = "#ffffff" }
+"confirmation text" = { fg = "#555555" }
+"confirmation selected" = { bg = "#dbdbdb", fg = "#876500" }
+"confirmation dimmed" = { fg = "#848484" }
+"confirmation border" = { fg = "#ededed" }
+"undo" = { bg = "#ffffff" }
+"undo confirmation dimmed" = { fg = "#848484" }
+"undo confirmation selected" = { bg = "#dbdbdb", fg = "#876500" }
+"preview" = { fg = "#555555" }

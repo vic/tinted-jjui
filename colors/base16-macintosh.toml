@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Macintosh
+# Scheme author: Rebecca Bettencourt (http://www.kreativekorp.com)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c0c0c0", bg = "#000000" }
+"dimmed" = { fg = "#808080" }
+"selected" = { bg = "#404040", fg = "#fbf305" }
+"border" = { fg = "#808080" }
+"title" = { fg = "#404040", bold = true }
+"shortcut" = { fg = "#4700a5" }
+"matched" = { fg = "#fbf305", underline = true }
+"source_marker" = { bg = "#404040", fg = "#c0c0c0" }
+"target_marker" = { bg = "#404040", fg = "#c0c0c0" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#404040", bold = true }
+"status shortcut" = { fg = "#4700a5" }
+"status dimmed" = { fg = "#808080" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#404040", fg = "#fbf305" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#808080" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#404040", fg = "#fbf305", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#404040", bold = true, underline = true }
+"help border" = { fg = "#808080" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#404040", bold = true }
+"menu shortcut" = { fg = "#4700a5" }
+"menu dimmed" = { fg = "#808080" }
+"menu border" = { fg = "#808080" }
+"menu selected" = { bg = "#404040", fg = "#fbf305" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#c0c0c0" }
+"confirmation selected" = { bg = "#404040", fg = "#fbf305" }
+"confirmation dimmed" = { fg = "#808080" }
+"confirmation border" = { fg = "#404040" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#808080" }
+"undo confirmation selected" = { bg = "#404040", fg = "#fbf305" }
+"preview" = { fg = "#c0c0c0" }

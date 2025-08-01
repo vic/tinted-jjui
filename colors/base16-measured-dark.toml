@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Measured Dark
+# Scheme author: Measured (https://measured.co)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#dcdcdc", bg = "#00211f" }
+"dimmed" = { fg = "#ababab" }
+"selected" = { bg = "#005453", fg = "#bfac4e" }
+"border" = { fg = "#ababab" }
+"title" = { fg = "#003a38", bold = true }
+"shortcut" = { fg = "#b39be0" }
+"matched" = { fg = "#bfac4e", underline = true }
+"source_marker" = { bg = "#005453", fg = "#dcdcdc" }
+"target_marker" = { bg = "#003a38", fg = "#dcdcdc" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#00211f" }
+"status title" = { fg = "#00211f", bg = "#003a38", bold = true }
+"status shortcut" = { fg = "#b39be0" }
+"status dimmed" = { fg = "#ababab" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#005453", fg = "#bfac4e" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#ababab" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#005453", fg = "#bfac4e", bold = true }
+"help" = { bg = "#00211f" }
+"help title" = { fg = "#003a38", bold = true, underline = true }
+"help border" = { fg = "#ababab" }
+"menu" = { bg = "#00211f" }
+"menu title" = { fg = "#003a38", bold = true }
+"menu shortcut" = { fg = "#b39be0" }
+"menu dimmed" = { fg = "#ababab" }
+"menu border" = { fg = "#ababab" }
+"menu selected" = { bg = "#005453", fg = "#bfac4e" }
+"confirmation" = { bg = "#00211f" }
+"confirmation text" = { fg = "#dcdcdc" }
+"confirmation selected" = { bg = "#005453", fg = "#bfac4e" }
+"confirmation dimmed" = { fg = "#ababab" }
+"confirmation border" = { fg = "#003a38" }
+"undo" = { bg = "#00211f" }
+"undo confirmation dimmed" = { fg = "#ababab" }
+"undo confirmation selected" = { bg = "#005453", fg = "#bfac4e" }
+"preview" = { fg = "#dcdcdc" }

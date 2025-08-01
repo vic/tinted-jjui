@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Shades of Purple
+# Scheme author: Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#c7c7c7", bg = "#1e1e3f" }
+"dimmed" = { fg = "#808080" }
+"selected" = { bg = "#f1d000", fg = "#ffe700" }
+"border" = { fg = "#808080" }
+"title" = { fg = "#43d426", bold = true }
+"shortcut" = { fg = "#ff2c70" }
+"matched" = { fg = "#ffe700", underline = true }
+"source_marker" = { bg = "#f1d000", fg = "#c7c7c7" }
+"target_marker" = { bg = "#43d426", fg = "#c7c7c7" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1e1e3f" }
+"status title" = { fg = "#1e1e3f", bg = "#43d426", bold = true }
+"status shortcut" = { fg = "#ff2c70" }
+"status dimmed" = { fg = "#808080" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#f1d000", fg = "#ffe700" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#808080" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#f1d000", fg = "#ffe700", bold = true }
+"help" = { bg = "#1e1e3f" }
+"help title" = { fg = "#43d426", bold = true, underline = true }
+"help border" = { fg = "#808080" }
+"menu" = { bg = "#1e1e3f" }
+"menu title" = { fg = "#43d426", bold = true }
+"menu shortcut" = { fg = "#ff2c70" }
+"menu dimmed" = { fg = "#808080" }
+"menu border" = { fg = "#808080" }
+"menu selected" = { bg = "#f1d000", fg = "#ffe700" }
+"confirmation" = { bg = "#1e1e3f" }
+"confirmation text" = { fg = "#c7c7c7" }
+"confirmation selected" = { bg = "#f1d000", fg = "#ffe700" }
+"confirmation dimmed" = { fg = "#808080" }
+"confirmation border" = { fg = "#43d426" }
+"undo" = { bg = "#1e1e3f" }
+"undo confirmation dimmed" = { fg = "#808080" }
+"undo confirmation selected" = { bg = "#f1d000", fg = "#ffe700" }
+"preview" = { fg = "#c7c7c7" }

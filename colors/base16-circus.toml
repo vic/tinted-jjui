@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Circus
+# Scheme author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a7a7a7", bg = "#191919" }
+"dimmed" = { fg = "#5f5a60" }
+"selected" = { bg = "#303030", fg = "#c3ba63" }
+"border" = { fg = "#5f5a60" }
+"title" = { fg = "#202020", bold = true }
+"shortcut" = { fg = "#b888e2" }
+"matched" = { fg = "#c3ba63", underline = true }
+"source_marker" = { bg = "#303030", fg = "#a7a7a7" }
+"target_marker" = { bg = "#202020", fg = "#a7a7a7" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191919" }
+"status title" = { fg = "#191919", bg = "#202020", bold = true }
+"status shortcut" = { fg = "#b888e2" }
+"status dimmed" = { fg = "#5f5a60" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#303030", fg = "#c3ba63" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5f5a60" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#303030", fg = "#c3ba63", bold = true }
+"help" = { bg = "#191919" }
+"help title" = { fg = "#202020", bold = true, underline = true }
+"help border" = { fg = "#5f5a60" }
+"menu" = { bg = "#191919" }
+"menu title" = { fg = "#202020", bold = true }
+"menu shortcut" = { fg = "#b888e2" }
+"menu dimmed" = { fg = "#5f5a60" }
+"menu border" = { fg = "#5f5a60" }
+"menu selected" = { bg = "#303030", fg = "#c3ba63" }
+"confirmation" = { bg = "#191919" }
+"confirmation text" = { fg = "#a7a7a7" }
+"confirmation selected" = { bg = "#303030", fg = "#c3ba63" }
+"confirmation dimmed" = { fg = "#5f5a60" }
+"confirmation border" = { fg = "#202020" }
+"undo" = { bg = "#191919" }
+"undo confirmation dimmed" = { fg = "#5f5a60" }
+"undo confirmation selected" = { bg = "#303030", fg = "#c3ba63" }
+"preview" = { fg = "#a7a7a7" }

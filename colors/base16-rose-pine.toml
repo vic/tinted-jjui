@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Rosé Pine
+# Scheme author: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#e0def4", bg = "#191724" }
+"dimmed" = { fg = "#6e6a86" }
+"selected" = { bg = "#26233a", fg = "#ebbcba" }
+"border" = { fg = "#6e6a86" }
+"title" = { fg = "#1f1d2e", bold = true }
+"shortcut" = { fg = "#f6c177" }
+"matched" = { fg = "#ebbcba", underline = true }
+"source_marker" = { bg = "#26233a", fg = "#e0def4" }
+"target_marker" = { bg = "#1f1d2e", fg = "#e0def4" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191724" }
+"status title" = { fg = "#191724", bg = "#1f1d2e", bold = true }
+"status shortcut" = { fg = "#f6c177" }
+"status dimmed" = { fg = "#6e6a86" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#26233a", fg = "#ebbcba" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#6e6a86" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#26233a", fg = "#ebbcba", bold = true }
+"help" = { bg = "#191724" }
+"help title" = { fg = "#1f1d2e", bold = true, underline = true }
+"help border" = { fg = "#6e6a86" }
+"menu" = { bg = "#191724" }
+"menu title" = { fg = "#1f1d2e", bold = true }
+"menu shortcut" = { fg = "#f6c177" }
+"menu dimmed" = { fg = "#6e6a86" }
+"menu border" = { fg = "#6e6a86" }
+"menu selected" = { bg = "#26233a", fg = "#ebbcba" }
+"confirmation" = { bg = "#191724" }
+"confirmation text" = { fg = "#e0def4" }
+"confirmation selected" = { bg = "#26233a", fg = "#ebbcba" }
+"confirmation dimmed" = { fg = "#6e6a86" }
+"confirmation border" = { fg = "#1f1d2e" }
+"undo" = { bg = "#191724" }
+"undo confirmation dimmed" = { fg = "#6e6a86" }
+"undo confirmation selected" = { bg = "#26233a", fg = "#ebbcba" }
+"preview" = { fg = "#e0def4" }

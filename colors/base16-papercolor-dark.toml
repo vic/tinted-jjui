@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: PaperColor Dark
+# Scheme author: Jon Leopard (http://github.com/jonleopard), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#808080", bg = "#1c1c1c" }
+"dimmed" = { fg = "#d7af5f" }
+"selected" = { bg = "#5faf00", fg = "#afd700" }
+"border" = { fg = "#d7af5f" }
+"title" = { fg = "#af005f", bold = true }
+"shortcut" = { fg = "#00afaf" }
+"matched" = { fg = "#afd700", underline = true }
+"source_marker" = { bg = "#5faf00", fg = "#808080" }
+"target_marker" = { bg = "#af005f", fg = "#808080" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#1c1c1c" }
+"status title" = { fg = "#1c1c1c", bg = "#af005f", bold = true }
+"status shortcut" = { fg = "#00afaf" }
+"status dimmed" = { fg = "#d7af5f" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#5faf00", fg = "#afd700" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#d7af5f" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#5faf00", fg = "#afd700", bold = true }
+"help" = { bg = "#1c1c1c" }
+"help title" = { fg = "#af005f", bold = true, underline = true }
+"help border" = { fg = "#d7af5f" }
+"menu" = { bg = "#1c1c1c" }
+"menu title" = { fg = "#af005f", bold = true }
+"menu shortcut" = { fg = "#00afaf" }
+"menu dimmed" = { fg = "#d7af5f" }
+"menu border" = { fg = "#d7af5f" }
+"menu selected" = { bg = "#5faf00", fg = "#afd700" }
+"confirmation" = { bg = "#1c1c1c" }
+"confirmation text" = { fg = "#808080" }
+"confirmation selected" = { bg = "#5faf00", fg = "#afd700" }
+"confirmation dimmed" = { fg = "#d7af5f" }
+"confirmation border" = { fg = "#af005f" }
+"undo" = { bg = "#1c1c1c" }
+"undo confirmation dimmed" = { fg = "#d7af5f" }
+"undo confirmation selected" = { bg = "#5faf00", fg = "#afd700" }
+"preview" = { fg = "#808080" }

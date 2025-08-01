@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Pico
+# Scheme author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#5f574f", bg = "#000000" }
+"dimmed" = { fg = "#008751" }
+"selected" = { bg = "#7e2553", fg = "#fff024" }
+"border" = { fg = "#008751" }
+"title" = { fg = "#1d2b53", bold = true }
+"shortcut" = { fg = "#ff77a8" }
+"matched" = { fg = "#fff024", underline = true }
+"source_marker" = { bg = "#7e2553", fg = "#5f574f" }
+"target_marker" = { bg = "#1d2b53", fg = "#5f574f" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#000000" }
+"status title" = { fg = "#000000", bg = "#1d2b53", bold = true }
+"status shortcut" = { fg = "#ff77a8" }
+"status dimmed" = { fg = "#008751" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#7e2553", fg = "#fff024" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#008751" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#7e2553", fg = "#fff024", bold = true }
+"help" = { bg = "#000000" }
+"help title" = { fg = "#1d2b53", bold = true, underline = true }
+"help border" = { fg = "#008751" }
+"menu" = { bg = "#000000" }
+"menu title" = { fg = "#1d2b53", bold = true }
+"menu shortcut" = { fg = "#ff77a8" }
+"menu dimmed" = { fg = "#008751" }
+"menu border" = { fg = "#008751" }
+"menu selected" = { bg = "#7e2553", fg = "#fff024" }
+"confirmation" = { bg = "#000000" }
+"confirmation text" = { fg = "#5f574f" }
+"confirmation selected" = { bg = "#7e2553", fg = "#fff024" }
+"confirmation dimmed" = { fg = "#008751" }
+"confirmation border" = { fg = "#1d2b53" }
+"undo" = { bg = "#000000" }
+"undo confirmation dimmed" = { fg = "#008751" }
+"undo confirmation selected" = { bg = "#7e2553", fg = "#fff024" }
+"preview" = { fg = "#5f574f" }

@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Tokyo Night Terminal Dark
+# Scheme author: Michaël Ball
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#787c99", bg = "#16161e" }
+"dimmed" = { fg = "#444b6a" }
+"selected" = { bg = "#2f3549", fg = "#e0af68" }
+"border" = { fg = "#444b6a" }
+"title" = { fg = "#1a1b26", bold = true }
+"shortcut" = { fg = "#bb9af7" }
+"matched" = { fg = "#e0af68", underline = true }
+"source_marker" = { bg = "#2f3549", fg = "#787c99" }
+"target_marker" = { bg = "#1a1b26", fg = "#787c99" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#16161e" }
+"status title" = { fg = "#16161e", bg = "#1a1b26", bold = true }
+"status shortcut" = { fg = "#bb9af7" }
+"status dimmed" = { fg = "#444b6a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#2f3549", fg = "#e0af68" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#444b6a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#2f3549", fg = "#e0af68", bold = true }
+"help" = { bg = "#16161e" }
+"help title" = { fg = "#1a1b26", bold = true, underline = true }
+"help border" = { fg = "#444b6a" }
+"menu" = { bg = "#16161e" }
+"menu title" = { fg = "#1a1b26", bold = true }
+"menu shortcut" = { fg = "#bb9af7" }
+"menu dimmed" = { fg = "#444b6a" }
+"menu border" = { fg = "#444b6a" }
+"menu selected" = { bg = "#2f3549", fg = "#e0af68" }
+"confirmation" = { bg = "#16161e" }
+"confirmation text" = { fg = "#787c99" }
+"confirmation selected" = { bg = "#2f3549", fg = "#e0af68" }
+"confirmation dimmed" = { fg = "#444b6a" }
+"confirmation border" = { fg = "#1a1b26" }
+"undo" = { bg = "#16161e" }
+"undo confirmation dimmed" = { fg = "#444b6a" }
+"undo confirmation selected" = { bg = "#2f3549", fg = "#e0af68" }
+"preview" = { fg = "#787c99" }

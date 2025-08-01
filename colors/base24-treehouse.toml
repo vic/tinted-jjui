@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Treehouse
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#695d47", bg = "#191919" }
+"dimmed" = { fg = "#4f4330" }
+"selected" = { bg = "#423625", fg = "#85cfec" }
+"border" = { fg = "#4f4330" }
+"title" = { fg = "#321200", bold = true }
+"shortcut" = { fg = "#96363c" }
+"matched" = { fg = "#85cfec", underline = true }
+"source_marker" = { bg = "#423625", fg = "#695d47" }
+"target_marker" = { bg = "#321200", fg = "#695d47" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#191919" }
+"status title" = { fg = "#191919", bg = "#321200", bold = true }
+"status shortcut" = { fg = "#96363c" }
+"status dimmed" = { fg = "#4f4330" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#423625", fg = "#85cfec" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#4f4330" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#423625", fg = "#85cfec", bold = true }
+"help" = { bg = "#191919" }
+"help title" = { fg = "#321200", bold = true, underline = true }
+"help border" = { fg = "#4f4330" }
+"menu" = { bg = "#191919" }
+"menu title" = { fg = "#321200", bold = true }
+"menu shortcut" = { fg = "#96363c" }
+"menu dimmed" = { fg = "#4f4330" }
+"menu border" = { fg = "#4f4330" }
+"menu selected" = { bg = "#423625", fg = "#85cfec" }
+"confirmation" = { bg = "#191919" }
+"confirmation text" = { fg = "#695d47" }
+"confirmation selected" = { bg = "#423625", fg = "#85cfec" }
+"confirmation dimmed" = { fg = "#4f4330" }
+"confirmation border" = { fg = "#321200" }
+"undo" = { bg = "#191919" }
+"undo confirmation dimmed" = { fg = "#4f4330" }
+"undo confirmation selected" = { bg = "#423625", fg = "#85cfec" }
+"preview" = { fg = "#695d47" }

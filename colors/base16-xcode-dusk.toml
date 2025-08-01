@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: XCode Dusk
+# Scheme author: Elsa Gonsiorowski (https://github.com/gonsie)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#939599", bg = "#282b35" }
+"dimmed" = { fg = "#686a71" }
+"selected" = { bg = "#53555d", fg = "#438288" }
+"border" = { fg = "#686a71" }
+"title" = { fg = "#3d4048", bold = true }
+"shortcut" = { fg = "#b21889" }
+"matched" = { fg = "#438288", underline = true }
+"source_marker" = { bg = "#53555d", fg = "#939599" }
+"target_marker" = { bg = "#3d4048", fg = "#939599" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#282b35" }
+"status title" = { fg = "#282b35", bg = "#3d4048", bold = true }
+"status shortcut" = { fg = "#b21889" }
+"status dimmed" = { fg = "#686a71" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#53555d", fg = "#438288" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#686a71" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#53555d", fg = "#438288", bold = true }
+"help" = { bg = "#282b35" }
+"help title" = { fg = "#3d4048", bold = true, underline = true }
+"help border" = { fg = "#686a71" }
+"menu" = { bg = "#282b35" }
+"menu title" = { fg = "#3d4048", bold = true }
+"menu shortcut" = { fg = "#b21889" }
+"menu dimmed" = { fg = "#686a71" }
+"menu border" = { fg = "#686a71" }
+"menu selected" = { bg = "#53555d", fg = "#438288" }
+"confirmation" = { bg = "#282b35" }
+"confirmation text" = { fg = "#939599" }
+"confirmation selected" = { bg = "#53555d", fg = "#438288" }
+"confirmation dimmed" = { fg = "#686a71" }
+"confirmation border" = { fg = "#3d4048" }
+"undo" = { bg = "#282b35" }
+"undo confirmation dimmed" = { fg = "#686a71" }
+"undo confirmation selected" = { bg = "#53555d", fg = "#438288" }
+"preview" = { fg = "#939599" }

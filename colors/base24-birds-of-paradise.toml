@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Birds Of Paradise
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#cdbe9b", bg = "#2a1e1d" }
+"dimmed" = { fg = "#ab8664" }
+"selected" = { bg = "#9a6b49", fg = "#b8d3ed" }
+"border" = { fg = "#ab8664" }
+"title" = { fg = "#573d25", bold = true }
+"shortcut" = { fg = "#ab80a6" }
+"matched" = { fg = "#b8d3ed", underline = true }
+"source_marker" = { bg = "#9a6b49", fg = "#cdbe9b" }
+"target_marker" = { bg = "#573d25", fg = "#cdbe9b" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#2a1e1d" }
+"status title" = { fg = "#2a1e1d", bg = "#573d25", bold = true }
+"status shortcut" = { fg = "#ab80a6" }
+"status dimmed" = { fg = "#ab8664" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#9a6b49", fg = "#b8d3ed" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#ab8664" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#9a6b49", fg = "#b8d3ed", bold = true }
+"help" = { bg = "#2a1e1d" }
+"help title" = { fg = "#573d25", bold = true, underline = true }
+"help border" = { fg = "#ab8664" }
+"menu" = { bg = "#2a1e1d" }
+"menu title" = { fg = "#573d25", bold = true }
+"menu shortcut" = { fg = "#ab80a6" }
+"menu dimmed" = { fg = "#ab8664" }
+"menu border" = { fg = "#ab8664" }
+"menu selected" = { bg = "#9a6b49", fg = "#b8d3ed" }
+"confirmation" = { bg = "#2a1e1d" }
+"confirmation text" = { fg = "#cdbe9b" }
+"confirmation selected" = { bg = "#9a6b49", fg = "#b8d3ed" }
+"confirmation dimmed" = { fg = "#ab8664" }
+"confirmation border" = { fg = "#573d25" }
+"undo" = { bg = "#2a1e1d" }
+"undo confirmation dimmed" = { fg = "#ab8664" }
+"undo confirmation selected" = { bg = "#9a6b49", fg = "#b8d3ed" }
+"preview" = { fg = "#cdbe9b" }

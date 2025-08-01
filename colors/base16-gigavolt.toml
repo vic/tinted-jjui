@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Gigavolt
+# Scheme author: Aidan Swope (http://github.com/Whillikers)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#e9e7e1", bg = "#202126" }
+"dimmed" = { fg = "#a1d2e6" }
+"selected" = { bg = "#5a576e", fg = "#ffdc2d" }
+"border" = { fg = "#a1d2e6" }
+"title" = { fg = "#2d303d", bold = true }
+"shortcut" = { fg = "#ae94f9" }
+"matched" = { fg = "#ffdc2d", underline = true }
+"source_marker" = { bg = "#5a576e", fg = "#e9e7e1" }
+"target_marker" = { bg = "#2d303d", fg = "#e9e7e1" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#202126" }
+"status title" = { fg = "#202126", bg = "#2d303d", bold = true }
+"status shortcut" = { fg = "#ae94f9" }
+"status dimmed" = { fg = "#a1d2e6" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#5a576e", fg = "#ffdc2d" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#a1d2e6" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#5a576e", fg = "#ffdc2d", bold = true }
+"help" = { bg = "#202126" }
+"help title" = { fg = "#2d303d", bold = true, underline = true }
+"help border" = { fg = "#a1d2e6" }
+"menu" = { bg = "#202126" }
+"menu title" = { fg = "#2d303d", bold = true }
+"menu shortcut" = { fg = "#ae94f9" }
+"menu dimmed" = { fg = "#a1d2e6" }
+"menu border" = { fg = "#a1d2e6" }
+"menu selected" = { bg = "#5a576e", fg = "#ffdc2d" }
+"confirmation" = { bg = "#202126" }
+"confirmation text" = { fg = "#e9e7e1" }
+"confirmation selected" = { bg = "#5a576e", fg = "#ffdc2d" }
+"confirmation dimmed" = { fg = "#a1d2e6" }
+"confirmation border" = { fg = "#2d303d" }
+"undo" = { bg = "#202126" }
+"undo confirmation dimmed" = { fg = "#a1d2e6" }
+"undo confirmation selected" = { bg = "#5a576e", fg = "#ffdc2d" }
+"preview" = { fg = "#e9e7e1" }

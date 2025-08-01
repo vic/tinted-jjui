@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Mission Brogue
+# Scheme author: Thomas Leon Highbaugh
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#93a5b4", bg = "#283139" }
+"dimmed" = { fg = "#60778a" }
+"selected" = { bg = "#4d606f", fg = "#e0b88a" }
+"border" = { fg = "#60778a" }
+"title" = { fg = "#3b4954", bold = true }
+"shortcut" = { fg = "#ccb7db" }
+"matched" = { fg = "#e0b88a", underline = true }
+"source_marker" = { bg = "#4d606f", fg = "#93a5b4" }
+"target_marker" = { bg = "#3b4954", fg = "#93a5b4" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#283139" }
+"status title" = { fg = "#283139", bg = "#3b4954", bold = true }
+"status shortcut" = { fg = "#ccb7db" }
+"status dimmed" = { fg = "#60778a" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4d606f", fg = "#e0b88a" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#60778a" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4d606f", fg = "#e0b88a", bold = true }
+"help" = { bg = "#283139" }
+"help title" = { fg = "#3b4954", bold = true, underline = true }
+"help border" = { fg = "#60778a" }
+"menu" = { bg = "#283139" }
+"menu title" = { fg = "#3b4954", bold = true }
+"menu shortcut" = { fg = "#ccb7db" }
+"menu dimmed" = { fg = "#60778a" }
+"menu border" = { fg = "#60778a" }
+"menu selected" = { bg = "#4d606f", fg = "#e0b88a" }
+"confirmation" = { bg = "#283139" }
+"confirmation text" = { fg = "#93a5b4" }
+"confirmation selected" = { bg = "#4d606f", fg = "#e0b88a" }
+"confirmation dimmed" = { fg = "#60778a" }
+"confirmation border" = { fg = "#3b4954" }
+"undo" = { bg = "#283139" }
+"undo confirmation dimmed" = { fg = "#60778a" }
+"undo confirmation selected" = { bg = "#4d606f", fg = "#e0b88a" }
+"preview" = { fg = "#93a5b4" }

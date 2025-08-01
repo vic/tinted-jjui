@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: 3024
+# Scheme author: Jan T. Sott (http://github.com/idleberg)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a5a2a2", bg = "#090300" }
+"dimmed" = { fg = "#5c5855" }
+"selected" = { bg = "#4a4543", fg = "#fded02" }
+"border" = { fg = "#5c5855" }
+"title" = { fg = "#3a3432", bold = true }
+"shortcut" = { fg = "#a16a94" }
+"matched" = { fg = "#fded02", underline = true }
+"source_marker" = { bg = "#4a4543", fg = "#a5a2a2" }
+"target_marker" = { bg = "#3a3432", fg = "#a5a2a2" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#090300" }
+"status title" = { fg = "#090300", bg = "#3a3432", bold = true }
+"status shortcut" = { fg = "#a16a94" }
+"status dimmed" = { fg = "#5c5855" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#4a4543", fg = "#fded02" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#5c5855" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#4a4543", fg = "#fded02", bold = true }
+"help" = { bg = "#090300" }
+"help title" = { fg = "#3a3432", bold = true, underline = true }
+"help border" = { fg = "#5c5855" }
+"menu" = { bg = "#090300" }
+"menu title" = { fg = "#3a3432", bold = true }
+"menu shortcut" = { fg = "#a16a94" }
+"menu dimmed" = { fg = "#5c5855" }
+"menu border" = { fg = "#5c5855" }
+"menu selected" = { bg = "#4a4543", fg = "#fded02" }
+"confirmation" = { bg = "#090300" }
+"confirmation text" = { fg = "#a5a2a2" }
+"confirmation selected" = { bg = "#4a4543", fg = "#fded02" }
+"confirmation dimmed" = { fg = "#5c5855" }
+"confirmation border" = { fg = "#3a3432" }
+"undo" = { bg = "#090300" }
+"undo confirmation dimmed" = { fg = "#5c5855" }
+"undo confirmation selected" = { bg = "#4a4543", fg = "#fded02" }
+"preview" = { fg = "#a5a2a2" }

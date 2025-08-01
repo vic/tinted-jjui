@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Firefox Dev
+# Scheme author: FredHappyface (https://github.com/fredHappyface)
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#a5acae", bg = "#0e1011" }
+"dimmed" = { fg = "#374d53" }
+"selected" = { bg = "#001e26", fg = "#006fc0" }
+"border" = { fg = "#374d53" }
+"title" = { fg = "#002731", bold = true }
+"shortcut" = { fg = "#d75cff" }
+"matched" = { fg = "#006fc0", underline = true }
+"source_marker" = { bg = "#001e26", fg = "#a5acae" }
+"target_marker" = { bg = "#002731", fg = "#a5acae" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#0e1011" }
+"status title" = { fg = "#0e1011", bg = "#002731", bold = true }
+"status shortcut" = { fg = "#d75cff" }
+"status dimmed" = { fg = "#374d53" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#001e26", fg = "#006fc0" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#374d53" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#001e26", fg = "#006fc0", bold = true }
+"help" = { bg = "#0e1011" }
+"help title" = { fg = "#002731", bold = true, underline = true }
+"help border" = { fg = "#374d53" }
+"menu" = { bg = "#0e1011" }
+"menu title" = { fg = "#002731", bold = true }
+"menu shortcut" = { fg = "#d75cff" }
+"menu dimmed" = { fg = "#374d53" }
+"menu border" = { fg = "#374d53" }
+"menu selected" = { bg = "#001e26", fg = "#006fc0" }
+"confirmation" = { bg = "#0e1011" }
+"confirmation text" = { fg = "#a5acae" }
+"confirmation selected" = { bg = "#001e26", fg = "#006fc0" }
+"confirmation dimmed" = { fg = "#374d53" }
+"confirmation border" = { fg = "#002731" }
+"undo" = { bg = "#0e1011" }
+"undo confirmation dimmed" = { fg = "#374d53" }
+"undo confirmation selected" = { bg = "#001e26", fg = "#006fc0" }
+"preview" = { fg = "#a5acae" }

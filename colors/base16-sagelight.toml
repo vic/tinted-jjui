@@ -1,0 +1,45 @@
+# tinted-jjui (https://github.com/vic/tinted-jjui)
+# Scheme name: Sagelight
+# Scheme author: Carter Veldhuizen
+# Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
+
+"text" = { fg = "#383838", bg = "#f8f8f8" }
+"dimmed" = { fg = "#b8b8b8" }
+"selected" = { bg = "#d8d8d8", fg = "#ffdc61" }
+"border" = { fg = "#b8b8b8" }
+"title" = { fg = "#e8e8e8", bold = true }
+"shortcut" = { fg = "#c8a0d2" }
+"matched" = { fg = "#ffdc61", underline = true }
+"source_marker" = { bg = "#d8d8d8", fg = "#383838" }
+"target_marker" = { bg = "#e8e8e8", fg = "#383838" }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status" = { bg = "#f8f8f8" }
+"status title" = { fg = "#f8f8f8", bg = "#e8e8e8", bold = true }
+"status shortcut" = { fg = "#c8a0d2" }
+"status dimmed" = { fg = "#b8b8b8" }
+"revset text" = { bold = true }
+"revset completion selected" = { bg = "#d8d8d8", fg = "#ffdc61" }
+"revset completion matched" = { bold = true }
+"revset completion dimmed" = { fg = "#b8b8b8" }
+"revisions selected" = { bold = true }
+"oplog selected" = { bold = true }
+"evolog selected" = { bg = "#d8d8d8", fg = "#ffdc61", bold = true }
+"help" = { bg = "#f8f8f8" }
+"help title" = { fg = "#e8e8e8", bold = true, underline = true }
+"help border" = { fg = "#b8b8b8" }
+"menu" = { bg = "#f8f8f8" }
+"menu title" = { fg = "#e8e8e8", bold = true }
+"menu shortcut" = { fg = "#c8a0d2" }
+"menu dimmed" = { fg = "#b8b8b8" }
+"menu border" = { fg = "#b8b8b8" }
+"menu selected" = { bg = "#d8d8d8", fg = "#ffdc61" }
+"confirmation" = { bg = "#f8f8f8" }
+"confirmation text" = { fg = "#383838" }
+"confirmation selected" = { bg = "#d8d8d8", fg = "#ffdc61" }
+"confirmation dimmed" = { fg = "#b8b8b8" }
+"confirmation border" = { fg = "#e8e8e8" }
+"undo" = { bg = "#f8f8f8" }
+"undo confirmation dimmed" = { fg = "#b8b8b8" }
+"undo confirmation selected" = { bg = "#d8d8d8", fg = "#ffdc61" }
+"preview" = { fg = "#383838" }
