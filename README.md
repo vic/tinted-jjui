@@ -8,15 +8,13 @@ in your `$HOME/.config/jjui/themes/` directory.
 
 Then edit `$HOME/.config/jjui/config.toml` to set your theme.
 
-For example, to use `./themes/base24-rebecca.toml`:
+For example, to use `./themes/base24-solarized-dark-higher-contrast.toml`:
 
 
 ```toml
 [ui]
-theme = "base24-rebecca"
+theme = "base24-solarized-dark-higher-contrast"
 ```
-
-This will set jjui to use [vic](https://x.com/oeiuwq)'s [rebecca-purple](https://github.com/vic/rebecca-theme)
 
 
 ## Adding all themes.
