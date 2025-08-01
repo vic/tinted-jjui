@@ -8,12 +8,29 @@ in your `$HOME/.config/jjui/themes/` directory.
 
 Then edit `$HOME/.config/jjui/config.toml` to set your theme.
 
-For example, to use `./colors/base16-rebecca.toml`:
+For example, to use `./colors/base24-rebecca.toml`:
 
 
 ```toml
 [ui]
-theme = "base16-rebecca"
+theme = "base24-rebecca"
 ```
 
-This will set jjui colors to use [vic](https://x.com/oeiuwq)'s [rebecca-purple](https://github.com/vic/rebecca-theme) [base16](https://github.com/vic/base16-rebecca)
+This will set jjui colors to use [vic](https://x.com/oeiuwq)'s [rebecca-purple](https://github.com/vic/rebecca-theme)
+
+
+## Adding all themes.
+
+Download this repo .zip file.
+
+```shell
+# move all themes to your jjui config
+mv ./colors/*.toml $HOME/.config/jjui/themes/
+
+# Add each theme as a commented line under [ui]
+echo '[ui]' >> $HOME/.config/jjui/config.toml
+ls -1 $HOME/.config/jjui/themes/*.toml | xargs -n 1 basename | sed -e 's/.toml//' | sed -E 's/(.*)/# theme = "\1"/' >> $HOME/.config/jjui/config.toml
+
+# Uncomment the theme you want to use.
+vi $HOME/.config/jjui/config.toml
+```
