@@ -1,5 +1,6 @@
 # [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://nico-i.github.io/scheme-viewer/base16/) and [base24](https://nico-i.github.io/scheme-viewer/base24/) color schemes.
 
+[Color scheme Gallery](https://tinted-theming.github.io/tinted-gallery/)
 
 ## Usage
 
