@@ -1,92 +1,165 @@
-# tinted-jjui (https://github.com/vic/tinted-jjui)
+## tinted-jjui (https://github.com/vic/tinted-jjui)
 # Scheme name: {{scheme-name}}
 # Scheme author: {{scheme-author}}
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
-# Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md
-# jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes
-# jjui default light theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_light.toml
-# jjui default dark theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_dark.toml
-# tinted gallery: https://tinted-theming.github.io/tinted-gallery/
+{{! Resources for how to maintain this template. }}
+{{! ---------------------------- }}
+{{! Base16 Builder Guide: https://github.com/tinted-theming/home/blob/main/builder.md }}
+{{! Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md }}
+{{! jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes }}
+{{! jjui default light theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_light.toml }}
+{{! jjui default dark theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_dark.toml }}
+{{! tinted vim (template reference) : https://github.com/tinted-theming/tinted-vim/blob/main/templates/tinted-vim.mustache }}
 
-# Selector                       = Color Spec                                              # Base16 styling.
+{{! Template Configuration Notes }}
+{{! ---------------------------- }}
+{{! Output is a jjui theme (TOML valid syntax) }}
+{{! }}
+{{! This template supports both light and dark Base16/Base24 color schemes with optimal contrast. }}
+{{! The builder provides variables like scheme-variant and palette tokens for adaptive theming. }}
+{{! Default assignments follow Base16 styling guide and jjui theme selectors. }}
+{{! }}
+{{! Base16 Color Assignments: }}
+{{! base00 - Default Background }}
+{{! base01 - Lighter Background (status bars) }}
+{{! base02 - Selection Background }}
+{{! base03 - Comments/Invisibles/Dimmed }}
+{{! base04 - Dark Foreground }}
+{{! base05 - Default Foreground }}
+{{! base06 - Light Foreground }}
+{{! base07 - Lightest Foreground }}
+{{! base08 - Red (errors) }}
+{{! base09 - Orange (integers) }}
+{{! base0A - Yellow (classes/search) }}
+{{! base0B - Green (strings/success) }}
+{{! base0C - Cyan (support/regex) }}
+{{! base0D - Blue (functions/titles) }}
+{{! base0E - Magenta (keywords/shortcuts) }}
+{{! base0F - Brown (deprecated) }}
+{{! }}
+{{! Base24 Extended Colors (with Base16 fallbacks): }}
+{{! base10-17 provide enhanced theming when available, gracefully degrade to base00-0F }}
+{{! All contrast ratios are optimized for accessibility in both variant types. }}
 
-# Global UI Elements
-# ------------------
-"text"                           = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }      # Default foreground, caret, delimiters (base05); default background (base00)
-"dimmed"                         = { fg = "#{{base03-hex}}" }                              # Comments, invisibles, line highlighting (base03)
-"selected"                       = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
-"border"                         = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
-"title"                          = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
-"shortcut"                       = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
-"matched"                        = { fg = "#{{base0A-hex}}", underline = true }            # Classes, markup bold, search text background (base0A)
-"success"                        = { fg = "#{{base0B-hex}}", bold = true }                 # Strings, inherited class, markup code, diff inserted (base0B) - emphasize positive states
-"error"                          = { fg = "#{{base08-hex}}", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize error states
+{{#scheme-is-light-variant}}
+"text"      = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }
+"selected"  = { bg = "#{{base06-hex}}", fg = "#{{base02-hex}}" }
+"border"    = { fg = "#{{base03-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"text"      = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }
+"selected"  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+"border"    = { fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
 
-# Operation Markers
-# -----------------
-"source_marker"                  = { bg = "#{{base0C-hex}}", fg = "#{{base00-hex}}" }      # Support, regular expressions, escape characters, markup quotes (base0C); high contrast with main background
-"target_marker"                  = { bg = "#{{base0B-hex}}", fg = "#{{base00-hex}}" }      # Strings, inherited class, markup code, diff inserted (base0B); high contrast with main background
-"revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
-"revisions rebase target_marker" = { bold = true }                                         # Target marker in rebase (bold)
 
-# Status Bar
-# ----------
-"status"                         = { bg = "#{{base01-hex}}" }                              # Lighter background (base01)
-"status title"                   = { fg = "#{{base00-hex}}", bg = "#{{base0D-hex}}", bold = true } # Functions, methods, attribute IDs, headings (base0D)
-"status shortcut"                = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
-"status dimmed"                  = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
+"dimmed"    = { fg = "#{{base03-hex}}" }
+"title"     = { fg = "#{{base0D-hex}}", bold = true }
+"shortcut"  = { fg = "#{{base0E-hex}}" }
 
-# Revset (Top Bar)
-# ----------------
-"revset title"                   = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
-"revset text"                    = { fg = "#{{base05-hex}}", bold = true }                 # User input area with default foreground (base05), recommended bold
-"revset completion text"         = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
-"revset completion selected"     = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
-"revset completion matched"      = { fg = "#{{base0A-hex}}", bold = true }                 # Classes, markup bold, search text background (base0A)
-"revset completion dimmed"       = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
+"matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", underline = true }
+"success"   = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true }
+"error"     = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
+"source_marker" = { bg = "#{{base10-hex}}{{^base10-hex}}{{base0C-hex}}{{/base10-hex}}", fg = "#{{base00-hex}}" }
+"target_marker" = { bg = "#{{base11-hex}}{{^base11-hex}}{{base0B-hex}}{{/base11-hex}}", fg = "#{{base00-hex}}" }
 
-# Revisions & Logs
-# ----------------
-"revisions"                      = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
-"revisions selected"             = { bold = true }                                         # Highlighted line in revisions/oplog (bold)
-"revisions dimmed"               = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"revisions details selected"     = { bg = "#{{base02-hex}}" }                              # Selection background (base02)
-"oplog selected"                 = { bold = true }                                         # Highlighted line in oplog (bold)
-"evolog"                         = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
-"evolog selected"                = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true } # Selection background (base02); default foreground (base05)
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
 
-# Help Window
-# -----------
-"help"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"help title"                     = { fg = "#{{base0B-hex}}", bold = true, underline = true } # Strings, inherited class, markup code, diff inserted (base0B) - differentiate from other titles
-"help border"                    = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
+"status"         = { bg = "#{{base01-hex}}" }
+"status title"   = { fg = "#{{base00-hex}}", bg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}", bold = true }
+"status shortcut"= { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
+"status dimmed"  = { fg = "#{{base03-hex}}" }
 
-# Menus
-# -----
-"menu"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"menu title"                     = { fg = "#{{base00-hex}}", bg = "#{{base0E-hex}}", bold = true } # Keywords, storage, selector (base0E) background for visibility; high contrast text
-"menu shortcut"                  = { fg = "#{{base0E-hex}}" }                              # Keywords, storage, selector, markup italic (base0E)
-"menu matched"                   = { fg = "#{{base0A-hex}}", bold = true }                 # Classes, markup bold, search text background (base0A)
-"menu dimmed"                    = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"menu border"                    = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
-"menu selected"                  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
+"revset title"               = { fg = "#{{base0D-hex}}", bold = true }
+"revset text"                = { fg = "#{{base05-hex}}", bold = true }
+"revset completion text"     = { fg = "#{{base05-hex}}" }
+{{#scheme-is-light-variant}}
+"revset completion selected" = { bg = "#{{base06-hex}}", fg = "#{{base02-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"revset completion selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+"revset completion matched"  = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
+"revset completion dimmed"   = { fg = "#{{base03-hex}}" }
 
-# Confirmation Dialogs
-# --------------------
-"confirmation"                   = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"confirmation text"              = { fg = "#{{base0D-hex}}", bold = true }                 # Functions, methods, attribute IDs, headings (base0D) - important dialog text
-"confirmation selected"          = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
-"confirmation dimmed"            = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"confirmation border"            = { fg = "#{{base08-hex}}", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize warning borders
+"revisions"                  = { fg = "#{{base05-hex}}" }
+"revisions selected"         = { bold = true }
+"revisions dimmed"           = { fg = "#{{base03-hex}}" }
+{{#scheme-is-light-variant}}
+"revisions details selected" = { bg = "#{{base06-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"revisions details selected" = { bg = "#{{base02-hex}}" }
+{{/scheme-is-light-variant}}
+"oplog selected"             = { bold = true }
+"evolog"                     = { fg = "#{{base05-hex}}" }
+{{#scheme-is-light-variant}}
+"evolog selected"            = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}", bold = true }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"evolog selected"            = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true }
+{{/scheme-is-light-variant}}
 
-# Undo Operations
-# ---------------
-"undo"                           = { bg = "#{{base00-hex}}" }                              # Default background (base00)
-"undo confirmation dimmed"       = { fg = "#{{base03-hex}}" }                              # Comments, invisibles (base03)
-"undo confirmation selected"     = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }      # Selection background (base02); default foreground (base05)
+"help"        = { bg = "#{{base00-hex}}" }
+"help title"  = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true, underline = true }
+{{#scheme-is-light-variant}}
+"help border" = { fg = "#{{base03-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"help border" = { fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
 
-# Preview Pane
-# ------------
-"preview"                        = { fg = "#{{base05-hex}}" }                              # Default foreground, caret, delimiters (base05)
-"preview border"                 = { fg = "#{{base01-hex}}" }                              # Lighter background (base01)
+"menu"           = { bg = "#{{base00-hex}}" }
+"menu title"     = { fg = "#{{base00-hex}}", bg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}", bold = true }
+"menu shortcut"  = { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
+"menu matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
+"menu dimmed"    = { fg = "#{{base03-hex}}" }
+{{#scheme-is-light-variant}}
+"menu border"    = { fg = "#{{base03-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"menu border"    = { fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{#scheme-is-light-variant}}
+"menu selected"  = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"menu selected"  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+
+"confirmation"         = { bg = "#{{base00-hex}}" }
+"confirmation text"    = { fg = "#{{base0D-hex}}", bold = true }
+{{#scheme-is-light-variant}}
+"confirmation selected"= { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"confirmation selected"= { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+"confirmation dimmed"  = { fg = "#{{base03-hex}}" }
+"confirmation border"  = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
+
+"undo"                    = { bg = "#{{base00-hex}}" }
+"undo confirmation dimmed"= { fg = "#{{base03-hex}}" }
+{{#scheme-is-light-variant}}
+"undo confirmation selected"= { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"undo confirmation selected"= { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+
+"preview"        = { fg = "#{{base05-hex}}" }
+{{#scheme-is-light-variant}}
+"preview border" = { fg = "#{{base03-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"preview border" = { fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+
+{{! Additional selectors for enhanced jjui theming }}
+"diff added"     = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}" }
+"diff removed"   = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}" }
+"diff modified"  = { fg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}" }
+"warning"        = { fg = "#{{base15-hex}}{{^base15-hex}}{{base09-hex}}{{/base15-hex}}", bold = true }
+"info"           = { fg = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}" }

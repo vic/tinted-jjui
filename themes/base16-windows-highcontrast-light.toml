@@ -1,92 +1,75 @@
-# tinted-jjui (https://github.com/vic/tinted-jjui)
+## tinted-jjui (https://github.com/vic/tinted-jjui)
 # Scheme name: Windows High Contrast Light
 # Scheme author: Fergus Collins (https://github.com/ferguscollins)
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
-# Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md
-# jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes
-# jjui default light theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_light.toml
-# jjui default dark theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_dark.toml
-# tinted gallery: https://tinted-theming.github.io/tinted-gallery/
 
-# Selector                       = Color Spec                                              # Base16 styling.
 
-# Global UI Elements
-# ------------------
-"text"                           = { fg = "#545454", bg = "#fcfcfc" }      # Default foreground, caret, delimiters (base05); default background (base00)
-"dimmed"                         = { fg = "#c0c0c0" }                              # Comments, invisibles, line highlighting (base03)
-"selected"                       = { bg = "#d4d4d4", fg = "#545454" }      # Selection background (base02); default foreground (base05)
-"border"                         = { fg = "#e8e8e8" }                              # Lighter background (base01)
-"title"                          = { fg = "#000080", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
-"shortcut"                       = { fg = "#800080" }                              # Keywords, storage, selector, markup italic (base0E)
-"matched"                        = { fg = "#808000", underline = true }            # Classes, markup bold, search text background (base0A)
-"success"                        = { fg = "#008000", bold = true }                 # Strings, inherited class, markup code, diff inserted (base0B) - emphasize positive states
-"error"                          = { fg = "#800000", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize error states
+"text"      = { fg = "#545454", bg = "#fcfcfc" }
+"selected"  = { bg = "#2a2a2a", fg = "#d4d4d4" }
+"border"    = { fg = "#c0c0c0" }
 
-# Operation Markers
-# -----------------
-"source_marker"                  = { bg = "#008080", fg = "#fcfcfc" }      # Support, regular expressions, escape characters, markup quotes (base0C); high contrast with main background
-"target_marker"                  = { bg = "#008000", fg = "#fcfcfc" }      # Strings, inherited class, markup code, diff inserted (base0B); high contrast with main background
-"revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
-"revisions rebase target_marker" = { bold = true }                                         # Target marker in rebase (bold)
 
-# Status Bar
-# ----------
-"status"                         = { bg = "#e8e8e8" }                              # Lighter background (base01)
-"status title"                   = { fg = "#fcfcfc", bg = "#000080", bold = true } # Functions, methods, attribute IDs, headings (base0D)
-"status shortcut"                = { fg = "#800080" }                              # Keywords, storage, selector, markup italic (base0E)
-"status dimmed"                  = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
+"dimmed"    = { fg = "#c0c0c0" }
+"title"     = { fg = "#000080", bold = true }
+"shortcut"  = { fg = "#800080" }
 
-# Revset (Top Bar)
-# ----------------
-"revset title"                   = { fg = "#000080", bold = true }                 # Functions, methods, attribute IDs, headings (base0D)
-"revset text"                    = { fg = "#545454", bold = true }                 # User input area with default foreground (base05), recommended bold
-"revset completion text"         = { fg = "#545454" }                              # Default foreground, caret, delimiters (base05)
-"revset completion selected"     = { bg = "#d4d4d4", fg = "#545454" }      # Selection background (base02); default foreground (base05)
-"revset completion matched"      = { fg = "#808000", bold = true }                 # Classes, markup bold, search text background (base0A)
-"revset completion dimmed"       = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
+"matched"   = { fg = "#808000", underline = true }
+"success"   = { fg = "#008000", bold = true }
+"error"     = { fg = "#800000", bold = true }
+"source_marker" = { bg = "#008080", fg = "#fcfcfc" }
+"target_marker" = { bg = "#008000", fg = "#fcfcfc" }
 
-# Revisions & Logs
-# ----------------
-"revisions"                      = { fg = "#545454" }                              # Default foreground, caret, delimiters (base05)
-"revisions selected"             = { bold = true }                                         # Highlighted line in revisions/oplog (bold)
-"revisions dimmed"               = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
-"revisions details selected"     = { bg = "#d4d4d4" }                              # Selection background (base02)
-"oplog selected"                 = { bold = true }                                         # Highlighted line in oplog (bold)
-"evolog"                         = { fg = "#545454" }                              # Default foreground, caret, delimiters (base05)
-"evolog selected"                = { bg = "#d4d4d4", fg = "#545454", bold = true } # Selection background (base02); default foreground (base05)
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
 
-# Help Window
-# -----------
-"help"                           = { bg = "#fcfcfc" }                              # Default background (base00)
-"help title"                     = { fg = "#008000", bold = true, underline = true } # Strings, inherited class, markup code, diff inserted (base0B) - differentiate from other titles
-"help border"                    = { fg = "#e8e8e8" }                              # Lighter background (base01)
+"status"         = { bg = "#e8e8e8" }
+"status title"   = { fg = "#fcfcfc", bg = "#000080", bold = true }
+"status shortcut"= { fg = "#800080" }
+"status dimmed"  = { fg = "#c0c0c0" }
 
-# Menus
-# -----
-"menu"                           = { bg = "#fcfcfc" }                              # Default background (base00)
-"menu title"                     = { fg = "#fcfcfc", bg = "#800080", bold = true } # Keywords, storage, selector (base0E) background for visibility; high contrast text
-"menu shortcut"                  = { fg = "#800080" }                              # Keywords, storage, selector, markup italic (base0E)
-"menu matched"                   = { fg = "#808000", bold = true }                 # Classes, markup bold, search text background (base0A)
-"menu dimmed"                    = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
-"menu border"                    = { fg = "#e8e8e8" }                              # Lighter background (base01)
-"menu selected"                  = { bg = "#d4d4d4", fg = "#545454" }      # Selection background (base02); default foreground (base05)
+"revset title"               = { fg = "#000080", bold = true }
+"revset text"                = { fg = "#545454", bold = true }
+"revset completion text"     = { fg = "#545454" }
+"revset completion selected" = { bg = "#2a2a2a", fg = "#d4d4d4" }
+"revset completion matched"  = { fg = "#808000", bold = true }
+"revset completion dimmed"   = { fg = "#c0c0c0" }
 
-# Confirmation Dialogs
-# --------------------
-"confirmation"                   = { bg = "#fcfcfc" }                              # Default background (base00)
-"confirmation text"              = { fg = "#000080", bold = true }                 # Functions, methods, attribute IDs, headings (base0D) - important dialog text
-"confirmation selected"          = { bg = "#d4d4d4", fg = "#545454" }      # Selection background (base02); default foreground (base05)
-"confirmation dimmed"            = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
-"confirmation border"            = { fg = "#800000", bold = true }                 # Variables, XML tags, markup link text, markup lists, diff deleted (base08) - emphasize warning borders
+"revisions"                  = { fg = "#545454" }
+"revisions selected"         = { bold = true }
+"revisions dimmed"           = { fg = "#c0c0c0" }
+"revisions details selected" = { bg = "#2a2a2a" }
+"oplog selected"             = { bold = true }
+"evolog"                     = { fg = "#545454" }
+"evolog selected"            = { bg = "#2a2a2a", fg = "#e8e8e8", bold = true }
 
-# Undo Operations
-# ---------------
-"undo"                           = { bg = "#fcfcfc" }                              # Default background (base00)
-"undo confirmation dimmed"       = { fg = "#c0c0c0" }                              # Comments, invisibles (base03)
-"undo confirmation selected"     = { bg = "#d4d4d4", fg = "#545454" }      # Selection background (base02); default foreground (base05)
+"help"        = { bg = "#fcfcfc" }
+"help title"  = { fg = "#008000", bold = true, underline = true }
+"help border" = { fg = "#c0c0c0" }
 
-# Preview Pane
-# ------------
-"preview"                        = { fg = "#545454" }                              # Default foreground, caret, delimiters (base05)
-"preview border"                 = { fg = "#e8e8e8" }                              # Lighter background (base01)
+"menu"           = { bg = "#fcfcfc" }
+"menu title"     = { fg = "#fcfcfc", bg = "#800080", bold = true }
+"menu shortcut"  = { fg = "#800080" }
+"menu matched"   = { fg = "#808000", bold = true }
+"menu dimmed"    = { fg = "#c0c0c0" }
+"menu border"    = { fg = "#c0c0c0" }
+"menu selected"  = { bg = "#2a2a2a", fg = "#e8e8e8" }
+
+"confirmation"         = { bg = "#fcfcfc" }
+"confirmation text"    = { fg = "#000080", bold = true }
+"confirmation selected"= { bg = "#2a2a2a", fg = "#e8e8e8" }
+"confirmation dimmed"  = { fg = "#c0c0c0" }
+"confirmation border"  = { fg = "#800000", bold = true }
+
+"undo"                    = { bg = "#fcfcfc" }
+"undo confirmation dimmed"= { fg = "#c0c0c0" }
+"undo confirmation selected"= { bg = "#2a2a2a", fg = "#e8e8e8" }
+
+"preview"        = { fg = "#545454" }
+"preview border" = { fg = "#c0c0c0" }
+
+"diff added"     = { fg = "#008000" }
+"diff removed"   = { fg = "#800000" }
+"diff modified"  = { fg = "#000080" }
+"warning"        = { fg = "#fcfc54", bold = true }
+"info"           = { fg = "#008080" }
