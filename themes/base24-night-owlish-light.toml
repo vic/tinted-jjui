@@ -11,7 +11,7 @@
 "shortcut"  = { fg = "#403f53" }
 "matched"   = { fg = "#dac26b", underline = true }
 
-"selected"  = { bg = "#7a8181", fg = "#7a8181" }
+"selected"  = { bg = "#011627", fg = "#7a8181", bold = true }
 "border"    = { fg = "#7a8181" }
 
 "source_marker" = { bg = "#515656", fg = "#ffffff", bold = true }
@@ -20,7 +20,7 @@
 "status" = { bg = "#011627" }
 "status title" = { fg = "#ffffff", bg = "#5ca7e4", bold = true }
 
-"revset title" = { fg = "#4876d6", bold = true }
+"revset title" = { fg = "#4876d6", bg = "#011627", bold = true }
 "revset text" = { fg = "#7a8181", bold = true }
 "revset completion text" = { fg = "#7a8181" }
 "revset completion matched" = { fg = "#dac26b", bold = true }

@@ -11,7 +11,7 @@
 "shortcut"  = { fg = "#aa17e6" }
 "matched"   = { fg = "#dc8a0e", underline = true }
 
-"selected"  = { bg = "#4f4b51", fg = "#c4c3c5" }
+"selected"  = { bg = "#e1e1e2", fg = "#6c696e", bold = true }
 "border"    = { fg = "#a7a5a8" }
 
 "source_marker" = { bg = "#149bda", fg = "#ffffff", bold = true }
@@ -20,7 +20,7 @@
 "status" = { bg = "#e1e1e2" }
 "status title" = { fg = "#ffffff", bg = "#775dff", bold = true }
 
-"revset title" = { fg = "#775dff", bold = true }
+"revset title" = { fg = "#775dff", bg = "#e1e1e2", bold = true }
 "revset text" = { fg = "#6c696e", bold = true }
 "revset completion text" = { fg = "#6c696e" }
 "revset completion matched" = { fg = "#dc8a0e", bold = true }
@@ -30,7 +30,7 @@
 "revisions" = { fg = "#6c696e" }
 "revisions selected" = { bold = true }
 "revisions dimmed" = { fg = "#a7a5a8" }
-"revisions details selected" = { bg = "#4f4b51" }
+"revisions details selected" = { bg = "#89878b" }
 "oplog selected" = { bold = true }
 
 "evolog" = { fg = "#6c696e" }

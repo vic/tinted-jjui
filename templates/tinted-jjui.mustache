@@ -11,6 +11,8 @@
 {{! jjui default light theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_light.toml }}
 {{! jjui default dark theme: https://github.com/idursun/jjui/blob/main/internal/config/default/default_dark.toml }}
 {{! tinted vim (template reference) : https://github.com/tinted-theming/tinted-vim/blob/main/templates/tinted-vim.mustache }}
+{{! local schemes are downloaded by `tinted-builder-rust sync` at: ~/.local/share/tinted-theming/tinted-builder-rust/schemes/base16 }}
+{{! regen themes using `tinted-builder-rust build .` }}
 
 {{! Template Configuration Notes }}
 {{! ---------------------------- }}
@@ -63,7 +65,7 @@
 "matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", underline = true }
 
 {{#scheme-is-light-variant}}
-"selected"  = { bg = "#{{base06-hex}}", fg = "#{{base02-hex}}" }
+"selected"  = { bg = "#{{base01-hex}}", fg = "#{{base05-hex}}", bold = true }
 "border"    = { fg = "#{{base03-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
@@ -86,7 +88,12 @@
 {{! ========================================= }}
 {{! Revset (Top Bar Input) }}
 {{! ========================================= }}
+{{#scheme-is-light-variant}}
+"revset title" = { fg = "#{{base0D-hex}}", bg = "#{{base01-hex}}", bold = true }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
 "revset title" = { fg = "#{{base0D-hex}}", bold = true }
+{{/scheme-is-light-variant}}
 "revset text" = { fg = "#{{base05-hex}}", bold = true }
 "revset completion text" = { fg = "#{{base05-hex}}" }
 "revset completion matched" = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
@@ -105,7 +112,7 @@
 "revisions selected" = { bold = true }
 "revisions dimmed" = { fg = "#{{base03-hex}}" }
 {{#scheme-is-light-variant}}
-"revisions details selected" = { bg = "#{{base06-hex}}" }
+"revisions details selected" = { bg = "#{{base04-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
 "revisions details selected" = { bg = "#{{base02-hex}}" }
