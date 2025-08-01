@@ -16,6 +16,17 @@
 {{! ---------------------------- }}
 {{! Output is a jjui theme (TOML valid syntax) }}
 {{! }}
+{{! IMPORTANT: Since this is a TOML file, each selector must only be emitted ONCE. }}
+{{! Duplicate keys would create invalid TOML and cause parsing errors. }}
+{{! }}
+{{! ONLY use selectors that are documented in: }}
+{{! 1. The official jjui theme wiki: https://github.com/idursun/jjui/wiki/Themes }}
+{{! 2. The default theme files (default_light.toml and default_dark.toml) }}
+{{! }}
+{{! jjui uses STYLE INHERITANCE - more specific selectors inherit from general ones: }}
+{{! Example: "revisions details selected" inherits from "revisions details" → "revisions" → "details selected" → "details" → "selected" }}
+{{! This means you can define base styles and let inheritance handle specifics. }}
+{{! }}
 {{! This template supports both light and dark Base16/Base24 color schemes with optimal contrast. }}
 {{! The builder provides variables like scheme-variant and palette tokens for adaptive theming. }}
 {{! Default assignments follow Base16 styling guide and jjui theme selectors. }}
@@ -42,124 +53,160 @@
 {{! base10-17 provide enhanced theming when available, gracefully degrade to base00-0F }}
 {{! All contrast ratios are optimized for accessibility in both variant types. }}
 
-{{#scheme-is-light-variant}}
+{{! ========================================= }}
+{{! Global Styles (apply throughout application) }}
+{{! ========================================= }}
 "text"      = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }
+"dimmed"    = { fg = "#{{base03-hex}}" }
+"title"     = { fg = "#{{base0D-hex}}", bold = true }
+"shortcut"  = { fg = "#{{base0E-hex}}" }
+"matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", underline = true }
+
+{{#scheme-is-light-variant}}
 "selected"  = { bg = "#{{base06-hex}}", fg = "#{{base02-hex}}" }
 "border"    = { fg = "#{{base03-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
-"text"      = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }
 "selected"  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
 "border"    = { fg = "#{{base01-hex}}" }
 {{/scheme-is-light-variant}}
 
+{{! ========================================= }}
+{{! Operation-Specific Styles }}
+{{! ========================================= }}
+"source_marker" = { bg = "#{{base10-hex}}{{^base10-hex}}{{base0C-hex}}{{/base10-hex}}", fg = "#{{base00-hex}}", bold = true }
+"target_marker" = { bg = "#{{base11-hex}}{{^base11-hex}}{{base0B-hex}}{{/base11-hex}}", fg = "#{{base00-hex}}", bold = true }
 
-"dimmed"    = { fg = "#{{base03-hex}}" }
-"title"     = { fg = "#{{base0D-hex}}", bold = true }
-"shortcut"  = { fg = "#{{base0E-hex}}" }
+{{! ========================================= }}
+{{! Status Bar (Bottom) }}
+{{! ========================================= }}
+"status" = { bg = "#{{base01-hex}}" }
+"status title" = { fg = "#{{base00-hex}}", bg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}", bold = true }
 
-"matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", underline = true }
-"success"   = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true }
-"error"     = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
-"source_marker" = { bg = "#{{base10-hex}}{{^base10-hex}}{{base0C-hex}}{{/base10-hex}}", fg = "#{{base00-hex}}" }
-"target_marker" = { bg = "#{{base11-hex}}{{^base11-hex}}{{base0B-hex}}{{/base11-hex}}", fg = "#{{base00-hex}}" }
-
-"revisions rebase source_marker" = { bold = true }
-"revisions rebase target_marker" = { bold = true }
-
-"status"         = { bg = "#{{base01-hex}}" }
-"status title"   = { fg = "#{{base00-hex}}", bg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}", bold = true }
-"status shortcut"= { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
-"status dimmed"  = { fg = "#{{base03-hex}}" }
-
-"revset title"               = { fg = "#{{base0D-hex}}", bold = true }
-"revset text"                = { fg = "#{{base05-hex}}", bold = true }
-"revset completion text"     = { fg = "#{{base05-hex}}" }
+{{! ========================================= }}
+{{! Revset (Top Bar Input) }}
+{{! ========================================= }}
+"revset title" = { fg = "#{{base0D-hex}}", bold = true }
+"revset text" = { fg = "#{{base05-hex}}", bold = true }
+"revset completion text" = { fg = "#{{base05-hex}}" }
+"revset completion matched" = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
+"revset completion dimmed" = { fg = "#{{base03-hex}}" }
 {{#scheme-is-light-variant}}
 "revset completion selected" = { bg = "#{{base06-hex}}", fg = "#{{base02-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
 "revset completion selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
 {{/scheme-is-light-variant}}
-"revset completion matched"  = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
-"revset completion dimmed"   = { fg = "#{{base03-hex}}" }
 
-"revisions"                  = { fg = "#{{base05-hex}}" }
-"revisions selected"         = { bold = true }
-"revisions dimmed"           = { fg = "#{{base03-hex}}" }
+{{! ========================================= }}
+{{! Revisions / Oplog (Main List) }}
+{{! ========================================= }}
+"revisions" = { fg = "#{{base05-hex}}" }
+"revisions selected" = { bold = true }
+"revisions dimmed" = { fg = "#{{base03-hex}}" }
 {{#scheme-is-light-variant}}
 "revisions details selected" = { bg = "#{{base06-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
 "revisions details selected" = { bg = "#{{base02-hex}}" }
 {{/scheme-is-light-variant}}
-"oplog selected"             = { bold = true }
-"evolog"                     = { fg = "#{{base05-hex}}" }
+"oplog selected" = { bold = true }
+
+{{! ========================================= }}
+{{! Evolog (Sub-List View) }}
+{{! ========================================= }}
+"evolog" = { fg = "#{{base05-hex}}" }
 {{#scheme-is-light-variant}}
-"evolog selected"            = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}", bold = true }
+"evolog selected" = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}", bold = true }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
-"evolog selected"            = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true }
+"evolog selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}", bold = true }
 {{/scheme-is-light-variant}}
 
-"help"        = { bg = "#{{base00-hex}}" }
-"help title"  = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true, underline = true }
+{{! ========================================= }}
+{{! Menus (Git, Bookmarks, etc.) }}
+{{! ========================================= }}
+"menu" = { bg = "#{{base00-hex}}" }
+"menu title" = { fg = "#{{base00-hex}}", bg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}", bold = true }
+"menu shortcut" = { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
+"menu matched" = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
+"menu dimmed" = { fg = "#{{base03-hex}}" }
+"menu border" = { fg = "#{{base01-hex}}" }
 {{#scheme-is-light-variant}}
-"help border" = { fg = "#{{base03-hex}}" }
+"menu selected" = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
 {{/scheme-is-light-variant}}
 {{^scheme-is-light-variant}}
+"menu selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+
+{{! ========================================= }}
+{{! Help Window }}
+{{! ========================================= }}
+"help" = { bg = "#{{base00-hex}}" }
+"help title" = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true, underline = true }
 "help border" = { fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
 
-"menu"           = { bg = "#{{base00-hex}}" }
-"menu title"     = { fg = "#{{base00-hex}}", bg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}", bold = true }
-"menu shortcut"  = { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
-"menu matched"   = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}", bold = true }
-"menu dimmed"    = { fg = "#{{base03-hex}}" }
-{{#scheme-is-light-variant}}
-"menu border"    = { fg = "#{{base03-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
-"menu border"    = { fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
-{{#scheme-is-light-variant}}
-"menu selected"  = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
-"menu selected"  = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
-{{/scheme-is-light-variant}}
-
-"confirmation"         = { bg = "#{{base00-hex}}" }
-"confirmation text"    = { fg = "#{{base0D-hex}}", bold = true }
-{{#scheme-is-light-variant}}
-"confirmation selected"= { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
-"confirmation selected"= { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
-{{/scheme-is-light-variant}}
-"confirmation dimmed"  = { fg = "#{{base03-hex}}" }
-"confirmation border"  = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
-
-"undo"                    = { bg = "#{{base00-hex}}" }
-"undo confirmation dimmed"= { fg = "#{{base03-hex}}" }
-{{#scheme-is-light-variant}}
-"undo confirmation selected"= { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
-"undo confirmation selected"= { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
-{{/scheme-is-light-variant}}
-
-"preview"        = { fg = "#{{base05-hex}}" }
-{{#scheme-is-light-variant}}
-"preview border" = { fg = "#{{base03-hex}}" }
-{{/scheme-is-light-variant}}
-{{^scheme-is-light-variant}}
+{{! ========================================= }}
+{{! Preview (Side Pane) }}
+{{! ========================================= }}
+"preview" = { fg = "#{{base05-hex}}" }
 "preview border" = { fg = "#{{base01-hex}}" }
+
+{{! ========================================= }}
+{{! Confirmation Dialog }}
+{{! ========================================= }}
+"confirmation" = { bg = "#{{base00-hex}}" }
+"confirmation text" = { fg = "#{{base0D-hex}}", bold = true }
+"confirmation dimmed" = { fg = "#{{base03-hex}}" }
+"confirmation border" = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
+{{#scheme-is-light-variant}}
+"confirmation selected" = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"confirmation selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
 {{/scheme-is-light-variant}}
 
-{{! Additional selectors for enhanced jjui theming }}
-"diff added"     = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}" }
-"diff removed"   = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}" }
-"diff modified"  = { fg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}" }
-"warning"        = { fg = "#{{base15-hex}}{{^base15-hex}}{{base09-hex}}{{/base15-hex}}", bold = true }
-"info"           = { fg = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}" }
+{{! ========================================= }}
+{{! Undo Operations }}
+{{! ========================================= }}
+"undo" = { bg = "#{{base00-hex}}" }
+"undo confirmation dimmed" = { fg = "#{{base03-hex}}" }
+{{#scheme-is-light-variant}}
+"undo confirmation selected" = { bg = "#{{base06-hex}}", fg = "#{{base01-hex}}" }
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"undo confirmation selected" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
+{{/scheme-is-light-variant}}
+
+{{! ========================================= }}
+{{! Additional commonly used selectors from Fire theme example }}
+{{! ========================================= }}
+"success" = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}", bold = true }
+"error" = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}", bold = true }
+"revisions rebase source_marker" = { bold = true }
+"revisions rebase target_marker" = { bold = true }
+"status shortcut" = { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
+"status dimmed" = { fg = "#{{base03-hex}}" }
+
+{{! ========================================= }}
+{{! Additional intermediate styles to improve inheritance }}
+{{! ========================================= }}
+{{! These provide better inheritance paths for specific components }}
+"details" = { fg = "#{{base05-hex}}" }
+"details selected" = { bold = true }
+"completion" = { fg = "#{{base05-hex}}" }
+"completion selected" = { bold = true }
+"rebase" = { bold = true }
+
+{{! ========================================= }}
+{{! Enhanced Base24 color utilization for better visual hierarchy }}
+{{! ========================================= }}
+{{! These selectors use extended Base24 colors when available for richer theming }}
+"workspace" = { fg = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}" }
+"branch" = { fg = "#{{base15-hex}}{{^base15-hex}}{{base09-hex}}{{/base15-hex}}" }
+"commit" = { fg = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}" }
+"file" = { fg = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}" }
+"change" = { fg = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}" }
+"bookmark" = { fg = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}" }
+
+
