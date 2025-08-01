@@ -3,43 +3,47 @@
 # Scheme author: {{scheme-author}}
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
-"text" = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }
-"dimmed" = { fg = "#{{base03-hex}}" }
-"selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }
-"border" = { fg = "#{{base03-hex}}" }
-"title" = { fg = "#{{base01-hex}}", bold = true }
-"shortcut" = { fg = "#{{base0E-hex}}" }
-"matched" = { fg = "#{{base0A-hex}}", underline = true }
-"source_marker" = { bg = "#{{base02-hex}}", fg = "#{{base05-hex}}" }
-"target_marker" = { bg = "#{{base01-hex}}", fg = "#{{base05-hex}}" }
-"revisions rebase source_marker" = { bold = true }
-"revisions rebase target_marker" = { bold = true }
-"status" = { bg = "#{{base00-hex}}" }
-"status title" = { fg = "#{{base00-hex}}", bg = "#{{base01-hex}}", bold = true }
-"status shortcut" = { fg = "#{{base0E-hex}}" }
-"status dimmed" = { fg = "#{{base03-hex}}" }
-"revset text" = { bold = true }
-"revset completion selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }
-"revset completion matched" = { bold = true }
-"revset completion dimmed" = { fg = "#{{base03-hex}}" }
-"revisions selected" = { bold = true }
-"oplog selected" = { bold = true }
-"evolog selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}", bold = true }
-"help" = { bg = "#{{base00-hex}}" }
-"help title" = { fg = "#{{base01-hex}}", bold = true, underline = true }
-"help border" = { fg = "#{{base03-hex}}" }
-"menu" = { bg = "#{{base00-hex}}" }
-"menu title" = { fg = "#{{base01-hex}}", bold = true }
-"menu shortcut" = { fg = "#{{base0E-hex}}" }
-"menu dimmed" = { fg = "#{{base03-hex}}" }
-"menu border" = { fg = "#{{base03-hex}}" }
-"menu selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }
-"confirmation" = { bg = "#{{base00-hex}}" }
-"confirmation text" = { fg = "#{{base05-hex}}" }
-"confirmation selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }
-"confirmation dimmed" = { fg = "#{{base03-hex}}" }
-"confirmation border" = { fg = "#{{base01-hex}}" }
-"undo" = { bg = "#{{base00-hex}}" }
-"undo confirmation dimmed" = { fg = "#{{base03-hex}}" }
-"undo confirmation selected" = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }
-"preview" = { fg = "#{{base05-hex}}" }
+# Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md
+# jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes
+
+
+"text"                           = { fg = "#{{base05-hex}}", bg = "#{{base00-hex}}" }      # Default foreground (base05), main background (base00)
+"dimmed"                         = { fg = "#{{base03-hex}}" }                              # Dimmed text, comments, line highlighting (base03)
+"selected"                       = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }      # Selection background (base02), highlight/search (base0A)
+"border"                         = { fg = "#{{base01-hex}}" }                              # Lighter background for borders (base01)
+"title"                          = { fg = "#{{base0D-hex}}", bold = true }                 # Headings/titles (base0D, blue)
+"shortcut"                       = { fg = "#{{base0E-hex}}" }                              # Keywords/special UI elements (base0E, magenta)
+"matched"                        = { fg = "#{{base0A-hex}}", underline = true }            # Search highlight (base0A, yellow)
+"source_marker"                  = { bg = "#{{base0C-hex}}", fg = "#{{base05-hex}}" }      # Marker for source (base0C, cyan), text (base05)
+"target_marker"                  = { bg = "#{{base0B-hex}}", fg = "#{{base05-hex}}" }      # Marker for target (base0B, green), text (base05)
+"revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
+"revisions rebase target_marker" = { bold = true }                                         # Target marker in rebase (bold)
+"status"                         = { bg = "#{{base01-hex}}" }                              # Status bar background (base01)
+"status title"                   = { fg = "#{{base00-hex}}", bg = "#{{base0D-hex}}", bold = true } # Mode indicator, contrasting background (base0D)
+"status shortcut"                = { fg = "#{{base0E-hex}}" }                              # Shortcut in status bar (base0E)
+"status dimmed"                  = { fg = "#{{base03-hex}}" }                              # Dimmed text in status bar (base03)
+"revset text"                    = { bold = true }                                         # User input area, recommended bold
+"revset completion selected"     = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }      # Highlighted item in completions (base02/bg, base0A/fg)
+"revset completion matched"      = { bold = true }                                         # Matched part of completion (bold)
+"revset completion dimmed"       = { fg = "#{{base03-hex}}" }                              # Auto-suggested part of completion (base03)
+"revisions selected"             = { bold = true }                                         # Highlighted line in revisions/oplog (bold)
+"oplog selected"                 = { bold = true }                                         # Highlighted line in oplog (bold)
+"evolog selected"                = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}", bold = true } # Highlighted item in evolog (base02/bg, base0A/fg)
+"help"                           = { bg = "#{{base00-hex}}" }                              # Help window background (base00)
+"help title"                     = { fg = "#{{base0D-hex}}", bold = true, underline = true } # Help window title (base0D, blue)
+"help border"                    = { fg = "#{{base01-hex}}" }                              # Help window border (base01)
+"menu"                           = { bg = "#{{base00-hex}}" }                              # Menu background (base00)
+"menu title"                     = { fg = "#{{base0D-hex}}", bold = true }                 # Menu title (base0D, blue)
+"menu shortcut"                  = { fg = "#{{base0E-hex}}" }                              # Shortcut in menu (base0E, magenta)
+"menu dimmed"                    = { fg = "#{{base03-hex}}" }                              # Dimmed menu item (base03)
+"menu border"                    = { fg = "#{{base01-hex}}" }                              # Menu border (base01)
+"menu selected"                  = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }      # Selected menu item (base02/bg, base0A/fg)
+"confirmation"                   = { bg = "#{{base00-hex}}" }                              # Confirmation dialog background (base00)
+"confirmation text"              = { fg = "#{{base05-hex}}" }                              # Confirmation dialog text (base05)
+"confirmation selected"          = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }      # Selected option in confirmation (base02/bg, base0A/fg)
+"confirmation dimmed"            = { fg = "#{{base03-hex}}" }                              # Dimmed option in confirmation (base03)
+"confirmation border"            = { fg = "#{{base08-hex}}" }                              # Confirmation border (base08, red, warning)
+"undo"                           = { bg = "#{{base00-hex}}" }                              # Undo dialog background (base00)
+"undo confirmation dimmed"       = { fg = "#{{base03-hex}}" }                              # Dimmed undo option (base03)
+"undo confirmation selected"     = { bg = "#{{base02-hex}}", fg = "#{{base0A-hex}}" }      # Selected undo option (base02/bg, base0A/fg)
+"preview"                        = { fg = "#{{base05-hex}}" }                              # Preview pane text (base05)

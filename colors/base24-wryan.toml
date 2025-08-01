@@ -3,43 +3,47 @@
 # Scheme author: FredHappyface (https://github.com/fredHappyface)
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
-"text" = { fg = "#768488", bg = "#101010" }
-"dimmed" = { fg = "#505456" }
-"selected" = { bg = "#3d3d3d", fg = "#477ab3" }
-"border" = { fg = "#505456" }
-"title" = { fg = "#333333", bold = true }
-"shortcut" = { fg = "#5e468c" }
-"matched" = { fg = "#477ab3", underline = true }
-"source_marker" = { bg = "#3d3d3d", fg = "#768488" }
-"target_marker" = { bg = "#333333", fg = "#768488" }
-"revisions rebase source_marker" = { bold = true }
-"revisions rebase target_marker" = { bold = true }
-"status" = { bg = "#101010" }
-"status title" = { fg = "#101010", bg = "#333333", bold = true }
-"status shortcut" = { fg = "#5e468c" }
-"status dimmed" = { fg = "#505456" }
-"revset text" = { bold = true }
-"revset completion selected" = { bg = "#3d3d3d", fg = "#477ab3" }
-"revset completion matched" = { bold = true }
-"revset completion dimmed" = { fg = "#505456" }
-"revisions selected" = { bold = true }
-"oplog selected" = { bold = true }
-"evolog selected" = { bg = "#3d3d3d", fg = "#477ab3", bold = true }
-"help" = { bg = "#101010" }
-"help title" = { fg = "#333333", bold = true, underline = true }
-"help border" = { fg = "#505456" }
-"menu" = { bg = "#101010" }
-"menu title" = { fg = "#333333", bold = true }
-"menu shortcut" = { fg = "#5e468c" }
-"menu dimmed" = { fg = "#505456" }
-"menu border" = { fg = "#505456" }
-"menu selected" = { bg = "#3d3d3d", fg = "#477ab3" }
-"confirmation" = { bg = "#101010" }
-"confirmation text" = { fg = "#768488" }
-"confirmation selected" = { bg = "#3d3d3d", fg = "#477ab3" }
-"confirmation dimmed" = { fg = "#505456" }
-"confirmation border" = { fg = "#333333" }
-"undo" = { bg = "#101010" }
-"undo confirmation dimmed" = { fg = "#505456" }
-"undo confirmation selected" = { bg = "#3d3d3d", fg = "#477ab3" }
-"preview" = { fg = "#768488" }
+# Base16 Styling Guide: https://github.com/tinted-theming/home/blob/main/styling.md
+# jjui Theme Documentation: https://github.com/idursun/jjui/wiki/Themes
+
+
+"text"                           = { fg = "#768488", bg = "#101010" }      # Default foreground (base05), main background (base00)
+"dimmed"                         = { fg = "#505456" }                              # Dimmed text, comments, line highlighting (base03)
+"selected"                       = { bg = "#3d3d3d", fg = "#477ab3" }      # Selection background (base02), highlight/search (base0A)
+"border"                         = { fg = "#333333" }                              # Lighter background for borders (base01)
+"title"                          = { fg = "#395573", bold = true }                 # Headings/titles (base0D, blue)
+"shortcut"                       = { fg = "#5e468c" }                              # Keywords/special UI elements (base0E, magenta)
+"matched"                        = { fg = "#477ab3", underline = true }            # Search highlight (base0A, yellow)
+"source_marker"                  = { bg = "#31658c", fg = "#768488" }      # Marker for source (base0C, cyan), text (base05)
+"target_marker"                  = { bg = "#287373", fg = "#768488" }      # Marker for target (base0B, green), text (base05)
+"revisions rebase source_marker" = { bold = true }                                         # Source marker in rebase (bold)
+"revisions rebase target_marker" = { bold = true }                                         # Target marker in rebase (bold)
+"status"                         = { bg = "#333333" }                              # Status bar background (base01)
+"status title"                   = { fg = "#101010", bg = "#395573", bold = true } # Mode indicator, contrasting background (base0D)
+"status shortcut"                = { fg = "#5e468c" }                              # Shortcut in status bar (base0E)
+"status dimmed"                  = { fg = "#505456" }                              # Dimmed text in status bar (base03)
+"revset text"                    = { bold = true }                                         # User input area, recommended bold
+"revset completion selected"     = { bg = "#3d3d3d", fg = "#477ab3" }      # Highlighted item in completions (base02/bg, base0A/fg)
+"revset completion matched"      = { bold = true }                                         # Matched part of completion (bold)
+"revset completion dimmed"       = { fg = "#505456" }                              # Auto-suggested part of completion (base03)
+"revisions selected"             = { bold = true }                                         # Highlighted line in revisions/oplog (bold)
+"oplog selected"                 = { bold = true }                                         # Highlighted line in oplog (bold)
+"evolog selected"                = { bg = "#3d3d3d", fg = "#477ab3", bold = true } # Highlighted item in evolog (base02/bg, base0A/fg)
+"help"                           = { bg = "#101010" }                              # Help window background (base00)
+"help title"                     = { fg = "#395573", bold = true, underline = true } # Help window title (base0D, blue)
+"help border"                    = { fg = "#333333" }                              # Help window border (base01)
+"menu"                           = { bg = "#101010" }                              # Menu background (base00)
+"menu title"                     = { fg = "#395573", bold = true }                 # Menu title (base0D, blue)
+"menu shortcut"                  = { fg = "#5e468c" }                              # Shortcut in menu (base0E, magenta)
+"menu dimmed"                    = { fg = "#505456" }                              # Dimmed menu item (base03)
+"menu border"                    = { fg = "#333333" }                              # Menu border (base01)
+"menu selected"                  = { bg = "#3d3d3d", fg = "#477ab3" }      # Selected menu item (base02/bg, base0A/fg)
+"confirmation"                   = { bg = "#101010" }                              # Confirmation dialog background (base00)
+"confirmation text"              = { fg = "#768488" }                              # Confirmation dialog text (base05)
+"confirmation selected"          = { bg = "#3d3d3d", fg = "#477ab3" }      # Selected option in confirmation (base02/bg, base0A/fg)
+"confirmation dimmed"            = { fg = "#505456" }                              # Dimmed option in confirmation (base03)
+"confirmation border"            = { fg = "#8c4665" }                              # Confirmation border (base08, red, warning)
+"undo"                           = { bg = "#101010" }                              # Undo dialog background (base00)
+"undo confirmation dimmed"       = { fg = "#505456" }                              # Dimmed undo option (base03)
+"undo confirmation selected"     = { bg = "#3d3d3d", fg = "#477ab3" }      # Selected undo option (base02/bg, base0A/fg)
+"preview"                        = { fg = "#768488" }                              # Preview pane text (base05)
