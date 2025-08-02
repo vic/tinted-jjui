@@ -9,7 +9,7 @@
 "dimmed"    = { fg = "#737373" }
 "title"     = { fg = "#053a8c", bold = true }
 "shortcut"  = { fg = "#e40038" }
-"matched"   = { fg = "#fdc70e", underline = true }
+"matched"   = { fg = "#fdc70e" }
 "border"    = { fg = "#737373" }
 "selected"  = { bg = "#242424", fg = "#c5c5c5", bold = true }
 
