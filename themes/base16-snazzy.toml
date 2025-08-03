@@ -6,7 +6,7 @@
 
 
 "text"      = { fg = "#e2e4e5", bg = "#282a36" }
-"dimmed"    = { fg = "#78787e" }
+"dimmed"    = { fg = "#78787e", bg = "#282a36" }
 "title"     = { fg = "#57c7ff", bold = true }
 "shortcut"  = { fg = "#ff6ac1" }
 "matched"   = { fg = "#f3f99d" }
