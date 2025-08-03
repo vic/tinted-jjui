@@ -27,7 +27,7 @@
 "revset completion selected" = { bg = "#489000", fg = "#fff018" }
 
 "revisions" = { fg = "#d80000" }
-"revisions selected" = { bold = true }
+"revisions selected" = { bg = "#fff018"}
 "revisions dimmed" = { fg = "#f01818" }
 "revisions details selected" = { bg = "#f00000" }
 "oplog selected" = { bold = true }
