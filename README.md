@@ -1,4 +1,4 @@
-# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://nico-i.github.io/scheme-viewer/base16/) and [base24](https://nico-i.github.io/scheme-viewer/base24/) color schemes.
+# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes.
 
 [Color scheme Gallery](https://tinted-theming.github.io/tinted-gallery/)
 
@@ -35,7 +35,7 @@ vi $HOME/.config/jjui/config.toml
 
 ## Customization.
 
-Remeber that these themes are auto-generated frequently from base16 schemes. If you need to make a particular adaptation, either copy and maintain the theme yourself or use jjui theme [overrides](https://idursun.github.io/jjui/Themes.html).
+Remember that these themes are auto-generated frequently from base16 schemes. If you need to make a particular adaptation, either copy and maintain the theme yourself or use jjui theme [overrides](https://idursun.github.io/jjui/Themes.html).
 
 
 ## Contributing
@@ -45,3 +45,7 @@ Contributions are welcome as long as changes seem reasonable and most themes wor
 Follow the instructions at `templates/tinted-jjui.mustache`. Be sure to read the linked resources to understand how jjui themes work and how are tinted color schemes defined. 
 
 Use [`tinted-builder-rust build . `](https://github.com/tinted-theming/tinted-builder-rust) to regenerate all themes. Make sure light and dark themes work properly.
+
+Attach screenshots to pull-requests of how themes look like before and after your changes.
+
+Attach screenshots to pull-requests of dark/light variants.
