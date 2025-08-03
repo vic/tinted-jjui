@@ -102,7 +102,12 @@
 {{! Revisions / Oplog (Main List) }}
 {{! ========================================= }}
 "revisions" = { fg = "#{{base05-hex}}" }
-"revisions selected" = { bold = true }
+{{#scheme-is-light-variant}}
+"revisions selected" = { bg = "#{{base02-hex}}"}
+{{/scheme-is-light-variant}}
+{{^scheme-is-light-variant}}
+"revisions selected" = { bg = "#{{base01-hex}}"}
+{{/scheme-is-light-variant}}
 "revisions dimmed" = { fg = "#{{base03-hex}}" }
 {{#scheme-is-light-variant}}
 "revisions details selected" = { bg = "#{{base04-hex}}" }
