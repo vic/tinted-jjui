@@ -1,6 +1,6 @@
 # [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes.
 
-[Color scheme Gallery](https://tinted-theming.github.io/tinted-gallery/)
+[Theme Gallery](#Themes)
 
 ## Usage
 
@@ -46,6 +46,15 @@ Follow the instructions at `templates/tinted-jjui.mustache`. Be sure to read the
 
 Use [`tinted-builder-rust build . `](https://github.com/tinted-theming/tinted-builder-rust) to regenerate all themes. Make sure light and dark themes work properly.
 
+Use `bash vhs.sh <THEME>` to generate a gif you can attach to your pull-request.
+
+For example, `bash vhs.sh base16-rebecca` will print the URL to gif
+
 Attach screenshots to pull-requests of how themes look like before and after your changes.
 
 Attach screenshots to pull-requests of dark/light variants.
+
+
+<!-- Keep this header LAST ! -->
+## Themes
+
