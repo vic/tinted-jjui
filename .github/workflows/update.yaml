@@ -42,7 +42,7 @@ jobs:
       - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
       - run: vhs --version
       - run: (cd ${{github.workspace}}/jjui && jj git init --colocate)
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: images
           key: ${{ env.cache-name }}
@@ -57,7 +57,7 @@ jobs:
       cache-name: screenshots-${{ github.head_ref }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: images
           key: ${{ env.cache-name }}
