@@ -24,7 +24,6 @@ jobs:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
       JJUI_REPO: ${{ github.workspace }}/jjui
       PARALLEL: 10
-      cache-name: screenshots-${{ github.head_ref }}
     strategy:
       matrix:
         step: [ 1, 50, 100, 150, 200, 250, 300, 350, 400, 450 ]
@@ -42,10 +41,11 @@ jobs:
       - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
       - run: vhs --version
       - run: (cd ${{github.workspace}}/jjui && jj git init --colocate)
+      - run: rm -rf images/ && mkdir images
       - uses: actions/cache@v4
         with:
           path: images
-          key: ${{ env.cache-name }}
+          key: screenshots-${{ github.head_ref }}-step${{ matrix.step }}
       - name: update-screenshots
         run: bash update-images.sh ${{matrix.step}} $(expr ${{matrix.step}} + 49)
   readme:
@@ -54,13 +54,49 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-      cache-name: screenshots-${{ github.head_ref }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/cache@v4
         with:
-          path: images
-          key: ${{ env.cache-name }}
+          path: .tmp/images1
+          key: screenshots-${{ github.head_ref }}-step1
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images50
+          key: screenshots-${{ github.head_ref }}-step50
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images100
+          key: screenshots-${{ github.head_ref }}-step100
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images150
+          key: screenshots-${{ github.head_ref }}-step150
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images200
+          key: screenshots-${{ github.head_ref }}-step200
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images250
+          key: screenshots-${{ github.head_ref }}-step250
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images300
+          key: screenshots-${{ github.head_ref }}-step300
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images350
+          key: screenshots-${{ github.head_ref }}-step350
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images400
+          key: screenshots-${{ github.head_ref }}-step400
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images450
+          key: screenshots-${{ github.head_ref }}-step450
+      - run: rm -rf images/ && mkdir images && mv .tmp/images*/* images/
       - run: bash update-readme.sh
       - name: "Commit the changes, if any"
         uses: "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992" # 5.0.1
