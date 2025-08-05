@@ -1,4 +1,4 @@
-name: Update with the latest tinted-theming colorschemes
+name: Update
 on:
   push:
     branches:
@@ -10,9 +10,42 @@ on:
     - cron: "0 0 * * *" # https://crontab.guru/every-day
 
 jobs:
-  build-and-commit:
+  update-themes:
     uses: "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main"
     secrets:
       token: ${{ secrets.BOT_ACCESS_TOKEN }}
     with:
       ref: ${{ github.head_ref }}
+  screenshot:
+    needs: [update-themes]
+    name: screenshot
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      JJUI_REPO: ${{ github.workspace }}/jjui
+      PARALLEL: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: idursun/jjui
+          path: jjui
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: echo '~/.nix-profile/bin' >> $GITHUB_PATH
+      - run: nix profile add github:idursun/jjui
+      - run: jjui --version
+      - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
+      - run: vhs --version
+      - run: (cd ${{github.workspace}}/jjui && jj git init --colocate)
+      - name: update-screenshots
+        run: bash update-images.sh
+      - name: "Commit the changes, if any"
+        uses: "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992" # 5.0.1
+        with:
+          commit_message: "Update README with screenshots"
+          branch: ${{ github.head_ref }}
+          commit_user_name: "Victor Borja"
+          commit_user_email: "vborja@apache.org"
+          commit_author: "Victor Borja <vborja@apache.org>"
+    
