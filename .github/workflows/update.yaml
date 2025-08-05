@@ -24,6 +24,7 @@ jobs:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
       JJUI_REPO: ${{ github.workspace }}/jjui
       PARALLEL: 10
+      cache-name: screenshots-${{hashFiles('themes/*')}}
     strategy:
       matrix:
         step: [ 1, 50, 100, 150, 200, 250, 300, 350, 400, 450 ]
@@ -41,29 +42,30 @@ jobs:
       - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
       - run: vhs --version
       - run: (cd ${{github.workspace}}/jjui && jj git init --colocate)
+      - uses: actions/cache@v2
+        with:
+          path: images
+          key: ${{ env.cache-name }}
       - name: update-screenshots
         run: bash update-images.sh ${{matrix.step}} $(expr ${{matrix.step}} + 49)
-      - name: "Commit the changes, if any"
-        uses: "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992" # 5.0.1
-        with:
-          commit_message: "Update screenshots (step: ${{matrix.step}})"
-          branch: ${{ github.head_ref }}
-          commit_user_name: "Victor Borja"
-          commit_user_email: "vborja@apache.org"
-          commit_author: "Victor Borja <vborja@apache.org>"
   readme:
     needs: [screenshot]
     name: readme
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      cache-name: screenshots-${{hashFiles('themes/*')}}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/cache@v2
+        with:
+          path: images
+          key: ${{ env.cache-name }}
       - run: bash update-readme.sh
       - name: "Commit the changes, if any"
         uses: "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992" # 5.0.1
         with:
-          commit_message: "Update README"
+          commit_message: "Update README with screenshots"
           branch: ${{ github.head_ref }}
           commit_user_name: "Victor Borja"
           commit_user_email: "vborja@apache.org"
