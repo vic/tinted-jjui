@@ -21,18 +21,4 @@ EOF
   vhs -q vhs.tape
   mv "$ROOT/.tmp/$1/jjui.png" $ROOT/images/$1.png
   echo "$ROOT/images/$1.png"
-  tq='```'
-  cat <<EOF >$ROOT/.tmp/$1.md
-### [${1}](./themes/${1}.toml)
-
-${tq}toml
-[ui]
-theme = "${1}"
-${tq}
-
-<p align="center">
-  <img title="${1}" alt="${1}" src="images/${1}.png" />
-</p>
-
-EOF
 )
