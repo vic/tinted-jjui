@@ -1,0 +1,33 @@
+name: Screenshot
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  screenshot:
+    name: screenshot
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: echo '~/.nix-profile/bin' >> $GITHUB_PATH
+      - run: nix profile add github:idursun/jjui
+      - run: jjui --version
+      - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
+      - run: vhs --version
+      - name: screenshot
+        run: |
+         set -e -o pipefail
+         jj git init --colocate
+         echo \
+           base16-dracula \
+           base24-dracula \
+           base24-github-dark \
+           base24-github-light \
+           base24-builtin-solarized-dark \
+           base24-builtin-solarized-light \
+           | xargs -n 1 -P 10 bash vhs.sh
+      - run: cat .tmp/*.md | gh pr comment -F -

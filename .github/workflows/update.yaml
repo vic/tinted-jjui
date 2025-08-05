@@ -1,4 +1,4 @@
-name: Update with the latest tinted-theming colorschemes
+name: Update
 on:
   push:
     branches:
@@ -10,9 +10,26 @@ on:
     - cron: "0 0 * * *" # https://crontab.guru/every-day
 
 jobs:
-  build-and-commit:
+  update-themes:
     uses: "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main"
     secrets:
       token: ${{ secrets.BOT_ACCESS_TOKEN }}
     with:
       ref: ${{ github.head_ref }}
+  screenshot:
+    name: screenshot
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: echo '~/.nix-profile/bin' >> $GITHUB_PATH
+      - run: nix profile add github:idursun/jjui
+      - run: jjui --version
+      - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
+      - run: vhs --version
+      - name: update-screenshots
+        run: bash update-images.sh
+    
