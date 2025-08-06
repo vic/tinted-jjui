@@ -45,8 +45,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: images
-          key: screenshots-${{ github.sha }}-step${{ matrix.step }}
-          save-always: true
+          key: screenshots-step${{ matrix.step }}-${{ github.sha }}
       - name: update-screenshots
         run: bash update-images.sh ${{matrix.step}} $(expr ${{matrix.step}} + 49)
   readme:
@@ -60,52 +59,52 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: .tmp/images1
-          key: screenshots-${{ github.sha }}-step1
+          key: screenshots-step1-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images50
-          key: screenshots-${{ github.sha }}-step50
+          key: screenshots-step50-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images100
-          key: screenshots-${{ github.sha }}-step100
+          key: screenshots-step100-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images150
-          key: screenshots-${{ github.sha }}-step150
+          key: screenshots-step150-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images200
-          key: screenshots-${{ github.sha }}-step200
+          key: screenshots-step200-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images250
-          key: screenshots-${{ github.sha }}-step250
+          key: screenshots-step250-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images300
-          key: screenshots-${{ github.sha }}-step300
+          key: screenshots-step300-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images350
-          key: screenshots-${{ github.sha }}-step350
+          key: screenshots-step350-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images400
-          key: screenshots-${{ github.sha }}-step400
+          key: screenshots-step400-${{ github.sha }}
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images450
-          key: screenshots-${{ github.sha }}-step450
+          key: screenshots-step450-${{ github.sha }}
           fail-on-cache-miss: true
       - run: rm -rf images/ && mkdir images && mv .tmp/images*/* images/
       - run: bash update-readme.sh
