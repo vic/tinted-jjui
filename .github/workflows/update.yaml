@@ -23,7 +23,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
       JJUI_REPO: ${{ github.workspace }}/jjui
-      PARALLEL: 10
+      PARALLEL: 1
     strategy:
       matrix:
         step: [ 1, 50, 100, 150, 200, 250, 300, 350, 400, 450 ]
@@ -45,8 +45,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: images
-          key: screenshots-${{ github.head_ref }}-step${{ matrix.step }}
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step${{ matrix.step }}
+          save-always: true
       - name: update-screenshots
         run: bash update-images.sh ${{matrix.step}} $(expr ${{matrix.step}} + 49)
   readme:
@@ -60,62 +60,52 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: .tmp/images1
-          key: screenshots-${{ github.head_ref }}-step1
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step1
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images50
-          key: screenshots-${{ github.head_ref }}-step50
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step50
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images100
-          key: screenshots-${{ github.head_ref }}-step100
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step100
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images150
-          key: screenshots-${{ github.head_ref }}-step150
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step150
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images200
-          key: screenshots-${{ github.head_ref }}-step200
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step200
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images250
-          key: screenshots-${{ github.head_ref }}-step250
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step250
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images300
-          key: screenshots-${{ github.head_ref }}-step300
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step300
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images350
-          key: screenshots-${{ github.head_ref }}-step350
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step350
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images400
-          key: screenshots-${{ github.head_ref }}-step400
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step400
           fail-on-cache-miss: true
       - uses: actions/cache@v4
         with:
           path: .tmp/images450
-          key: screenshots-${{ github.head_ref }}-step450
-          enableCrossOsArchive: true
+          key: screenshots-${{ github.sha }}-step450
           fail-on-cache-miss: true
       - run: rm -rf images/ && mkdir images && mv .tmp/images*/* images/
       - run: bash update-readme.sh
