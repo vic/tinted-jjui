@@ -52,7 +52,7 @@ jobs:
   readme:
     needs: [screenshot]
     name: readme
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
     steps:
