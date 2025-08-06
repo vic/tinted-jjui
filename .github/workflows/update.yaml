@@ -1,4 +1,4 @@
-name: Update with the latest tinted-theming colorschemes
+name: Update
 on:
   push:
     branches:
@@ -10,9 +10,110 @@ on:
     - cron: "0 0 * * *" # https://crontab.guru/every-day
 
 jobs:
-  build-and-commit:
+  update-themes:
     uses: "tinted-theming/home/.github/workflows/shared-build-template-and-commit-themes.yml@main"
     secrets:
       token: ${{ secrets.BOT_ACCESS_TOKEN }}
     with:
       ref: ${{ github.head_ref }}
+  screenshot:
+    needs: [update-themes]
+    name: screenshot
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      JJUI_REPO: ${{ github.workspace }}/jjui
+      PARALLEL: 1
+    strategy:
+      matrix:
+        step: [ 1, 50, 100, 150, 200, 250, 300, 350, 400, 450 ]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: idursun/jjui
+          path: jjui
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: echo '~/.nix-profile/bin' >> $GITHUB_PATH
+      - run: nix profile add github:idursun/jjui
+      - run: jjui --version
+      - run: nix profile add nixpkgs#vhs nixpkgs#jujutsu
+      - run: vhs --version
+      - run: (cd ${{github.workspace}}/jjui && jj git init --colocate)
+      - run: rm -rf images/ && mkdir images
+      - uses: actions/cache@v4
+        with:
+          path: images
+          key: screenshots-step${{ matrix.step }}-${{ github.sha }}
+      - name: update-screenshots
+        run: bash update-images.sh ${{matrix.step}} $(expr ${{matrix.step}} + 49)
+  readme:
+    needs: [screenshot]
+    name: readme
+    runs-on: macos-latest
+    env:
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images1
+          key: screenshots-step1-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images50
+          key: screenshots-step50-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images100
+          key: screenshots-step100-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images150
+          key: screenshots-step150-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images200
+          key: screenshots-step200-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images250
+          key: screenshots-step250-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images300
+          key: screenshots-step300-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images350
+          key: screenshots-step350-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images400
+          key: screenshots-step400-${{ github.sha }}
+          fail-on-cache-miss: true
+      - uses: actions/cache@v4
+        with:
+          path: .tmp/images450
+          key: screenshots-step450-${{ github.sha }}
+          fail-on-cache-miss: true
+      - run: rm -rf images/ && mkdir images && mv .tmp/images*/* images/
+      - run: bash update-readme.sh
+      - name: "Commit the changes, if any"
+        uses: "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992" # 5.0.1
+        with:
+          commit_message: "Update README with screenshots"
+          branch: ${{ github.head_ref }}
+          commit_user_name: "Victor Borja"
+          commit_user_email: "vborja@apache.org"
+          commit_author: "Victor Borja <vborja@apache.org>"
+
