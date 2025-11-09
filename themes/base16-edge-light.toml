@@ -9,7 +9,7 @@
 "dimmed"    = { fg = "#5e646f", bg = "#fafafa" }
 "title"     = { fg = "#6587bf", bold = true }
 "shortcut"  = { fg = "#b870ce" }
-"matched"   = { fg = "#d69822" }
+"matched"   = { fg = "#ebcc1a" }
 "border"    = { fg = "#5e646f" }
 "selected"  = { bg = "#7c9f4b", fg = "#5e646f", bold = true }
 
@@ -22,7 +22,7 @@
 "revset title" = { fg = "#6587bf", bg = "#7c9f4b", bold = true }
 "revset text" = { fg = "#5e646f", bold = true }
 "revset completion text" = { fg = "#5e646f" }
-"revset completion matched" = { fg = "#d69822", bold = true }
+"revset completion matched" = { fg = "#ebcc1a", bold = true }
 "revset completion dimmed" = { fg = "#5e646f" }
 "revset completion selected" = { bg = "#b870ce", fg = "#d69822" }
 
@@ -38,7 +38,7 @@
 "menu" = { bg = "#fafafa" }
 "menu title" = { fg = "#fafafa", bg = "#b870ce", bold = true }
 "menu shortcut" = { fg = "#b870ce" }
-"menu matched" = { fg = "#d69822", bold = true }
+"menu matched" = { fg = "#ebcc1a", bold = true }
 "menu dimmed" = { fg = "#5e646f" }
 "menu border" = { fg = "#7c9f4b" }
 "menu selected" = { bg = "#b870ce", fg = "#7c9f4b" }
@@ -74,9 +74,9 @@
 "rebase" = { bold = true }
 
 "workspace" = { fg = "#6587bf" }
-"branch" = { fg = "#db7070" }
+"branch" = { fg = "#eba31a" }
 "commit" = { fg = "#7c9f4b" }
-"file" = { fg = "#d69822" }
+"file" = { fg = "#ebcc1a" }
 "change" = { fg = "#db7070" }
 "bookmark" = { fg = "#b870ce" }
 

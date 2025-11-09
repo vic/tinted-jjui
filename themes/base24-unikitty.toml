@@ -5,19 +5,19 @@
 
 
 
-"text"      = { fg = "#b9b1b8", bg = "#ff8cd9" }
-"dimmed"    = { fg = "#696769", bg = "#ff8cd9" }
+"text"      = { fg = "#b9b1b8", bg = "#ff7ad3" }
+"dimmed"    = { fg = "#696769", bg = "#ff7ad3" }
 "title"     = { fg = "#145fcd", bold = true }
 "shortcut"  = { fg = "#ff36a2" }
 "matched"   = { fg = "#ffee50" }
 "border"    = { fg = "#696769" }
 "selected"  = { bg = "#0c0c0c", fg = "#b9b1b8", bold = true }
 
-"source_marker" = { bg = "#2c2c2c", fg = "#ff8cd9", bold = true }
-"target_marker" = { bg = "#161616", fg = "#ff8cd9", bold = true }
+"source_marker" = { bg = "#2c2c2c", fg = "#ff7ad3", bold = true }
+"target_marker" = { bg = "#161616", fg = "#ff7ad3", bold = true }
 
 "status" = { bg = "#0c0c0c" }
-"status title" = { fg = "#ff8cd9", bg = "#0074ea", bold = true }
+"status title" = { fg = "#ff7ad3", bg = "#0074ea", bold = true }
 
 "revset title" = { fg = "#145fcd", bg = "#0c0c0c", bold = true }
 "revset text" = { fg = "#b9b1b8", bold = true }
@@ -35,28 +35,28 @@
 "evolog" = { fg = "#b9b1b8" }
 "evolog selected" = { bg = "#e1d6e0", fg = "#0c0c0c", bold = true }
 
-"menu" = { bg = "#ff8cd9" }
-"menu title" = { fg = "#ff8cd9", bg = "#fdd5e5", bold = true }
+"menu" = { bg = "#ff7ad3" }
+"menu title" = { fg = "#ff7ad3", bg = "#fdd5e5", bold = true }
 "menu shortcut" = { fg = "#fdd5e5" }
 "menu matched" = { fg = "#ffee50", bold = true }
 "menu dimmed" = { fg = "#696769" }
 "menu border" = { fg = "#0c0c0c" }
 "menu selected" = { bg = "#e1d6e0", fg = "#0c0c0c" }
 
-"help" = { bg = "#ff8cd9" }
+"help" = { bg = "#ff7ad3" }
 "help title" = { fg = "#d2ffaf", bold = true, underline = true }
 "help border" = { fg = "#0c0c0c" }
 
 "preview" = { fg = "#b9b1b8" }
 "preview border" = { fg = "#0c0c0c" }
 
-"confirmation" = { bg = "#ff8cd9" }
+"confirmation" = { bg = "#ff7ad3" }
 "confirmation text" = { fg = "#145fcd", bold = true }
 "confirmation dimmed" = { fg = "#696769" }
 "confirmation border" = { fg = "#d81329", bold = true }
 "confirmation selected" = { bg = "#e1d6e0", fg = "#0c0c0c" }
 
-"undo" = { bg = "#ff8cd9" }
+"undo" = { bg = "#ff7ad3" }
 "undo confirmation dimmed" = { fg = "#696769" }
 "undo confirmation selected" = { bg = "#e1d6e0", fg = "#0c0c0c" }
 

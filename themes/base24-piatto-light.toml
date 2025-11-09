@@ -5,76 +5,76 @@
 
 
 
-"text"      = { fg = "#cfcfcf", bg = "#ffffff" }
-"dimmed"    = { fg = "#6f6f6f", bg = "#ffffff" }
+"text"      = { fg = "#515151", bg = "#ffffff" }
+"dimmed"    = { fg = "#c1c1c1", bg = "#ffffff" }
 "title"     = { fg = "#3c5ea8", bold = true }
 "shortcut"  = { fg = "#a454b2" }
 "matched"   = { fg = "#cd6f34" }
-"border"    = { fg = "#6f6f6f" }
-"selected"  = { bg = "#414141", fg = "#cfcfcf", bold = true }
+"border"    = { fg = "#c1c1c1" }
+"selected"  = { bg = "#f1f1f1", fg = "#515151", bold = true }
 
 "source_marker" = { bg = "#2a2a2a", fg = "#ffffff", bold = true }
 "target_marker" = { bg = "#151515", fg = "#ffffff", bold = true }
 
-"status" = { bg = "#414141" }
+"status" = { bg = "#f1f1f1" }
 "status title" = { fg = "#ffffff", bg = "#3c5ea8", bold = true }
 
-"revset title" = { fg = "#3c5ea8", bg = "#414141", bold = true }
-"revset text" = { fg = "#cfcfcf", bold = true }
-"revset completion text" = { fg = "#cfcfcf" }
+"revset title" = { fg = "#3c5ea8", bg = "#f1f1f1", bold = true }
+"revset text" = { fg = "#515151", bold = true }
+"revset completion text" = { fg = "#515151" }
 "revset completion matched" = { fg = "#cd6f34", bold = true }
-"revset completion dimmed" = { fg = "#6f6f6f" }
-"revset completion selected" = { bg = "#ffffff", fg = "#3f3f3f" }
+"revset completion dimmed" = { fg = "#c1c1c1" }
+"revset completion selected" = { bg = "#414141", fg = "#e1e1e1" }
 
-"revisions" = { fg = "#cfcfcf" }
-"revisions selected" = { bg = "#3f3f3f"}
-"revisions dimmed" = { fg = "#6f6f6f" }
-"revisions details selected" = { bg = "#9f9f9f" }
+"revisions" = { fg = "#515151" }
+"revisions selected" = { bg = "#e1e1e1"}
+"revisions dimmed" = { fg = "#c1c1c1" }
+"revisions details selected" = { bg = "#717171" }
 "oplog selected" = { bold = true }
 
-"evolog" = { fg = "#cfcfcf" }
-"evolog selected" = { bg = "#ffffff", fg = "#414141", bold = true }
+"evolog" = { fg = "#515151" }
+"evolog selected" = { bg = "#414141", fg = "#f1f1f1", bold = true }
 
 "menu" = { bg = "#ffffff" }
 "menu title" = { fg = "#ffffff", bg = "#a454b2", bold = true }
 "menu shortcut" = { fg = "#a454b2" }
 "menu matched" = { fg = "#cd6f34", bold = true }
-"menu dimmed" = { fg = "#6f6f6f" }
-"menu border" = { fg = "#414141" }
-"menu selected" = { bg = "#ffffff", fg = "#414141" }
+"menu dimmed" = { fg = "#c1c1c1" }
+"menu border" = { fg = "#f1f1f1" }
+"menu selected" = { bg = "#414141", fg = "#f1f1f1" }
 
 "help" = { bg = "#ffffff" }
 "help title" = { fg = "#829429", bold = true, underline = true }
-"help border" = { fg = "#414141" }
+"help border" = { fg = "#f1f1f1" }
 
-"preview" = { fg = "#cfcfcf" }
-"preview border" = { fg = "#414141" }
+"preview" = { fg = "#515151" }
+"preview border" = { fg = "#f1f1f1" }
 
 "confirmation" = { bg = "#ffffff" }
 "confirmation text" = { fg = "#3c5ea8", bold = true }
-"confirmation dimmed" = { fg = "#6f6f6f" }
+"confirmation dimmed" = { fg = "#c1c1c1" }
 "confirmation border" = { fg = "#db3365", bold = true }
-"confirmation selected" = { bg = "#ffffff", fg = "#414141" }
+"confirmation selected" = { bg = "#414141", fg = "#f1f1f1" }
 
 "undo" = { bg = "#ffffff" }
-"undo confirmation dimmed" = { fg = "#6f6f6f" }
-"undo confirmation selected" = { bg = "#ffffff", fg = "#414141" }
+"undo confirmation dimmed" = { fg = "#c1c1c1" }
+"undo confirmation selected" = { bg = "#414141", fg = "#f1f1f1" }
 
 "success" = { fg = "#829429", bold = true }
 "error" = { fg = "#db3365", bold = true }
 "revisions rebase source_marker" = { bold = true }
 "revisions rebase target_marker" = { bold = true }
 "status shortcut" = { fg = "#a454b2" }
-"status dimmed" = { fg = "#6f6f6f" }
+"status dimmed" = { fg = "#c1c1c1" }
 
-"details" = { fg = "#cfcfcf" }
+"details" = { fg = "#515151" }
 "details selected" = { bold = true }
-"completion" = { fg = "#cfcfcf" }
+"completion" = { fg = "#515151" }
 "completion selected" = { bold = true }
 "rebase" = { bold = true }
 
 "workspace" = { fg = "#3c5ea8" }
-"branch" = { fg = "#829429" }
+"branch" = { fg = "#175e5e" }
 "commit" = { fg = "#829429" }
 "file" = { fg = "#cd6f34" }
 "change" = { fg = "#db3365" }

@@ -24,7 +24,7 @@
 "revset completion text" = { fg = "#80cbc4" }
 "revset completion matched" = { fg = "#ffb62c", bold = true }
 "revset completion dimmed" = { fg = "#ccd7da" }
-"revset completion selected" = { bg = "#80cbc4", fg = "#cceae7" }
+"revset completion selected" = { bg = "#43a39a", fg = "#cceae7" }
 
 "revisions" = { fg = "#80cbc4" }
 "revisions selected" = { bg = "#cceae7"}
@@ -33,7 +33,7 @@
 "oplog selected" = { bold = true }
 
 "evolog" = { fg = "#80cbc4" }
-"evolog selected" = { bg = "#80cbc4", fg = "#e7eaec", bold = true }
+"evolog selected" = { bg = "#43a39a", fg = "#e7eaec", bold = true }
 
 "menu" = { bg = "#fafafa" }
 "menu title" = { fg = "#fafafa", bg = "#7c4dff", bold = true }
@@ -41,7 +41,7 @@
 "menu matched" = { fg = "#ffb62c", bold = true }
 "menu dimmed" = { fg = "#ccd7da" }
 "menu border" = { fg = "#e7eaec" }
-"menu selected" = { bg = "#80cbc4", fg = "#e7eaec" }
+"menu selected" = { bg = "#43a39a", fg = "#e7eaec" }
 
 "help" = { bg = "#fafafa" }
 "help title" = { fg = "#91b859", bold = true, underline = true }
@@ -54,11 +54,11 @@
 "confirmation text" = { fg = "#6182b8", bold = true }
 "confirmation dimmed" = { fg = "#ccd7da" }
 "confirmation border" = { fg = "#ff5370", bold = true }
-"confirmation selected" = { bg = "#80cbc4", fg = "#e7eaec" }
+"confirmation selected" = { bg = "#43a39a", fg = "#e7eaec" }
 
 "undo" = { bg = "#fafafa" }
 "undo confirmation dimmed" = { fg = "#ccd7da" }
-"undo confirmation selected" = { bg = "#80cbc4", fg = "#e7eaec" }
+"undo confirmation selected" = { bg = "#43a39a", fg = "#e7eaec" }
 
 "success" = { fg = "#91b859", bold = true }
 "error" = { fg = "#ff5370", bold = true }
