@@ -1,6 +1,6 @@
 # [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes.
 
-[Theme Gallery](#Themes)
+# [Theme Gallery](https://tinted-theming.github.io/tinted-gallery/)
 
 ## Usage
 
