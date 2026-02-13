@@ -13,8 +13,8 @@
 "border"    = { fg = "#cccccc" }
 "selected"  = { bg = "#f1f1f1", fg = "#4f4f4f", bold = true }
 
-"source_marker" = { bg = "#6a6a6a", fg = "#feffff", bold = true }
-"target_marker" = { bg = "#353535", fg = "#feffff", bold = true }
+"source_marker" = { bg = "#60f6f8", fg = "#feffff", bold = true }
+"target_marker" = { bg = "#61ee56", fg = "#feffff", bold = true }
 
 "status" = { bg = "#f1f1f1" }
 "status title" = { fg = "#feffff", bg = "#0081ff", bold = true }
