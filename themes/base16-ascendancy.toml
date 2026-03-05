@@ -53,7 +53,7 @@
 "confirmation" = { bg = "#282828" }
 "confirmation text" = { fg = "#458588", bold = true }
 "confirmation dimmed" = { fg = "#928374" }
-"confirmation border" = { fg = "#c03900", bold = true }
+"confirmation border" = { fg = "#d05000", bold = true }
 "confirmation selected" = { bg = "#504945", fg = "#d5c7a1" }
 
 "undo" = { bg = "#282828" }
@@ -61,7 +61,7 @@
 "undo confirmation selected" = { bg = "#504945", fg = "#d5c7a1" }
 
 "success" = { fg = "#b8bb26", bold = true }
-"error" = { fg = "#c03900", bold = true }
+"error" = { fg = "#d05000", bold = true }
 "revisions rebase source_marker" = { bold = true }
 "revisions rebase target_marker" = { bold = true }
 "status shortcut" = { fg = "#fabd2f" }
@@ -77,7 +77,7 @@
 "branch" = { fg = "#fe8019" }
 "commit" = { fg = "#b8bb26" }
 "file" = { fg = "#ffcc1b" }
-"change" = { fg = "#c03900" }
+"change" = { fg = "#d05000" }
 "bookmark" = { fg = "#fabd2f" }
 
 
