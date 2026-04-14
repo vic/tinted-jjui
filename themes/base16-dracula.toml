@@ -1,25 +1,25 @@
 ## tinted-jjui (https://github.com/vic/tinted-jjui)
 # Scheme name: Dracula
-# Scheme author: Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)
+# Scheme author: clach04 (https://github.com/clach04)
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
 
 
 "text"      = { fg = "#f8f8f2", bg = "#282a36" }
 "dimmed"    = { fg = "#6272a4", bg = "#282a36" }
-"title"     = { fg = "#80bfff", bold = true }
+"title"     = { fg = "#bd93f9", bold = true }
 "shortcut"  = { fg = "#ff79c6" }
 "matched"   = { fg = "#f1fa8c" }
 "border"    = { fg = "#6272a4" }
-"selected"  = { bg = "#363447", fg = "#f8f8f2", bold = true }
+"selected"  = { bg = "#21222c", fg = "#f8f8f2", bold = true }
 
 "source_marker" = { bg = "#8be9fd", fg = "#282a36", bold = true }
 "target_marker" = { bg = "#50fa7b", fg = "#282a36", bold = true }
 
-"status" = { bg = "#363447" }
-"status title" = { fg = "#282a36", bg = "#80bfff", bold = true }
+"status" = { bg = "#21222c" }
+"status title" = { fg = "#282a36", bg = "#bd93f9", bold = true }
 
-"revset title" = { fg = "#80bfff", bold = true }
+"revset title" = { fg = "#bd93f9", bold = true }
 "revset text" = { fg = "#f8f8f2", bold = true }
 "revset completion text" = { fg = "#f8f8f2" }
 "revset completion matched" = { fg = "#f1fa8c", bold = true }
@@ -27,7 +27,7 @@
 "revset completion selected" = { bg = "#44475a", fg = "#f8f8f2" }
 
 "revisions" = { fg = "#f8f8f2" }
-"revisions selected" = { bg = "#363447"}
+"revisions selected" = { bg = "#21222c"}
 "revisions dimmed" = { fg = "#6272a4" }
 "revisions details selected" = { bg = "#44475a" }
 "oplog selected" = { bold = true }
@@ -40,18 +40,18 @@
 "menu shortcut" = { fg = "#ff79c6" }
 "menu matched" = { fg = "#f1fa8c", bold = true }
 "menu dimmed" = { fg = "#6272a4" }
-"menu border" = { fg = "#363447" }
+"menu border" = { fg = "#21222c" }
 "menu selected" = { bg = "#44475a", fg = "#f8f8f2" }
 
 "help" = { bg = "#282a36" }
 "help title" = { fg = "#50fa7b", bold = true, underline = true }
-"help border" = { fg = "#363447" }
+"help border" = { fg = "#21222c" }
 
 "preview" = { fg = "#f8f8f2" }
-"preview border" = { fg = "#363447" }
+"preview border" = { fg = "#21222c" }
 
 "confirmation" = { bg = "#282a36" }
-"confirmation text" = { fg = "#80bfff", bold = true }
+"confirmation text" = { fg = "#bd93f9", bold = true }
 "confirmation dimmed" = { fg = "#6272a4" }
 "confirmation border" = { fg = "#ff5555", bold = true }
 "confirmation selected" = { bg = "#44475a", fg = "#f8f8f2" }
@@ -73,7 +73,7 @@
 "completion selected" = { bold = true }
 "rebase" = { bold = true }
 
-"workspace" = { fg = "#80bfff" }
+"workspace" = { fg = "#bd93f9" }
 "branch" = { fg = "#ffb86c" }
 "commit" = { fg = "#50fa7b" }
 "file" = { fg = "#f1fa8c" }
