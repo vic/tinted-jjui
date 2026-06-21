@@ -1,5 +1,5 @@
 ## tinted-jjui (https://github.com/vic/tinted-jjui)
-# Scheme name: Github
+# Scheme name: Github Light Colorblind
 # Scheme author: Tinted Theming (https://github.com/tinted-theming)
 # Template author: Victor Borja <vborja@apache.org> (https://github.com/vic)
 
@@ -8,12 +8,12 @@
 "text"      = { fg = "#424a53", bg = "#ffffff" }
 "dimmed"    = { fg = "#8c959f", bg = "#ffffff" }
 "title"     = { fg = "#8250df", bold = true }
-"shortcut"  = { fg = "#cf222e" }
+"shortcut"  = { fg = "#b35900" }
 "matched"   = { fg = "#bf8700" }
 "border"    = { fg = "#8c959f" }
 "selected"  = { bg = "#f6f8fa", fg = "#424a53", bold = true }
 
-"source_marker" = { bg = "#116329", fg = "#ffffff", bold = true }
+"source_marker" = { bg = "#0550ae", fg = "#ffffff", bold = true }
 "target_marker" = { bg = "#0a3069", fg = "#ffffff", bold = true }
 
 "status" = { bg = "#f6f8fa" }
@@ -36,8 +36,8 @@
 "evolog selected" = { bg = "#32383f", fg = "#f6f8fa", bold = true }
 
 "menu" = { bg = "#ffffff" }
-"menu title" = { fg = "#ffffff", bg = "#cf222e", bold = true }
-"menu shortcut" = { fg = "#cf222e" }
+"menu title" = { fg = "#ffffff", bg = "#b35900", bold = true }
+"menu shortcut" = { fg = "#b35900" }
 "menu matched" = { fg = "#bf8700", bold = true }
 "menu dimmed" = { fg = "#8c959f" }
 "menu border" = { fg = "#f6f8fa" }
@@ -53,7 +53,7 @@
 "confirmation" = { bg = "#ffffff" }
 "confirmation text" = { fg = "#8250df", bold = true }
 "confirmation dimmed" = { fg = "#8c959f" }
-"confirmation border" = { fg = "#953800", bold = true }
+"confirmation border" = { fg = "#8a4600", bold = true }
 "confirmation selected" = { bg = "#32383f", fg = "#f6f8fa" }
 
 "undo" = { bg = "#ffffff" }
@@ -61,10 +61,10 @@
 "undo confirmation selected" = { bg = "#32383f", fg = "#f6f8fa" }
 
 "success" = { fg = "#0a3069", bold = true }
-"error" = { fg = "#953800", bold = true }
+"error" = { fg = "#8a4600", bold = true }
 "revisions rebase source_marker" = { bold = true }
 "revisions rebase target_marker" = { bold = true }
-"status shortcut" = { fg = "#cf222e" }
+"status shortcut" = { fg = "#b35900" }
 "status dimmed" = { fg = "#8c959f" }
 
 "details" = { fg = "#424a53" }
@@ -77,7 +77,7 @@
 "branch" = { fg = "#0550ae" }
 "commit" = { fg = "#0a3069" }
 "file" = { fg = "#bf8700" }
-"change" = { fg = "#953800" }
-"bookmark" = { fg = "#cf222e" }
+"change" = { fg = "#8a4600" }
+"bookmark" = { fg = "#b35900" }
 
 

@@ -5,21 +5,21 @@
 
 
 
-"text"      = { fg = "#c9d1d9", bg = "#161b22" }
-"dimmed"    = { fg = "#6e7681", bg = "#161b22" }
-"title"     = { fg = "#388bfd", bold = true }
-"shortcut"  = { fg = "#a371f7" }
+"text"      = { fg = "#c9d1d9", bg = "#0d1117" }
+"dimmed"    = { fg = "#6e7681", bg = "#0d1117" }
+"title"     = { fg = "#d2a8ff", bold = true }
+"shortcut"  = { fg = "#ff7b72" }
 "matched"   = { fg = "#d29922" }
 "border"    = { fg = "#6e7681" }
-"selected"  = { bg = "#30363d", fg = "#c9d1d9", bold = true }
+"selected"  = { bg = "#161b22", fg = "#c9d1d9", bold = true }
 
-"source_marker" = { bg = "#33b3ae", fg = "#161b22", bold = true }
-"target_marker" = { bg = "#3fb950", fg = "#161b22", bold = true }
+"source_marker" = { bg = "#33b3ae", fg = "#0d1117", bold = true }
+"target_marker" = { bg = "#3fb950", fg = "#0d1117", bold = true }
 
-"status" = { bg = "#30363d" }
-"status title" = { fg = "#161b22", bg = "#58a6ff", bold = true }
+"status" = { bg = "#161b22" }
+"status title" = { fg = "#0d1117", bg = "#58a6ff", bold = true }
 
-"revset title" = { fg = "#388bfd", bold = true }
+"revset title" = { fg = "#d2a8ff", bold = true }
 "revset text" = { fg = "#c9d1d9", bold = true }
 "revset completion text" = { fg = "#c9d1d9" }
 "revset completion matched" = { fg = "#d29922", bold = true }
@@ -27,7 +27,7 @@
 "revset completion selected" = { bg = "#484f58", fg = "#c9d1d9" }
 
 "revisions" = { fg = "#c9d1d9" }
-"revisions selected" = { bg = "#30363d"}
+"revisions selected" = { bg = "#161b22"}
 "revisions dimmed" = { fg = "#6e7681" }
 "revisions details selected" = { bg = "#484f58" }
 "oplog selected" = { bold = true }
@@ -35,28 +35,28 @@
 "evolog" = { fg = "#c9d1d9" }
 "evolog selected" = { bg = "#484f58", fg = "#c9d1d9", bold = true }
 
-"menu" = { bg = "#161b22" }
-"menu title" = { fg = "#161b22", bg = "#bc8cff", bold = true }
+"menu" = { bg = "#0d1117" }
+"menu title" = { fg = "#0d1117", bg = "#bc8cff", bold = true }
 "menu shortcut" = { fg = "#bc8cff" }
 "menu matched" = { fg = "#d29922", bold = true }
 "menu dimmed" = { fg = "#6e7681" }
-"menu border" = { fg = "#30363d" }
+"menu border" = { fg = "#161b22" }
 "menu selected" = { bg = "#484f58", fg = "#c9d1d9" }
 
-"help" = { bg = "#161b22" }
+"help" = { bg = "#0d1117" }
 "help title" = { fg = "#3fb950", bold = true, underline = true }
-"help border" = { fg = "#30363d" }
+"help border" = { fg = "#161b22" }
 
 "preview" = { fg = "#c9d1d9" }
-"preview border" = { fg = "#30363d" }
+"preview border" = { fg = "#161b22" }
 
-"confirmation" = { bg = "#161b22" }
-"confirmation text" = { fg = "#388bfd", bold = true }
+"confirmation" = { bg = "#0d1117" }
+"confirmation text" = { fg = "#d2a8ff", bold = true }
 "confirmation dimmed" = { fg = "#6e7681" }
 "confirmation border" = { fg = "#ff7b72", bold = true }
 "confirmation selected" = { bg = "#484f58", fg = "#c9d1d9" }
 
-"undo" = { bg = "#161b22" }
+"undo" = { bg = "#0d1117" }
 "undo confirmation dimmed" = { fg = "#6e7681" }
 "undo confirmation selected" = { bg = "#484f58", fg = "#c9d1d9" }
 
