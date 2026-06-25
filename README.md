@@ -1,4 +1,4 @@
-# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes.
+# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes
 
 # [Theme Gallery](https://tinted-theming.github.io/tinted-gallery/)
 
@@ -11,13 +11,36 @@ Then edit `$HOME/.config/jjui/config.toml` to set your theme.
 
 For example, to use `./themes/base24-solarized-dark-higher-contrast.toml`:
 
-
 ```toml
 [ui]
 theme = "base24-solarized-dark-higher-contrast"
 ```
 
-## Adding all themes.
+### Usage with [tinty](https://github.com/tinted-theming/tinty)
+
+Add the following to `~/.config/tinted-theming/tinty/config.toml`:
+
+```toml
+[[items]]
+path = "https://github.com/vic/tinted-jjui"
+name = "tinted-jjui"
+themes-dir = "themes"
+supported-systems = ["base16", "base24"]
+hook = """
+dir="$HOME/.config/jjui/themes"
+mkdir -p "$HOME/.config/jjui/themes"
+command cp -f "$TINTY_THEME_FILE_PATH" "$HOME/.config/jjui/themes/tinted-theming.toml
+"""
+```
+
+And then update `~/.config/jjui/config.toml` to include:
+
+```toml
+[ui]
+theme = "tinted-theming"
+```
+
+## Adding all themes
 
 Download this repo .zip file.
 
@@ -33,18 +56,17 @@ ls -1 $HOME/.config/jjui/themes/*.toml | xargs -n 1 basename | sed -e 's/.toml//
 vi $HOME/.config/jjui/config.toml
 ```
 
-## Customization.
+## Customization
 
 Remember that these themes are auto-generated frequently from base16 schemes. If you need to make a particular adaptation, either copy and maintain the theme yourself or use jjui theme [overrides](https://idursun.github.io/jjui/Themes.html).
-
 
 ## Contributing
 
 Contributions are welcome as long as changes seem reasonable and most themes work well. When modifying the template always regenerate themes and test locally dark and light variants.
 
-Follow the instructions at `templates/tinted-jjui.mustache`. Be sure to read the linked resources to understand how jjui themes work and how are tinted color schemes defined. 
+Follow the instructions at `templates/tinted-jjui.mustache`. Be sure to read the linked resources to understand how jjui themes work and how are tinted color schemes defined.
 
-Use [`tinted-builder-rust build . `](https://github.com/tinted-theming/tinted-builder-rust) to regenerate all themes. Make sure light and dark themes work properly.
+Use [`tinted-builder-rust build .`](https://github.com/tinted-theming/tinted-builder-rust) to regenerate all themes. Make sure light and dark themes work properly.
 
 Use `bash vhs.sh <THEME>` to generate a gif you can attach to your pull-request.
 
@@ -54,7 +76,5 @@ Attach screenshots to pull-requests of how themes look like before and after you
 
 Attach screenshots to pull-requests of dark/light variants.
 
-
 <!-- Keep this header LAST ! -->
 ## Themes
-
