@@ -19,21 +19,21 @@
 "status" = { bg = "#373942" }
 "status title" = { fg = "#2a2b32", bg = "#61afef", bold = true }
 
-"revset title" = { fg = "#0084bc", bg = "#373942", bold = true }
+"revset title" = { fg = "#0084bc", bold = true }
 "revset text" = { fg = "#cfd0d2", bold = true }
 "revset completion text" = { fg = "#cfd0d2" }
 "revset completion matched" = { fg = "#e4c07a", bold = true }
 "revset completion dimmed" = { fg = "#797c84" }
-"revset completion selected" = { bg = "#fafafa", fg = "#4f525d" }
+"revset completion selected" = { bg = "#4f525d", fg = "#cfd0d2" }
 
 "revisions" = { fg = "#cfd0d2" }
-"revisions selected" = { bg = "#4f525d"}
+"revisions selected" = { bg = "#373942"}
 "revisions dimmed" = { fg = "#797c84" }
-"revisions details selected" = { bg = "#a4a6ab" }
+"revisions details selected" = { bg = "#4f525d" }
 "oplog selected" = { bold = true }
 
 "evolog" = { fg = "#cfd0d2" }
-"evolog selected" = { bg = "#fafafa", fg = "#373942", bold = true }
+"evolog selected" = { bg = "#4f525d", fg = "#cfd0d2", bold = true }
 
 "menu" = { bg = "#2a2b32" }
 "menu title" = { fg = "#2a2b32", bg = "#c577dd", bold = true }
@@ -41,7 +41,7 @@
 "menu matched" = { fg = "#e4c07a", bold = true }
 "menu dimmed" = { fg = "#797c84" }
 "menu border" = { fg = "#373942" }
-"menu selected" = { bg = "#fafafa", fg = "#373942" }
+"menu selected" = { bg = "#4f525d", fg = "#cfd0d2" }
 
 "help" = { bg = "#2a2b32" }
 "help title" = { fg = "#98c379", bold = true, underline = true }
@@ -54,11 +54,11 @@
 "confirmation text" = { fg = "#0084bc", bold = true }
 "confirmation dimmed" = { fg = "#797c84" }
 "confirmation border" = { fg = "#df6c75", bold = true }
-"confirmation selected" = { bg = "#fafafa", fg = "#373942" }
+"confirmation selected" = { bg = "#4f525d", fg = "#cfd0d2" }
 
 "undo" = { bg = "#2a2b32" }
 "undo confirmation dimmed" = { fg = "#797c84" }
-"undo confirmation selected" = { bg = "#fafafa", fg = "#373942" }
+"undo confirmation selected" = { bg = "#4f525d", fg = "#cfd0d2" }
 
 "success" = { fg = "#98c379", bold = true }
 "error" = { fg = "#df6c75", bold = true }
