@@ -1,4 +1,4 @@
-# [jjui themes](https://idursun.github.io/jjui/Themes.html) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes
+# [jjui themes](https://idursun.github.io/jjui/customization/themes/) from [base16](https://github.com/tinted-theming/schemes/tree/master/base16) and [base24](https://github.com/tinted-theming/schemes/tree/master/base24) color schemes
 
 # [Theme Gallery](https://tinted-theming.github.io/tinted-gallery/)
 
@@ -58,7 +58,7 @@ vi $HOME/.config/jjui/config.toml
 
 ## Customization
 
-Remember that these themes are auto-generated frequently from base16 schemes. If you need to make a particular adaptation, either copy and maintain the theme yourself or use jjui theme [overrides](https://idursun.github.io/jjui/Themes.html).
+Remember that these themes are auto-generated frequently from base16 schemes. If you need to make a particular adaptation, either copy and maintain the theme yourself or use jjui theme [overrides](https://idursun.github.io/jjui/customization/themes/).
 
 ## Contributing
 
