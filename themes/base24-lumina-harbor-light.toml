@@ -5,79 +5,79 @@
 
 
 
-"text"      = { fg = "#1b2737", bg = "#e6f2fe" }
-"dimmed"    = { fg = "#c4cfdb", bg = "#e6f2fe" }
-"title"     = { fg = "#2863ab", bold = true }
-"shortcut"  = { fg = "#7f5bb6" }
-"matched"   = { fg = "#884806" }
-"border"    = { fg = "#c4cfdb" }
-"selected"  = { bg = "#e0ebf7", fg = "#1b2737", bold = true }
+"text"      = { fg = "#1c2d4f", bg = "#fbf5ec" }
+"dimmed"    = { fg = "#dad2c6", bg = "#fbf5ec" }
+"title"     = { fg = "#0468a4", bold = true }
+"shortcut"  = { fg = "#6758a8" }
+"matched"   = { fg = "#874e00" }
+"border"    = { fg = "#dad2c6" }
+"selected"  = { bg = "#f6eee1", fg = "#1c2d4f", bold = true }
 
-"source_marker" = { bg = "#005969", fg = "#e6f2fe", bold = true }
-"target_marker" = { bg = "#086035", fg = "#e6f2fe", bold = true }
+"source_marker" = { bg = "#00535a", fg = "#fbf5ec", bold = true }
+"target_marker" = { bg = "#00623c", fg = "#fbf5ec", bold = true }
 
-"status" = { bg = "#e0ebf7" }
-"status title" = { fg = "#e6f2fe", bg = "#1e508b", bold = true }
+"status" = { bg = "#f6eee1" }
+"status title" = { fg = "#fbf5ec", bg = "#005486", bold = true }
 
-"revset title" = { fg = "#2863ab", bg = "#e0ebf7", bold = true }
-"revset text" = { fg = "#1b2737", bold = true }
-"revset completion text" = { fg = "#1b2737" }
-"revset completion matched" = { fg = "#884806", bold = true }
-"revset completion dimmed" = { fg = "#c4cfdb" }
-"revset completion selected" = { bg = "#3c4957", fg = "#d4e0eb" }
+"revset title" = { fg = "#0468a4", bg = "#f6eee1", bold = true }
+"revset text" = { fg = "#1c2d4f", bold = true }
+"revset completion text" = { fg = "#1c2d4f" }
+"revset completion matched" = { fg = "#874e00", bold = true }
+"revset completion dimmed" = { fg = "#dad2c6" }
+"revset completion selected" = { bg = "#4d473c", fg = "#ebe2d6" }
 
-"revisions" = { fg = "#1b2737" }
-"revisions selected" = { bg = "#d4e0eb"}
-"revisions dimmed" = { fg = "#c4cfdb" }
-"revisions details selected" = { bg = "#788695" }
+"revisions" = { fg = "#1c2d4f" }
+"revisions selected" = { bg = "#ebe2d6"}
+"revisions dimmed" = { fg = "#dad2c6" }
+"revisions details selected" = { bg = "#8d857a" }
 "oplog selected" = { bold = true }
 
-"evolog" = { fg = "#1b2737" }
-"evolog selected" = { bg = "#3c4957", fg = "#e0ebf7", bold = true }
+"evolog" = { fg = "#1c2d4f" }
+"evolog selected" = { bg = "#4d473c", fg = "#f6eee1", bold = true }
 
-"menu" = { bg = "#e6f2fe" }
-"menu title" = { fg = "#e6f2fe", bg = "#70366c", bold = true }
-"menu shortcut" = { fg = "#70366c" }
-"menu matched" = { fg = "#884806", bold = true }
-"menu dimmed" = { fg = "#c4cfdb" }
-"menu border" = { fg = "#e0ebf7" }
-"menu selected" = { bg = "#3c4957", fg = "#e0ebf7" }
+"menu" = { bg = "#fbf5ec" }
+"menu title" = { fg = "#fbf5ec", bg = "#713b7d", bold = true }
+"menu shortcut" = { fg = "#713b7d" }
+"menu matched" = { fg = "#874e00", bold = true }
+"menu dimmed" = { fg = "#dad2c6" }
+"menu border" = { fg = "#f6eee1" }
+"menu selected" = { bg = "#4d473c", fg = "#f6eee1" }
 
-"help" = { bg = "#e6f2fe" }
-"help title" = { fg = "#086035", bold = true, underline = true }
-"help border" = { fg = "#e0ebf7" }
+"help" = { bg = "#fbf5ec" }
+"help title" = { fg = "#00623c", bold = true, underline = true }
+"help border" = { fg = "#f6eee1" }
 
-"preview" = { fg = "#1b2737" }
-"preview border" = { fg = "#e0ebf7" }
+"preview" = { fg = "#1c2d4f" }
+"preview border" = { fg = "#f6eee1" }
 
-"confirmation" = { bg = "#e6f2fe" }
-"confirmation text" = { fg = "#2863ab", bold = true }
-"confirmation dimmed" = { fg = "#c4cfdb" }
-"confirmation border" = { fg = "#712a26", bold = true }
-"confirmation selected" = { bg = "#3c4957", fg = "#e0ebf7" }
+"confirmation" = { bg = "#fbf5ec" }
+"confirmation text" = { fg = "#0468a4", bold = true }
+"confirmation dimmed" = { fg = "#dad2c6" }
+"confirmation border" = { fg = "#651f1d", bold = true }
+"confirmation selected" = { bg = "#4d473c", fg = "#f6eee1" }
 
-"undo" = { bg = "#e6f2fe" }
-"undo confirmation dimmed" = { fg = "#c4cfdb" }
-"undo confirmation selected" = { bg = "#3c4957", fg = "#e0ebf7" }
+"undo" = { bg = "#fbf5ec" }
+"undo confirmation dimmed" = { fg = "#dad2c6" }
+"undo confirmation selected" = { bg = "#4d473c", fg = "#f6eee1" }
 
-"success" = { fg = "#086035", bold = true }
-"error" = { fg = "#712a26", bold = true }
+"success" = { fg = "#00623c", bold = true }
+"error" = { fg = "#651f1d", bold = true }
 "revisions rebase source_marker" = { bold = true }
 "revisions rebase target_marker" = { bold = true }
-"status shortcut" = { fg = "#70366c" }
-"status dimmed" = { fg = "#c4cfdb" }
+"status shortcut" = { fg = "#713b7d" }
+"status dimmed" = { fg = "#dad2c6" }
 
-"details" = { fg = "#1b2737" }
+"details" = { fg = "#1c2d4f" }
 "details selected" = { bold = true }
-"completion" = { fg = "#1b2737" }
+"completion" = { fg = "#1c2d4f" }
 "completion selected" = { bold = true }
 "rebase" = { bold = true }
 
-"workspace" = { fg = "#1e508b" }
-"branch" = { fg = "#005969" }
-"commit" = { fg = "#086035" }
-"file" = { fg = "#884806" }
-"change" = { fg = "#712a26" }
-"bookmark" = { fg = "#70366c" }
+"workspace" = { fg = "#005486" }
+"branch" = { fg = "#00535a" }
+"commit" = { fg = "#00623c" }
+"file" = { fg = "#874e00" }
+"change" = { fg = "#651f1d" }
+"bookmark" = { fg = "#713b7d" }
 
 
